@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "ace20902b07a2832f7055fa836fac44c1912fcf89e7e3264498c9b1fafc0f49b",
-  "sha256_linux": "356e4a96c77293b88a685d772501200c75257c63a7bbb029845adfbffba3bf8e",
-  "version": "0.15",
-  "file": "ZombiesConcept_v0.15_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.15_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.15_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.15_linux.zip",
+  "sha256_windows": "744701fccede2ea6c97e4d3991a0feb2ee1174739d69f2ed5335aafaaaf321ef",
+  "sha256_linux": "01d36f5c1fbb6853621d1661688555c9ba3afc188890ba46b9369216530f75aa",
+  "version": "0.16",
+  "file": "ZombiesConcept_v0.16_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.16_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.16_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.16_linux.zip",
   "date": "2026-11-10",
-  "notes": "- Server browser: PLAY > FIND GAME lists games being hosted, so you can just click JOIN. Games on your\n  network show up by themselves; internet games show up in the online list (when the host has\n  \"List online\" on). JOIN BY IP is still there.\n- Hosting opens your router's port automatically when the router allows it (UPnP); the lobby says if\n  it worked or if you need to forward UDP port 24565 yourself.\n- Le Chonk is chonkier: a much rounder, wider body that sags onto the floor with belly rolls, and a\n  bigger jiggle on every bounce.\n- Longshot scope: zoomed in, it's the blacked-out scope view again. In hip fire you can now see through\n  the scope's eyepiece on the gun (it shows the magnified view)."
+  "notes": "- Hold 3 (or V) to keep swinging your melee weapon.\n- No more two gates into the same room: streets and yards that run into each other count as one area,\n  so a building only gets one gate from it (the second gate on the Outskirts houses led into the same room)."
 }
