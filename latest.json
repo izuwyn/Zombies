@@ -1,0 +1,7 @@
+{
+  "version": "0.05",
+  "file": "ZombiesConcept_v0.05_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.05_windows.zip",
+  "date": "2026-11-10",
+  "notes": "- Check for Updates button on the main menu. It checks automatically when the menu opens and turns into a\n  glowing, animated green-striped \"UPDATE AVAILABLE\" button when a newer version is out. Clicking it shows\n  what's new and a Download button. Releases are published to the public repo github.com/izuwyn/zombies.\n- Limb damage: shots hit the body part they land on (head, torso, arms, legs, using the zombie's pose).\n  Enough damage blows off a forearm or lower leg; zombies that lose a leg become slow crawlers.\n  Headshot kills make the head burst (gore spray and flying chunks). Synced in co-op.\n- Knife: a real combat knife model slashes across the screen when you melee.\n- Melee lunge: knifing a zombie up to 3.4 m ahead lunges you at it, so you can't just backpedal-knife.\n- Knife sounds by surface: wet flesh stab on zombies, gritty concrete scrape on walls, a whoosh on a miss.\n- Perk machine models: vending-machine style cabinets with a lit marquee, glowing logo panel with a\n  unique icon, bottles behind glass, coin slot, dispenser tray and chrome trim.\n- Perk jingles: each machine has its own original tune that plays now and then when you're nearby.\n- Fixed: the first time you aimed the Longshot the crosshair vanished for a long time (the scope view was\n  generated pixel by pixel; it's now a GPU shader)."
+}
