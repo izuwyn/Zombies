@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "695b797c13714b4f1d4be5f8ad5152dd874ee2b1ee5ea3b336e4899e25ceb99c",
-  "sha256_linux": "f4c78cc2a0f39050d8520a80d7896d568c0b9f6b99e086c48ade0dca02e0bea0",
-  "version": "0.08",
-  "file": "ZombiesConcept_v0.08_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.08_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.08_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.08_linux.zip",
+  "sha256_windows": "74f876c59da1ba18689b43da9eb53d17772e6cfc99edab9f38747311a13bda2f",
+  "sha256_linux": "7f421b443f4d3d1f774a95eda636d52ffba650ad9185cab978bf5ace6351e710",
+  "version": "0.09",
+  "file": "ZombiesConcept_v0.09_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.09_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.09_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.09_linux.zip",
   "date": "2026-11-10",
-  "notes": "- New art style: voxels. Guns, zombies, survivors, pickups and the world are now built from chunky\n  voxels with pixel shading. Walls, floors and props have a blocky pixel texture.\n  - Zombies have block heads with pixel faces, glowing eyes and teeth, and outfits that match the map.\n  - Guns were remodelled in voxels with separate moving parts (magazines, slides, bolts, pump, cylinder).\n- Campaign with three maps (choose one after pressing Solo, or when the host starts a co-op game):\n  1. The Prison: you are an inmate caught in the outbreak. Survive 10 rounds to unlock the next map.\n  2. The Outskirts: a suburb of houses, a diner, corner store, pharmacy, gas station, auto shop,\n     sheriff's office and park. Find the 3 keycards, then open the hatch in the overgrown backyard to reach\n     a secret underground bunker. Its terminal unlocks the last map. (The bunker is zombie-free, but its\n     air only lasts 45 seconds.)\n  3. The Laboratory: bio labs, cryo storage, containment, servers and an incubation chamber. Recover\n     5 intel files that reveal the virus was a deliberate North Korean operation that got out of hand.\n  - Each map opens with a story card. Progress is saved; in co-op everyone in the game gets the unlock.\n- Reload animations with sound for every gun: magazine out/in with slide or charging handle, the\n  Longshot's bolt, shell-by-shell loading for the shotgun (can be interrupted by firing), the revolver's\n  cylinder and the Zapper's battery. The shotgun pumps and the Longshot cycles its bolt between shots.\n- Balance\n  - Zombie health grows slower: +50 per round up to round 9 (round 4 is 300, was 450), then +10% a round.\n  - Longshot: slower bolt-action fire rate, and wide hip-fire spread. It is only accurate when scoped.\n- The default look is now a prison Inmate jumpsuit; the Warden outfit unlocks at level 35."
+  "notes": "- Fixed: zombies, teammates, guns and pickups looked see-through. The voxel meshes were built inside out,\n  so the game drew the inside of the far side instead of the near side. They are solid now, and lit\n  from the correct side."
 }
