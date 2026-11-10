@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "edccfad2169cfc484e6167a5a376da659b047e099e3712f65baf21f809d65daf",
-  "sha256_linux": "4038b02d08187e210016d21276f7e292cf32e9a6d25f550f5474efb3e9257714",
-  "version": "0.07",
-  "file": "ZombiesConcept_v0.07_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.07_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.07_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.07_linux.zip",
+  "sha256_windows": "695b797c13714b4f1d4be5f8ad5152dd874ee2b1ee5ea3b336e4899e25ceb99c",
+  "sha256_linux": "f4c78cc2a0f39050d8520a80d7896d568c0b9f6b99e086c48ade0dca02e0bea0",
+  "version": "0.08",
+  "file": "ZombiesConcept_v0.08_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.08_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.08_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.08_linux.zip",
   "date": "2026-11-10",
-  "notes": "- Linux (x86_64) build alongside Windows: ZombiesConcept_v<version>_linux.zip contains a single\n  executable (ZombiesConcept_v<version>.x86_64). Uses Vulkan and falls back to OpenGL automatically.\n- Self-updating: when the main menu finds a newer version, the game downloads it, verifies its SHA-256\n  checksum, unpacks the new executable next to the current one, restarts into it, and the new version\n  deletes the old file. The update button shows the download progress. It can be turned off in Settings\n  (Auto-update); then the update panel offers \"Update & Restart\" or a manual download.\n  This works from v0.07 onwards (older versions can only open the download link).\n- Check for Updates downloads the build for your platform: Linux on Linux, Windows on Windows.\n- Releases on github.com/izuwyn/Zombies now include both the Windows and Linux zips."
+  "notes": "- New art style: voxels. Guns, zombies, survivors, pickups and the world are now built from chunky\n  voxels with pixel shading. Walls, floors and props have a blocky pixel texture.\n  - Zombies have block heads with pixel faces, glowing eyes and teeth, and outfits that match the map.\n  - Guns were remodelled in voxels with separate moving parts (magazines, slides, bolts, pump, cylinder).\n- Campaign with three maps (choose one after pressing Solo, or when the host starts a co-op game):\n  1. The Prison: you are an inmate caught in the outbreak. Survive 10 rounds to unlock the next map.\n  2. The Outskirts: a suburb of houses, a diner, corner store, pharmacy, gas station, auto shop,\n     sheriff's office and park. Find the 3 keycards, then open the hatch in the overgrown backyard to reach\n     a secret underground bunker. Its terminal unlocks the last map. (The bunker is zombie-free, but its\n     air only lasts 45 seconds.)\n  3. The Laboratory: bio labs, cryo storage, containment, servers and an incubation chamber. Recover\n     5 intel files that reveal the virus was a deliberate North Korean operation that got out of hand.\n  - Each map opens with a story card. Progress is saved; in co-op everyone in the game gets the unlock.\n- Reload animations with sound for every gun: magazine out/in with slide or charging handle, the\n  Longshot's bolt, shell-by-shell loading for the shotgun (can be interrupted by firing), the revolver's\n  cylinder and the Zapper's battery. The shotgun pumps and the Longshot cycles its bolt between shots.\n- Balance\n  - Zombie health grows slower: +50 per round up to round 9 (round 4 is 300, was 450), then +10% a round.\n  - Longshot: slower bolt-action fire rate, and wide hip-fire spread. It is only accurate when scoped.\n- The default look is now a prison Inmate jumpsuit; the Warden outfit unlocks at level 35."
 }
