@@ -1,7 +1,11 @@
 {
-  "version": "0.06",
-  "file": "ZombiesConcept_v0.06_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.06_windows.zip",
+  "sha256_windows": "edccfad2169cfc484e6167a5a376da659b047e099e3712f65baf21f809d65daf",
+  "sha256_linux": "4038b02d08187e210016d21276f7e292cf32e9a6d25f550f5474efb3e9257714",
+  "version": "0.07",
+  "file": "ZombiesConcept_v0.07_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.07_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.07_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.07_linux.zip",
   "date": "2026-11-10",
-  "notes": "- New player models for co-op teammates: detailed, layered survivors (boots with soles and laces, cargo\n  pants with pockets and knee pads, belt, buckle and holster, shirt, tactical vest with mag pouches, straps\n  and radio, armband, gloves, backpack with bedroll, and a full face with eyes, brows, nose, ears and jaw).\n  - Arms use two-bone IK, so both hands sit on the gun's grip and foregrip, for every weapon.\n  - Animated walk/run and sprint cycles, crouch, aim pitch through spine, chest and head, aiming down\n    sights, muzzle flash and recoil, and a last-stand downed pose (sat back on one arm, pistol up).\n  - Name tags show level and rank.\n- Customization with level unlocks: new CUSTOMIZE screen on the main menu with a live 3D preview.\n  - 8 outfits, 9 headgear (beanie, cap, bandana, helmet, hood, gas mask, beret, skull mask...),\n    10 weapon camos (Woodland to Plasma; Gold, Diamond and Plasma at high levels), 6 skin tones and\n    6 armband colours.\n  - Teammates see your look. Your first-person sleeves/gloves match your outfit and your guns wear your camo.\n  - The game-over screen lists what you unlocked when you level up.\n- Crouch: hold Ctrl or toggle with C. Slower movement, lower view, and you can't stand up under low\n  ceilings. Teammates see you crouch.\n- Power-ups dropped outside the barricades now float in through the nearest window of an open room."
+  "notes": "- Linux (x86_64) build alongside Windows: ZombiesConcept_v<version>_linux.zip contains a single\n  executable (ZombiesConcept_v<version>.x86_64). Uses Vulkan and falls back to OpenGL automatically.\n- Self-updating: when the main menu finds a newer version, the game downloads it, verifies its SHA-256\n  checksum, unpacks the new executable next to the current one, restarts into it, and the new version\n  deletes the old file. The update button shows the download progress. It can be turned off in Settings\n  (Auto-update); then the update panel offers \"Update & Restart\" or a manual download.\n  This works from v0.07 onwards (older versions can only open the download link).\n- Check for Updates downloads the build for your platform: Linux on Linux, Windows on Windows.\n- Releases on github.com/izuwyn/Zombies now include both the Windows and Linux zips."
 }
