@@ -74,7 +74,8 @@ export class Lobby {
     if (url.pathname === "/signal") return this.signal(request, url);
 
     if (request.method === "GET" && url.pathname === "/ice") {
-      return json({ iceServers: await this.iceServers() });
+      const ice = await this.iceServers();
+      return json({ iceServers: ice.servers, turn: ice.turn });
     }
 
     if (request.method === "GET" && url.pathname === "/list") {
@@ -134,34 +135,49 @@ export class Lobby {
 
   // ------------------------------------------------------------ TURN / STUN
 
+  // Returns {servers, turn}: turn says how getting relay credentials went
+  // ("ok", "no secrets", or the error) so /ice shows it. Never the key.
   async iceServers() {
     const now = Date.now();
-    if (this.ice && this.ice.until > now) return this.ice.servers;
+    if (this.ice && this.ice.until > now) return this.ice;
     let servers = [STUN];
-    const keyId = this.env.TURN_KEY_ID;
-    const token = this.env.TURN_KEY_TOKEN;
+    let turn = "no secrets";
+    const keyId = (this.env.TURN_KEY_ID || "").trim();
+    const token = (this.env.TURN_KEY_TOKEN || "").trim();
     if (keyId && token) {
-      try {
-        const r = await fetch(`https://rtc.live.cloudflare.com/v1/turn/keys/${keyId}/credentials/generate-ice-servers`, {
-          method: "POST",
-          headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-          body: JSON.stringify({ ttl: 6 * 3600 }),
-        });
-        if (r.ok) {
+      turn = "failed";
+      const base = `https://rtc.live.cloudflare.com/v1/turn/keys/${encodeURIComponent(keyId)}/credentials/`;
+      for (const path of ["generate-ice-servers", "generate"]) {
+        try {
+          const r = await fetch(base + path, {
+            method: "POST",
+            headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+            body: JSON.stringify({ ttl: 6 * 3600 }),
+          });
+          if (!r.ok) {
+            turn = `${path}: HTTP ${r.status}`;
+            continue;
+          }
           const data = await r.json();
           let list = Array.isArray(data.iceServers) ? data.iceServers : data.iceServers ? [data.iceServers] : [];
-          // Port 53 TURN URLs are often blocked; leave them out.
-          list = list.map((s) => ({ ...s, urls: [].concat(s.urls).filter((u) => !/:53(\?|$)/.test(u)) }))
-            .filter((s) => s.urls.length > 0);
-          if (list.length) servers = [STUN, ...list];
+          // Port 53 URLs are often blocked; leave them out.
+          list = list.map((x) => ({ ...x, urls: [].concat(x.urls).filter((u) => !/:53(\?|$)/.test(u)) }))
+            .filter((x) => x.urls.length > 0 && x.username);
+          if (list.length) {
+            servers = [STUN, ...list];
+            turn = "ok";
+            break;
+          }
+          turn = `${path}: no TURN servers in the reply`;
+        } catch (e) {
+          turn = `${path}: ${String(e).slice(0, 80)}`;
         }
-      } catch {
-        // fall back to STUN only
       }
     }
-    // Credentials last 6 h; hand the same ones out for up to 1 h.
-    this.ice = { servers, until: now + (servers.length > 1 ? 3600_000 : 300_000) };
-    return servers;
+    // Credentials last 6 h; hand the same ones out for up to 1 h. Retry
+    // failures after a minute.
+    this.ice = { servers, turn, until: now + (turn === "ok" ? 3600_000 : 60_000) };
+    return this.ice;
   }
 
   // ------------------------------------------------------------ signalling
