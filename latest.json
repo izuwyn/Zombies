@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "a586fcfaaa475734b2ae995dc937dcd352c77763d87abaa9448165293c04022a",
-  "sha256_linux": "99a548e18de6c97cc8b43b42e956b32790d9ab5e341cf8edb16159df1b63d709",
-  "version": "0.17",
-  "file": "ZombiesConcept_v0.17_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.17_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.17_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.17_linux.zip",
+  "sha256_windows": "8ce8214504c9c11f272e9418fe1fde4b088f2467f03681169b712f2834195dec",
+  "sha256_linux": "bb082ca866ed3ceb8ea4bd12699ca0d4d2678f375f892edfbe458c7f53b1ce4a",
+  "version": "0.18",
+  "file": "ZombiesConcept_v0.18_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.18_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.18_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.18_linux.zip",
   "date": "2026-11-11",
-  "notes": "- No more port forwarding or firewall rules: co-op now connects with WebRTC. The online lobby service\n  introduces the players, then their games connect directly, or through Cloudflare's relay when a direct\n  connection isn't possible (some routers and mobile networks).\n- Co-op in the browser version too (host or join online games).\n- LAN games still show up by themselves and JOIN BY IP still works on a LAN.\n- Updating from v0.16 inside the game: v0.17 fetches its co-op library (about 4 MB) once on first start and\n  restarts by itself.\n- Everyone needs v0.17 to play together (older versions can't connect to it)."
+  "notes": "- New look: grimy and realistic. Every map has its own colour grade: sickly green in the Prison, a cold\n  blue night in the Outskirts, clinical cyan in the Laboratory. Darker rooms lit by their own lamps,\n  volumetric fog with light shafts, stronger contact shadows, bounce light on High, film grain and a\n  vignette.\n- Grime on every surface: dirt patches, water and rust streaks down the walls, dirt along the\n  bottom of walls, worn and stained floors, soot on ceilings.\n- Le Chonk rounds turn whimsical: the whole world fades into candy pastels, the grime washes off,\n  a pink haze rolls in and colourful bubbles float around you. It fades back to normal when the round ends.\n- Resolution option in Settings (windowed: the window size; fullscreen: the 3D render resolution,\n  menus stay sharp) and a Render Scale slider (50-100%, upscaled with FSR) for more FPS.\n- Graphics Quality now controls the new effects: Low = basic, Medium = fog light shafts, contact shadows\n  and glow, High = adds bounce light and shadows from every lamp."
 }
