@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "1a11f5968d7e48ad48bee65f2cfbf32a33833af42b674da96fe3e18c8c1f48ed",
-  "sha256_linux": "d030d77bcf79d4264e2a47030de380e7828372f881d260a1387354c03ff39f89",
-  "version": "0.19",
-  "file": "ZombiesConcept_v0.19_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.19_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.19_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.19_linux.zip",
+  "sha256_windows": "5da9b0abaf8283d9919b6b9423c3cf09aeeeab1bd2cf0c7592ddf70e41adf726",
+  "sha256_linux": "799d483ad819a49f5a9093ad927cf69d38d18d03dfc6527de13f07a8171a27b0",
+  "version": "0.20",
+  "file": "ZombiesConcept_v0.20_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.20_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.20_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.20_linux.zip",
   "date": "2026-11-11",
-  "notes": "- New power-up: LOCKDOWN (hammer and boards icon): every window on the map gets all its boards back\n  instantly, and every player gets 200 points.\n- Zombies take longer to reach the windows: they appear further out and trudge up to the window\n  (about 5 s for walkers, 2-3 s for runners, roughly twice as long as before). Runners still sprint once inside.\n- Runners are a bit slower (3.5-4.2 m/s early on, 4.0-4.9 from round 8; was 3.8-4.6 / 4.4-5.4).\n- Slower knife: 0.8 s between swings (was 0.6 s)."
+  "notes": "- Hold your melee weapon: press 3 to put your guns away and take out your knife / bat / axe / katana;\n  click (or hold) to swing. 1, 2, Q or the mouse wheel go back to your guns. V is still a quick melee.\n- Flashlight: press F. Teammates see your beam too.\n- Co-op: teammates' points are shown above yours, in their colour (with DOWN / DEAD when it applies).\n- Le Chonk no longer appears right on top of anyone: it only comes in through windows at least 7 m\n  from every player.\n- Fixed errors from the new lighting when a light was removed during a game."
 }
