@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "45666946cedf45a442f17cc936ed4ebe4a376f3771e19404c907d6a512fd6f6c",
-  "sha256_linux": "2e0cb0508cdcaf8460d8403b90302bbc4f6c4fd3d7f05b96b8063b75f4025530",
-  "version": "0.21",
-  "file": "ZombiesConcept_v0.21_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.21_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.21_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.21_linux.zip",
+  "sha256_windows": "b65ec18e1ee47a74561325805403bee1a4338fc517481dbed6d839936fbcffde",
+  "sha256_linux": "6ed087c27a383e65d34aaa48d71f5d5eb48b2f03d65b1d265155d08d2c96a520",
+  "version": "0.22",
+  "file": "ZombiesConcept_v0.22_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.22_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.22_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.22_linux.zip",
   "date": "2026-11-11",
-  "notes": "- Sir Chonk: every second Le Chonk round, the boss arrives: a huge Le Chonk in a tuxedo, top hat,\n  monocle and curled moustache. Slow and tough (boss health bar at the top), and every 6 s he summons\n  two fast Mini Chonks. Beating him gives everyone 500 points and drops Double Points and Max Ammo.\n- Detailed props on all three maps: about 65 new voxel models replace the old coloured blocks.\n  Prison: mess tables with stools, washing machines, hospital beds with IV stands, guard desks with CRT\n  monitors, lockers, pews, shower walls, bunk beds and toilets in the cells, gym gear. Outskirts: cars\n  and pickups, street lamps, mailboxes, hydrants, dumpsters, trees and bushes, a fountain, sheds,\n  sofas, beds, kitchens, diner booths and counters, stocked store and pharmacy shelves, a car on a lift,\n  workbenches, gas pumps. Laboratory: lab benches with glassware, specimen tanks, fume hoods, cryo pods,\n  blinking server racks, hazmat lockers, archive shelves, an executive desk, gas cylinders, decon showers.\n- Bullet holes: shots leave holes in walls, floors and props (the newest 150 stay).\n- Outskirts less open: fences, hedges and low garden walls (each with a gap to walk through) now\n  split up many of the streets and yards.\n- Main menu: Sir Chonk stares in through a window, and a few Mini Chonks sit about the cell block.\n- Change your name in the co-op lobby (updates for everyone) or in Settings.\n- Katana toned down: no longer one-hits zombies late on (two hits at round 16, three by round 25).\n  The Fire Axe was toned down a little too."
+  "notes": "- Weapon camos look much better: they now cover the whole gun (receiver, slide, grip, stock,\n  handguard, scope body, mag) instead of one part, keep each part's light and dark shading underneath,\n  and the patterns were tuned: bigger digital blocks, a proper carbon weave, softer Glacier and Bloodshot\n  shading, and Royal Gold / Diamond read as polished metal.\n- Top-tier camos got special effects: Royal Gold has a bright sheen sweeping along the gun and a warm\n  metallic edge glow; Diamond twinkles and shimmers with rainbow colours as you move; Plasma has crawling\n  electric arcs and a pulsing glow; Dark Matter is a window into space (stars with depth, swirling\n  nebula, violet edge glow).\n- Headshots on the top of the head always count: zombies have a head hitbox that follows the head\n  (it used to poke out of the body hitbox when they lean or stagger).\n- No more getting hit through walls: zombies need a clear line to you to start and land a hit.\n- No more escaping through roofs: rooms have solid ceilings, and if you ever end up outside the\n  map or on a roof, you're put back where you last stood within half a second."
 }
