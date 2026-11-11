@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "744701fccede2ea6c97e4d3991a0feb2ee1174739d69f2ed5335aafaaaf321ef",
-  "sha256_linux": "01d36f5c1fbb6853621d1661688555c9ba3afc188890ba46b9369216530f75aa",
-  "version": "0.16",
-  "file": "ZombiesConcept_v0.16_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.16_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.16_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.16_linux.zip",
-  "date": "2026-11-10",
-  "notes": "- Hold 3 (or V) to keep swinging your melee weapon.\n- No more two gates into the same room: streets and yards that run into each other count as one area,\n  so a building only gets one gate from it (the second gate on the Outskirts houses led into the same room)."
+  "sha256_windows": "a586fcfaaa475734b2ae995dc937dcd352c77763d87abaa9448165293c04022a",
+  "sha256_linux": "99a548e18de6c97cc8b43b42e956b32790d9ab5e341cf8edb16159df1b63d709",
+  "version": "0.17",
+  "file": "ZombiesConcept_v0.17_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.17_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.17_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.17_linux.zip",
+  "date": "2026-11-11",
+  "notes": "- No more port forwarding or firewall rules: co-op now connects with WebRTC. The online lobby service\n  introduces the players, then their games connect directly, or through Cloudflare's relay when a direct\n  connection isn't possible (some routers and mobile networks).\n- Co-op in the browser version too (host or join online games).\n- LAN games still show up by themselves and JOIN BY IP still works on a LAN.\n- Updating from v0.16 inside the game: v0.17 fetches its co-op library (about 4 MB) once on first start and\n  restarts by itself.\n- Everyone needs v0.17 to play together (older versions can't connect to it)."
 }
