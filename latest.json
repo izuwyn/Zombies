@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "ea2fce969100b29c87507009f9190d8667ee8f85c62b553d044f7c332d574581",
-  "sha256_linux": "f33df533e4345fe67cf68c92ffa60e6611dc4e41f4006d2f7b08fd22ea79dee1",
-  "version": "0.23",
-  "file": "ZombiesConcept_v0.23_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.23_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.23_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.23_linux.zip",
+  "sha256_windows": "4cb9963b2796ed347a1e0741231d76c361f2831e9ab57b49e40f38a8086b7182",
+  "sha256_linux": "885ceaaddeca7baf308eb65ca3ff536d07b110630ac3fe7ab1a7e688b62d3775",
+  "version": "0.24",
+  "file": "ZombiesConcept_v0.24_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.24_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.24_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.24_linux.zip",
   "date": "2026-11-11",
-  "notes": "- LOADOUT (Gunsmith) on the main menu: pick a gun, choose its camo and attachments, see a 3D preview\n  and how each attachment changes its stats. Whenever you get that gun in a game (wall, box, upgrade),\n  it comes with your camo and attachments.\n- Gun levels: every gun levels up (1-20) from kills with it (headshots give more XP); a banner shows\n  when a gun levels up and what it unlocked. Attachments unlock as the gun levels up.\n- More guns to customize as your player level goes up (pistol and SMG from the start, the Cryo\n  Freezer at level 25).\n- 5 attachment slots, all visible on the gun: Optic (Red Dot, Holographic) on guns with iron sights,\n  Muzzle (Suppressor, Compensator), Barrel (Long, Heavy), Magazine (Extended, Fast Mag) and Grip/Stock\n  (Vertical Grip, Padded Stock).\n- Camos are now picked per gun in the Gunsmith (your old camo choice carries over to every gun).\n  Teammates see the camo you picked on the gun you're holding.\n- 6 new Mystery Box guns: Stalker 12 (pump shotgun), Warden DMR (marksman rifle), Mag-50 (heavy\n  handgun), Hornet PDW (compact SMG), Buzzsaw (minigun: spins up, then shreds) and Bolt Thrower\n  (crossbow firing fast, flat explosive bolts). Each has an upgraded version."
+  "notes": "- Proximity voice chat in co-op: press T to turn your mic on or off. Teammates hear you from where\n  you are, getting quieter with distance (out to about 40 m), and a speaker icon shows over whoever is\n  talking. A mic icon next to your health bar shows when your mic is on and turns green while you're being heard.\n  Only speech is sent (it stops when you go quiet), compressed with Opus, with RNNoise noise suppression.\n- Text chat: press Enter to type, Enter to send, Esc to close. Messages show bottom left with the\n  sender's name in their colour and fade after a few seconds. The lobby has a chat box too, and lobby\n  messages carry over into the game. You also see a message when someone leaves.\n- Settings are split into GAME / VIDEO / VOICE tabs. VOICE has: Voice Chat on/off, Voice Volume,\n  Mute Everyone, Microphone (when you have more than one), Mic Volume, Noise Suppression and a Mic Test\n  (hear yourself back and watch the level meter; it turns green when you'd be heard).\n- The browser (web) build is discontinued, so the game can use desktop-only features like voice chat."
 }
