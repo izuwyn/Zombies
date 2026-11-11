@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "8ce8214504c9c11f272e9418fe1fde4b088f2467f03681169b712f2834195dec",
-  "sha256_linux": "bb082ca866ed3ceb8ea4bd12699ca0d4d2678f375f892edfbe458c7f53b1ce4a",
-  "version": "0.18",
-  "file": "ZombiesConcept_v0.18_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.18_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.18_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.18_linux.zip",
+  "sha256_windows": "1a11f5968d7e48ad48bee65f2cfbf32a33833af42b674da96fe3e18c8c1f48ed",
+  "sha256_linux": "d030d77bcf79d4264e2a47030de380e7828372f881d260a1387354c03ff39f89",
+  "version": "0.19",
+  "file": "ZombiesConcept_v0.19_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.19_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.19_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.19_linux.zip",
   "date": "2026-11-11",
-  "notes": "- New look: grimy and realistic. Every map has its own colour grade: sickly green in the Prison, a cold\n  blue night in the Outskirts, clinical cyan in the Laboratory. Darker rooms lit by their own lamps,\n  volumetric fog with light shafts, stronger contact shadows, bounce light on High, film grain and a\n  vignette.\n- Grime on every surface: dirt patches, water and rust streaks down the walls, dirt along the\n  bottom of walls, worn and stained floors, soot on ceilings.\n- Le Chonk rounds turn whimsical: the whole world fades into candy pastels, the grime washes off,\n  a pink haze rolls in and colourful bubbles float around you. It fades back to normal when the round ends.\n- Resolution option in Settings (windowed: the window size; fullscreen: the 3D render resolution,\n  menus stay sharp) and a Render Scale slider (50-100%, upscaled with FSR) for more FPS.\n- Graphics Quality now controls the new effects: Low = basic, Medium = fog light shafts, contact shadows\n  and glow, High = adds bounce light and shadows from every lamp."
+  "notes": "- New power-up: LOCKDOWN (hammer and boards icon): every window on the map gets all its boards back\n  instantly, and every player gets 200 points.\n- Zombies take longer to reach the windows: they appear further out and trudge up to the window\n  (about 5 s for walkers, 2-3 s for runners, roughly twice as long as before). Runners still sprint once inside.\n- Runners are a bit slower (3.5-4.2 m/s early on, 4.0-4.9 from round 8; was 3.8-4.6 / 4.4-5.4).\n- Slower knife: 0.8 s between swings (was 0.6 s)."
 }
