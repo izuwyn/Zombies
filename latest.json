@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "5da9b0abaf8283d9919b6b9423c3cf09aeeeab1bd2cf0c7592ddf70e41adf726",
-  "sha256_linux": "799d483ad819a49f5a9093ad927cf69d38d18d03dfc6527de13f07a8171a27b0",
-  "version": "0.20",
-  "file": "ZombiesConcept_v0.20_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.20_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.20_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.20_linux.zip",
+  "sha256_windows": "45666946cedf45a442f17cc936ed4ebe4a376f3771e19404c907d6a512fd6f6c",
+  "sha256_linux": "2e0cb0508cdcaf8460d8403b90302bbc4f6c4fd3d7f05b96b8063b75f4025530",
+  "version": "0.21",
+  "file": "ZombiesConcept_v0.21_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.21_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.21_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.21_linux.zip",
   "date": "2026-11-11",
-  "notes": "- Hold your melee weapon: press 3 to put your guns away and take out your knife / bat / axe / katana;\n  click (or hold) to swing. 1, 2, Q or the mouse wheel go back to your guns. V is still a quick melee.\n- Flashlight: press F. Teammates see your beam too.\n- Co-op: teammates' points are shown above yours, in their colour (with DOWN / DEAD when it applies).\n- Le Chonk no longer appears right on top of anyone: it only comes in through windows at least 7 m\n  from every player.\n- Fixed errors from the new lighting when a light was removed during a game."
+  "notes": "- Sir Chonk: every second Le Chonk round, the boss arrives: a huge Le Chonk in a tuxedo, top hat,\n  monocle and curled moustache. Slow and tough (boss health bar at the top), and every 6 s he summons\n  two fast Mini Chonks. Beating him gives everyone 500 points and drops Double Points and Max Ammo.\n- Detailed props on all three maps: about 65 new voxel models replace the old coloured blocks.\n  Prison: mess tables with stools, washing machines, hospital beds with IV stands, guard desks with CRT\n  monitors, lockers, pews, shower walls, bunk beds and toilets in the cells, gym gear. Outskirts: cars\n  and pickups, street lamps, mailboxes, hydrants, dumpsters, trees and bushes, a fountain, sheds,\n  sofas, beds, kitchens, diner booths and counters, stocked store and pharmacy shelves, a car on a lift,\n  workbenches, gas pumps. Laboratory: lab benches with glassware, specimen tanks, fume hoods, cryo pods,\n  blinking server racks, hazmat lockers, archive shelves, an executive desk, gas cylinders, decon showers.\n- Bullet holes: shots leave holes in walls, floors and props (the newest 150 stay).\n- Outskirts less open: fences, hedges and low garden walls (each with a gap to walk through) now\n  split up many of the streets and yards.\n- Main menu: Sir Chonk stares in through a window, and a few Mini Chonks sit about the cell block.\n- Change your name in the co-op lobby (updates for everyone) or in Settings.\n- Katana toned down: no longer one-hits zombies late on (two hits at round 16, three by round 25).\n  The Fire Axe was toned down a little too."
 }
