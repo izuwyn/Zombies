@@ -1,11 +1,11 @@
 {
-  "sha256_windows": "b65ec18e1ee47a74561325805403bee1a4338fc517481dbed6d839936fbcffde",
-  "sha256_linux": "6ed087c27a383e65d34aaa48d71f5d5eb48b2f03d65b1d265155d08d2c96a520",
-  "version": "0.22",
-  "file": "ZombiesConcept_v0.22_windows.zip",
-  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.22_windows.zip",
-  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.22_windows.zip",
-  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.22_linux.zip",
+  "sha256_windows": "ea2fce969100b29c87507009f9190d8667ee8f85c62b553d044f7c332d574581",
+  "sha256_linux": "f33df533e4345fe67cf68c92ffa60e6611dc4e41f4006d2f7b08fd22ea79dee1",
+  "version": "0.23",
+  "file": "ZombiesConcept_v0.23_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.23_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.23_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/ZombiesConcept_v0.23_linux.zip",
   "date": "2026-11-11",
-  "notes": "- Weapon camos look much better: they now cover the whole gun (receiver, slide, grip, stock,\n  handguard, scope body, mag) instead of one part, keep each part's light and dark shading underneath,\n  and the patterns were tuned: bigger digital blocks, a proper carbon weave, softer Glacier and Bloodshot\n  shading, and Royal Gold / Diamond read as polished metal.\n- Top-tier camos got special effects: Royal Gold has a bright sheen sweeping along the gun and a warm\n  metallic edge glow; Diamond twinkles and shimmers with rainbow colours as you move; Plasma has crawling\n  electric arcs and a pulsing glow; Dark Matter is a window into space (stars with depth, swirling\n  nebula, violet edge glow).\n- Headshots on the top of the head always count: zombies have a head hitbox that follows the head\n  (it used to poke out of the body hitbox when they lean or stagger).\n- No more getting hit through walls: zombies need a clear line to you to start and land a hit.\n- No more escaping through roofs: rooms have solid ceilings, and if you ever end up outside the\n  map or on a roof, you're put back where you last stood within half a second."
+  "notes": "- LOADOUT (Gunsmith) on the main menu: pick a gun, choose its camo and attachments, see a 3D preview\n  and how each attachment changes its stats. Whenever you get that gun in a game (wall, box, upgrade),\n  it comes with your camo and attachments.\n- Gun levels: every gun levels up (1-20) from kills with it (headshots give more XP); a banner shows\n  when a gun levels up and what it unlocked. Attachments unlock as the gun levels up.\n- More guns to customize as your player level goes up (pistol and SMG from the start, the Cryo\n  Freezer at level 25).\n- 5 attachment slots, all visible on the gun: Optic (Red Dot, Holographic) on guns with iron sights,\n  Muzzle (Suppressor, Compensator), Barrel (Long, Heavy), Magazine (Extended, Fast Mag) and Grip/Stock\n  (Vertical Grip, Padded Stock).\n- Camos are now picked per gun in the Gunsmith (your old camo choice carries over to every gun).\n  Teammates see the camo you picked on the gun you're holding.\n- 6 new Mystery Box guns: Stalker 12 (pump shotgun), Warden DMR (marksman rifle), Mag-50 (heavy\n  handgun), Hornet PDW (compact SMG), Buzzsaw (minigun: spins up, then shreds) and Bolt Thrower\n  (crossbow firing fast, flat explosive bolts). Each has an upgraded version."
 }
