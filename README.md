@@ -1,16 +1,20 @@
-# Zombies: releases
+# K7: Lockdown: releases
 
-Downloads for **Zombies**, a round-based, first-person zombie survival game (prison setting, online co-op).
-Game source lives in a separate repository.
+Downloads for **K7: Lockdown** (called "Zombies concept" up to v0.24), a round-based, first-person zombie
+survival game with online co-op. Game source lives in a separate repository.
 
 ## Download
-Grab the newest zip for your system from [`releases/`](releases/):
+Get the **launcher** for your system from [`releases/`](releases/), unzip it and run it. Its big
+**DOWNLOAD** button installs the game next to it. After that the same button says **UPDATE** when there's a
+new version, and **PLAY** otherwise.
 
-- **Linux:** `ZombiesConcept_v<version>_linux.zip`. Unzip it and run `./ZombiesConcept_v<version>.x86_64`
-  (if your unzip tool drops the executable bit: `chmod +x ZombiesConcept_v*.x86_64`).
-- **Windows:** `ZombiesConcept_v<version>_windows.zip`. Unzip it and run `ZombiesConcept_v<version>.exe`.
+- **Linux:** `K7Launcher_linux.zip`, then run `./K7Launcher.x86_64`
+  (if your unzip tool drops the executable bit: `chmod +x K7Launcher.x86_64`).
+- **Windows:** `K7Launcher_windows.zip`, then run `K7Launcher.exe`.
 
- The game's **Check for Updates** button reads [`latest.json`](latest.json)
-and lights up when a newer version is here.
+Already have an older version? Its **Check for Updates** button installs the launcher for you.
+
+The game itself is in `releases/v<version>/` in parts under 100 MB (GitHub's file size limit). The launcher
+downloads and joins them, using [`latest.json`](latest.json). Older versions (up to v0.24) are single zips in `releases/`.
 
 Windows may warn that the app is unrecognised (it isn't code-signed): choose **More info > Run anyway**.
