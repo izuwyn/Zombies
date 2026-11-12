@@ -1,31 +1,31 @@
 {
-  "version": "0.29",
+  "version": "0.30",
   "date": "2026-11-12",
-  "notes": "- New map: St. Mercy Hospital (open from the start). A Main Lobby with a reception desk and waiting\n  chairs, corridors, an Operating Theatre with an observation gallery and a surgical lamp, a Cafeteria and a\n  Healing Garden, always in the same place. Around them, different every game: two-storey Patient Wards,\n  the Emergency Room, Intensive Care, the Morgue (walls of body drawers), Radiology (a scanner), Medical\n  Records and the chapel. Hospital beds with drip stands and curtains, its own cold green look, flickering\n  lights, and survivors' messages on the walls.\n- Hospital zombies: patients in gowns, nurses in scrubs and doctors in white coats.\n- New zombie: the Screamer (in the hospital from round 3). A gaunt, deathly pale patient with red eyes.\n  Every few seconds it throws its head back and shrieks, with a shockwave you can see, and every zombie\n  near it sprints for 5 seconds. Kill it first.",
+  "notes": "- Footsteps that match the floor: concrete, tile, metal grating (upper levels), wood and grass, quieter\n  when crouching, heavier when sprinting, and a thud when you land.\n- Zombie footsteps: walkers shuffle and drag their feet, runners thump. You can hear them coming.\n- Ambience for every map: the Prison's rumble and ventilation drone, the Hospital's fluorescent hum,\n  the Lab's machinery and the Outskirts' wind and crickets.\n- Distant sounds: now and then a far-off moan, a scream, a metal clang, dripping water or a\n  hospital monitor beeping, muffled by distance.\n- Room echo: big halls, cell blocks and gyms echo; corridors and small rooms stay tight; outside is dry.\n- Heartbeat when you're badly hurt, louder and faster the lower your health.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_windows.zip.part1"
       ],
-      "size": 145577233,
-      "sha256": "19ab783ad2b2f855411456e809172ae9c2ca0ed20ce80ada32743aeab0dc601b",
-      "file": "K7Lockdown_v0.29_windows.zip"
+      "size": 145581833,
+      "sha256": "3b6355e9dde94a7d513b22e0385eda17c267fe7f1d585e7c1f35df71b37ccc91",
+      "file": "K7Lockdown_v0.30_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_linux.zip.part1"
       ],
-      "size": 137047974,
-      "sha256": "5bbfe28d5388396a728ecfddc2523f8c1ddd2005046b6be871ac0468737686d3",
-      "file": "K7Lockdown_v0.29_linux.zip"
+      "size": 137050009,
+      "sha256": "0c963c29c010bbbbd9647165c21da79e416f5c816c5b7677e73f283282d0f3bb",
+      "file": "K7Lockdown_v0.30_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "dc42b21e3ba10fa5e767c7b3e728232eba5c5a96d131b2a067b3cf1ce714dda0",
-  "sha256_linux": "2116163636837d87d55de152c022afc5dc9dc516914ef996c5a8dd3ccf73021c"
+  "sha256_windows": "ac9aac5d91ab44b11f8d753f890d9a44706d8b6dedf2f3247d04197700ce6bc5",
+  "sha256_linux": "4f2a764b52fbf46467260fad152b085e754ed49c46a5a46fba12f3ed763731c5"
 }
