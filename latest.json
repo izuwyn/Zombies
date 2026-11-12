@@ -1,31 +1,31 @@
 {
-  "version": "0.26",
+  "version": "0.27",
   "date": "2026-11-12",
-  "notes": "- Fixed core, random rest. Each map's start area and signature room are always in the same place: the\n  Prison's Intake, corridor, Cell Block and Mess Hall; the Outskirts' crossroads, Back Road, backyard and\n  family home; the Lab's Decontamination, tunnel, Incubation Chamber and Bio Lab. The rest of the map is\n  different every game.\n- Smaller and denser: 13 rooms instead of 16, with more cover.\n- Loops: every map has at least two or three extra gates that make circuits and shortcuts, so you can\n  run zombies round instead of getting cornered at a dead end.\n- Cover in the rooms: half walls, counters, crate stacks and pillars break up the big open rooms.\n- Signs over every gate name the room on the other side, so it's easier to find your way.\n- Electric traps: two gateways per map have a trap switch. Once the gate is open, 1000 points\n  electrifies the doorway for 25 seconds and fries every zombie that walks through (50 points each to\n  whoever bought it). Then it recharges for a minute. Sir Chonk shrugs it off.\n- Story touches: survivors' messages painted on the walls (different for each map), blood trails,\n  and an abandoned survivor camp with a lantern somewhere on every map.",
+  "notes": "- Real upper floors: some rooms now have a whole second storey over the room, with a stairwell,\n  railings, its own lights and furniture (shelves, lockers, beds, benches, crates). Mess Hall, Infirmary\n  and Guard Office in the Prison; Corner Store and Pharmacy in the Outskirts; Bio Lab, Cryo Storage and\n  Security Station in the Lab. The Mess Hall and Bio Lab are always there, so every map has one.\n- Courtyards: the Prison has a Courtyard next to Intake (grass, a fountain, trees in planters,\n  benches and lamp posts). The Outskirts can have a Town Square, and the Lab has a Hydroponics Atrium\n  next to Decontamination (an underground garden under grow lights).\n- Releases: only the newest 3 versions stay in the downloads repo.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.27/K7Lockdown_v0.27_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.27/K7Lockdown_v0.27_windows.zip.part1"
       ],
-      "size": 145552918,
-      "sha256": "f1c495f13dd15c6f5cd835fea8269c765de224f2ee0d7ba84df337448a2b2f56",
-      "file": "K7Lockdown_v0.26_windows.zip"
+      "size": 145556927,
+      "sha256": "7a484bf3581799f4ad110cf7a88ba74875add6b3d27251264acd32c8ba9940a1",
+      "file": "K7Lockdown_v0.27_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.27/K7Lockdown_v0.27_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.27/K7Lockdown_v0.27_linux.zip.part1"
       ],
-      "size": 137026786,
-      "sha256": "ceac41b5b7d37e33fe6307302b2ae6d59495678bdb609ef4c33ed992df991f8e",
-      "file": "K7Lockdown_v0.26_linux.zip"
+      "size": 137032424,
+      "sha256": "aa5ae6b5cfc9f4b1334c7f4fc66d61a2220637609997a42803b422d61907f533",
+      "file": "K7Lockdown_v0.27_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "4ad7afa20d6b85fe132c745230898ffc037f0d4cbdaab0b1f120c7976f2e95c3",
-  "sha256_linux": "0ec6266b986c9d9e33246d44af0c3da85b0f6d7bf55c90f2327ce52961ba09e6"
+  "sha256_windows": "cf7d99829271d26d95a70adc536f287ce6f76aed824e4ca58bbfc923dc489147",
+  "sha256_linux": "4eadbf0e541857f13f353ceba114b6b90442a4d92a6a6a9bb4a5d73a5d5bc424"
 }
