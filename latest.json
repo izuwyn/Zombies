@@ -1,31 +1,31 @@
 {
-  "version": "0.28",
+  "version": "0.29",
   "date": "2026-11-12",
-  "notes": "- Realistic perk machines: painted steel cabinets with chrome trim, a lit marquee with chasing bulbs,\n  the perk's logo, a lit glass display of glowing bottles, a dispenser tray and a coin slot. The bottle you\n  drink is the same glass bottle.\n- Realistic Mystery Box: an old plank crate with iron straps, corner brackets, rivets, rope handles,\n  glowing question marks and a hinged lid, with light pouring out when it opens.\n- New wonder weapon in the box: the Seal Launcher. It lobs mini Le Chonks that bounce with a squeak and\n  pop, blasting nearby zombies and scattering 3 baby Chonks that pop again. Upgraded, it becomes\n  Sir Chonk's Revenge: royal purple seals and 5 babies each. It's in LOADOUT from player level 15.",
+  "notes": "- New map: St. Mercy Hospital (open from the start). A Main Lobby with a reception desk and waiting\n  chairs, corridors, an Operating Theatre with an observation gallery and a surgical lamp, a Cafeteria and a\n  Healing Garden, always in the same place. Around them, different every game: two-storey Patient Wards,\n  the Emergency Room, Intensive Care, the Morgue (walls of body drawers), Radiology (a scanner), Medical\n  Records and the chapel. Hospital beds with drip stands and curtains, its own cold green look, flickering\n  lights, and survivors' messages on the walls.\n- Hospital zombies: patients in gowns, nurses in scrubs and doctors in white coats.\n- New zombie: the Screamer (in the hospital from round 3). A gaunt, deathly pale patient with red eyes.\n  Every few seconds it throws its head back and shrieks, with a shockwave you can see, and every zombie\n  near it sprints for 5 seconds. Kill it first.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.28/K7Lockdown_v0.28_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.28/K7Lockdown_v0.28_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_windows.zip.part1"
       ],
-      "size": 145567733,
-      "sha256": "841cbd41bcfd3258a43dd45a242e9f8deccb9b4d90adeb1e3846aefc24493a4a",
-      "file": "K7Lockdown_v0.28_windows.zip"
+      "size": 145577233,
+      "sha256": "19ab783ad2b2f855411456e809172ae9c2ca0ed20ce80ada32743aeab0dc601b",
+      "file": "K7Lockdown_v0.29_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.28/K7Lockdown_v0.28_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.28/K7Lockdown_v0.28_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.29/K7Lockdown_v0.29_linux.zip.part1"
       ],
-      "size": 137040452,
-      "sha256": "7499ccf796778aa4eb1b9b03652539d80f73c4d3a6f56b14f889524d5a02150d",
-      "file": "K7Lockdown_v0.28_linux.zip"
+      "size": 137047974,
+      "sha256": "5bbfe28d5388396a728ecfddc2523f8c1ddd2005046b6be871ac0468737686d3",
+      "file": "K7Lockdown_v0.29_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "4a65650fa7f6a620f34d1b69acd8c2984b9faa128066cb0f2b561abd230c12d4",
-  "sha256_linux": "0f8c4a5da1698005fda3e00434c5df0051df12d4f42406926c40f254a46f9993"
+  "sha256_windows": "dc42b21e3ba10fa5e767c7b3e728232eba5c5a96d131b2a067b3cf1ce714dda0",
+  "sha256_linux": "2116163636837d87d55de152c022afc5dc9dc516914ef996c5a8dd3ccf73021c"
 }
