@@ -1,7 +1,7 @@
 {
   "version": "0.32",
   "date": "2026-11-12",
-  "notes": "- STATS screen in the main menu: your lifetime totals (kills, headshots, melee kills, Sir Chonks\n  defeated, Screamers silenced, Seal Launcher kills, trap kills, box spins, perks, upgrades, rounds, games).\n- Records for every map: best round, best score and games played. The game-over screen tells you when\n  you set a new personal best on that map, or shows the best to beat.\n- 14 challenges with progress bars and XP rewards, from First Blood (100 kills) to Legend (round 30).\n  A banner pops up in game the moment you complete one.",
+  "notes": "- STATS screen in the main menu: your lifetime totals (kills, headshots, melee kills, Sir Chonks\n  defeated, Screamers silenced, Seal Launcher kills, trap kills, box spins, perks, upgrades, rounds, games).\n- Records for every map: best round, best score and games played. The game-over screen tells you when\n  you set a new personal best on that map, or shows the best to beat.\n- 14 challenges with progress bars and XP rewards, from First Blood (100 kills) to Legend (round 30).\n  A banner pops up in game the moment you complete one.\n- New launcher look: the maps in the background with zombies closing in, a red emergency light,\n  film grain and drifting ash, a glitching K7 logo and the patch notes on their own card. Your launcher\n  updates itself to it.",
   "game": {
     "windows": {
       "parts": [
@@ -26,6 +26,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "f6adc3a30c85fe074bbd0025ad94aa3d582d347c874419c21ea3a947986ac194",
-  "sha256_linux": "565726074d62acd52290b85a7396665a7817e176f4c131b66e415c2d813c4495"
+  "sha256_windows": "84535284d30cbbbe3fbce6110cd25c4f79a89fe1660524f979bc9f606ed27a5e",
+  "sha256_linux": "35da374a8939576cecda3974171a62a9361b7cbee97ab192ed1a7e1b613df6ac"
 }
