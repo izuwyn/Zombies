@@ -1,31 +1,31 @@
 {
-  "version": "0.33",
+  "version": "0.34",
   "date": "2026-11-12",
-  "notes": "- Prison: the Riot Guard. Black riot armour, helmet and shoulder pads. Body shots glance off (sparks\n  and a ping) and only do a third of the damage. Headshots get through. Enough body damage cracks the\n  armour off, and then it charges you. It hits harder than the others. From round 4.\n- Lab: the Bloater. Swollen and covered in glowing green pustules. It bursts when it dies and leaves a\n  toxic cloud for 7 seconds that hurts anyone standing in it (your screen goes green). Kill it from a\n  distance. From round 3.\n- Outskirts: the Stalker. Grey, hunched, long-armed, with white eyes. Fast but fragile. When you're a\n  few metres away it crouches, shrieks and leaps at you. From round 3.\n- The Hospital keeps its Screamer.\n- New stats and challenges: Riot Guards put down, Bloaters popped and Stalkers killed, with Riot\n  Control, Hazard Pay and The Hunter Hunted (2,500 XP each).",
+  "notes": "- Your progress is saved when you close the window. Quitting with the window's X (or Alt+F4) in the\n  middle of a game used to lose that game's XP, stats and map records.\n- Hospital monitors beep in threes as intended (only the first beep played, and it logged an error).\n- Perk bottles: fixed an error when a thrown bottle smashed on impact before its backup timer.\n- Meet the specials: the first time a Screamer, Riot Guard, Bloater or Stalker shows up in a game, a\n  card tells you what it does and how to beat it.\n- Co-op: a Stalker no longer gets stuck in its leap pose on other players' screens.\n- Balance: fewer special zombies at high rounds (their chance now grows more slowly), and fewer Riot\n  Guards, Bloaters and Stalkers in general.\n- Tested by playing 15 rounds on every map: buying doors, spinning the box, drinking perks, upgrading\n  guns, using traps and every power-up, with no errors.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.34/K7Lockdown_v0.34_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.34/K7Lockdown_v0.34_windows.zip.part1"
       ],
-      "size": 148314307,
-      "sha256": "490b7c953776a6f57699d10aff92f68c1f46e63107bb74760e6f2bb678432c93",
-      "file": "K7Lockdown_v0.33_windows.zip"
+      "size": 148320712,
+      "sha256": "6b864620fa2c9b79311335a2c592f636e199a20e828dfa4abcec23ee699a3a02",
+      "file": "K7Lockdown_v0.34_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.34/K7Lockdown_v0.34_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.34/K7Lockdown_v0.34_linux.zip.part1"
       ],
-      "size": 139789805,
-      "sha256": "bf6a81a18840b4ee922c0b7f2854799156d55f6e1721f1749a0f457333005d80",
-      "file": "K7Lockdown_v0.33_linux.zip"
+      "size": 139791947,
+      "sha256": "0c4d2d0a0e2b2420f7db6c34de0b3946d9b3156cceffda8b3eb38bda6a742ae7",
+      "file": "K7Lockdown_v0.34_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "c4043cc7068021cf7e0f7f4ac737433c02a513b4e2d877e5428a8a2c1c2421e4",
-  "sha256_linux": "b785b934e64627b755e056caf12a40af48106f9a87e52389bce35bf090cd014f"
+  "sha256_windows": "a0666fc5a20a82cc102cf3edbe08862f806fd2429c96fd4324e052a5703aa18d",
+  "sha256_linux": "e6bdc5ba4f7137f195845560ab9c04a2234c95d56a1f5a1d6eb9f501145bcc49"
 }
