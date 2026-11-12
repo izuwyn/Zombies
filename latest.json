@@ -1,31 +1,31 @@
 {
-  "version": "0.255",
+  "version": "0.26",
   "date": "2026-11-12",
-  "notes": "- Voxel zombies and voxel first-person hands are back (they look better and are easier to get right).\n  The guns stay realistic, and so do the scanned world materials and props. The download is much smaller.\n- Male and female look clearly different: female survivors are shorter and slimmer, with narrow\n  shoulders, slim arms and legs, eyelashes and fine brows. Male survivors are taller and broader, with\n  heavy brows and stubble. Same outfits and gear, nothing exaggerated. Female first-person hands are\n  smaller and slimmer.\n- New customization: HAIR and HAIR COLOUR (replaces the armband, which is now always your team colour):\n  Short, Buzz Cut, Long, Ponytail, Bob, Bun, Curly, Braid, Mohawk and Shaved, in 10 colours (dyed ones unlock\n  with levels). Default hair is short for male and a ponytail for female.\n- P-12: camos now work on it, and the Extended Mag sticks out of the bottom of the grip instead of\n  through the gun.\n- Launcher: it now updates itself. Versions compare as decimals, so 0.255 comes before 0.26.",
+  "notes": "- Fixed core, random rest. Each map's start area and signature room are always in the same place: the\n  Prison's Intake, corridor, Cell Block and Mess Hall; the Outskirts' crossroads, Back Road, backyard and\n  family home; the Lab's Decontamination, tunnel, Incubation Chamber and Bio Lab. The rest of the map is\n  different every game.\n- Smaller and denser: 13 rooms instead of 16, with more cover.\n- Loops: every map has at least two or three extra gates that make circuits and shortcuts, so you can\n  run zombies round instead of getting cornered at a dead end.\n- Cover in the rooms: half walls, counters, crate stacks and pillars break up the big open rooms.\n- Signs over every gate name the room on the other side, so it's easier to find your way.\n- Electric traps: two gateways per map have a trap switch. Once the gate is open, 1000 points\n  electrifies the doorway for 25 seconds and fries every zombie that walks through (50 points each to\n  whoever bought it). Then it recharges for a minute. Sir Chonk shrugs it off.\n- Story touches: survivors' messages painted on the walls (different for each map), blood trails,\n  and an abandoned survivor camp with a lantern somewhere on every map.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_windows.zip.part1"
       ],
-      "size": 145537976,
-      "sha256": "64de9f0866f8d6e0126484965a14a3ede4ed6076f7a3f39a9002699bfe2e6644",
-      "file": "K7Lockdown_v0.255_windows.zip"
+      "size": 145552918,
+      "sha256": "f1c495f13dd15c6f5cd835fea8269c765de224f2ee0d7ba84df337448a2b2f56",
+      "file": "K7Lockdown_v0.26_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.26/K7Lockdown_v0.26_linux.zip.part1"
       ],
-      "size": 137010342,
-      "sha256": "cf9dd8d74ce753c54443b0446ee634934739fa09879b39157d21650a4291b43b",
-      "file": "K7Lockdown_v0.255_linux.zip"
+      "size": 137026786,
+      "sha256": "ceac41b5b7d37e33fe6307302b2ae6d59495678bdb609ef4c33ed992df991f8e",
+      "file": "K7Lockdown_v0.26_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "e4389231477ff3a8ad973fe2ee005def8115e9d9755c0d0a8576cb83f70fdd4c",
-  "sha256_linux": "0c3e2a166d8a74cb5fcf7f62805dd166e1b526d5e70b4cd845e2299717f61aed"
+  "sha256_windows": "4ad7afa20d6b85fe132c745230898ffc037f0d4cbdaab0b1f120c7976f2e95c3",
+  "sha256_linux": "0ec6266b986c9d9e33246d44af0c3da85b0f6d7bf55c90f2327ce52961ba09e6"
 }
