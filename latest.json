@@ -1,32 +1,31 @@
 {
-  "version": "0.25",
+  "version": "0.255",
   "date": "2026-11-12",
-  "notes": "- The game has a name: K7: Lockdown. It's on the title screen, the window and the HUD. Your saves,\n  levels and loadouts carry over.\n- Photorealistic graphics:\n  - World: every surface uses scanned materials (brick, concrete, tile, wood, metal...).\n  - Props: they're now scanned 3D models.\n  - Zombies: they're realistic people (13 kinds: inmates, guards, medics, townsfolk, hazmat, scientists)\n    with rotting skin and bloody clothes. They still lose limbs and heads, and they ragdoll.\n  - Guns: they have smooth, solid models.\n  - Starter pistol: it's a fully scanned model.\n  - Hands: your first-person hands and arms are realistic. Handguns are held with a proper two-handed\n    grip, and your trigger finger pulls the trigger.\n  - Not yet realistic: teammates, perk machines, the Mystery Box and Le Chonk come in later updates.\n- Female body option in CUSTOMIZE > BODY: a female survivor (smaller frame, longer hair, same\n  outfits and gear) with matching female first-person hands.\n- Mystery Box moves. After 7 spins at one spot, each spin has a chance to show \"BYE BYE\". You get\n  your points back, the box flies off and turns up somewhere else.\n- New power-up: Fire Sale. For 30 seconds the Mystery Box costs 10 points and there's one at every\n  box spot.\n- Perks cost 1500, plus 500 for each perk you already have (1500, 2000, 2500, 3000).\n- More Sir Chonks. Each Sir Chonk round brings one more than the last, so the 4th Le Chonk round has\n  2 of them. They share one health bar.\n- Overkill and Purge no longer kill Sir Chonk in one go.\n- Melee weapons have levels and camos, like guns (LOADOUT > MELEE). They can also go in the upgrade\n  machine: 3x damage and one more zombie per swing (Bloodletter, Home Run Hitter, Executioner, Muramasa).\n- Gun levels: guns now go up to level 50, and they level up a bit more slowly.\n- Camos unlock by gun level instead of player level: Woodland 3, Desert 6, Urban 10, Arctic 15,\n  Crimson 20, Tiger 26, Gold 33, Diamond 40, Plasma 46, Dark Matter 50.\n- Optics: iron sights on every gun, and optics are optional. The pistol's optic sits on the slide.\n  The Longshot's scope is an attachment, fitted by default.\n- Spectator camera: in co-op, after you bleed out you watch a teammate over their shoulder until the\n  next round. Click to switch between teammates.",
+  "notes": "- Voxel zombies and voxel first-person hands are back (they look better and are easier to get right).\n  The guns stay realistic, and so do the scanned world materials and props. The download is much smaller.\n- Male and female look clearly different: female survivors are shorter and slimmer, with narrow\n  shoulders, slim arms and legs, eyelashes and fine brows. Male survivors are taller and broader, with\n  heavy brows and stubble. Same outfits and gear, nothing exaggerated. Female first-person hands are\n  smaller and slimmer.\n- New customization: HAIR and HAIR COLOUR (replaces the armband, which is now always your team colour):\n  Short, Buzz Cut, Long, Ponytail, Bob, Bun, Curly, Braid, Mohawk and Shaved, in 10 colours (dyed ones unlock\n  with levels). Default hair is short for male and a ponytail for female.\n- P-12: camos now work on it, and the Extended Mag sticks out of the bottom of the grip instead of\n  through the gun.\n- Launcher: it now updates itself. Versions compare as decimals, so 0.255 comes before 0.26.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.25/K7Lockdown_v0.25_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.25/K7Lockdown_v0.25_windows.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.25/K7Lockdown_v0.25_windows.zip.part2"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_windows.zip.part1"
       ],
-      "size": 185840765,
-      "sha256": "1c22059f111f5ab010f92654eda5cd1217b6eff01d652dc1b903da7ab1b33cba",
-      "file": "K7Lockdown_v0.25_windows.zip"
+      "size": 145537976,
+      "sha256": "64de9f0866f8d6e0126484965a14a3ede4ed6076f7a3f39a9002699bfe2e6644",
+      "file": "K7Lockdown_v0.255_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.25/K7Lockdown_v0.25_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.25/K7Lockdown_v0.25_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.255/K7Lockdown_v0.255_linux.zip.part1"
       ],
-      "size": 177312627,
-      "sha256": "3ea5c7826ba5dc1a1c344064189d61cc88738c16cdff3f067abe5befe4090242",
-      "file": "K7Lockdown_v0.25_linux.zip"
+      "size": 137010342,
+      "sha256": "cf9dd8d74ce753c54443b0446ee634934739fa09879b39157d21650a4291b43b",
+      "file": "K7Lockdown_v0.255_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "83a986a63123bc9a528afff213c52549cd99c3e0fa10ced6446df672837d428a",
-  "sha256_linux": "f1a4195fb6a78d56cf3f4e25f4313e975640f135d82317cf0077797cce977a9b"
+  "sha256_windows": "e4389231477ff3a8ad973fe2ee005def8115e9d9755c0d0a8576cb83f70fdd4c",
+  "sha256_linux": "0c3e2a166d8a74cb5fcf7f62805dd166e1b526d5e70b4cd845e2299717f61aed"
 }
