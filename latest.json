@@ -1,31 +1,31 @@
 {
-  "version": "0.35",
+  "version": "0.36",
   "date": "2026-11-12",
-  "notes": "- Realistic weapons (Poly Haven, CC0): the Longshot is now a real bolt-action rifle, and the Slugger\n  Bat, Katana, Fire Axe and Combat Knife are real models too. Camos still work on them.\n- Slim sniper scope: a 25 mm tube with tapered ends, thin rings and small turrets, replacing the chunky\n  voxel scope (same aim point).\n- Thin iron sights again, like the early versions: a slim front post and a notched rear sight with\n  small glowing dots, on every gun that uses irons.\n- Better hands: thicker, shorter forearms with fabric folds that come in from the corners of the screen\n  (they were long thin sticks). Melee weapons are held in a proper voxel fist with a sleeve instead of\n  plain boxes.\n- Camo challenges: gun camos are now earned with headshot kills using that gun (10 for Woodland up to\n  750 for Dark Matter). The LOADOUT screen shows your progress, and a banner pops up when you unlock one.\n  Camos you already earned stay unlocked. Melee camos still unlock with weapon level.",
+  "notes": "- Attachments match the realistic guns (the P-12 Sidearm and the Longshot): the suppressor, compensator,\n  long and heavy barrels, red dot, holographic sight, rail mount, vertical grip and padded stock are now\n  smooth, real-sized parts with real finishes (matte coating, bare steel, blued metal, rubber) instead of\n  1 cm voxel blocks. The voxel guns keep their voxel attachments so they still match.\n- Scope rings have proper legs and rail clamps.\n- The Longshot's preview in LOADOUT (and the HUD weapon icon) is no longer tiny and zoomed out: the\n  preview now measures realistic models correctly.\n- Combat Knife is a bit bigger.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.35/K7Lockdown_v0.35_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.35/K7Lockdown_v0.35_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_windows.zip.part1"
       ],
-      "size": 161339184,
-      "sha256": "57ef4057fb53cb7dcda470e2c252c3883b5189d81538685882b615ada2841e00",
-      "file": "K7Lockdown_v0.35_windows.zip"
+      "size": 161340089,
+      "sha256": "499d2c06743cde46edc119cd55e50e8e2610e8ffb37f2b8c6a6b4f41dc169ca1",
+      "file": "K7Lockdown_v0.36_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.35/K7Lockdown_v0.35_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.35/K7Lockdown_v0.35_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_linux.zip.part1"
       ],
-      "size": 152808597,
-      "sha256": "35c160c7b95ecfc1e081d0dc4f6251804b180408d3d3d51b2e085e9ea255e40d",
-      "file": "K7Lockdown_v0.35_linux.zip"
+      "size": 152813304,
+      "sha256": "396d67185473bba57d2d4d62203c8d49242e4f8cf1b60d60bd1b0795f9719886",
+      "file": "K7Lockdown_v0.36_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "6a487fb8ea1826fe37f6d9f09a5cd257b6cbc809dacbc96204b9dcc2f5faf039",
-  "sha256_linux": "b80b1d64396123bdb36b3358c5e3054c832c338409600b338bc823eaeba4245d"
+  "sha256_windows": "d90c5bd771eb927acf9246f0e7a6eaae0255efe1bf3b5390c865f74eb344daa6",
+  "sha256_linux": "3fc51ea76a810ce85fa1602c4bf981f6040f03266cf09d71c465126e31953396"
 }
