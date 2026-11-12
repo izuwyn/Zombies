@@ -1,31 +1,31 @@
 {
-  "version": "0.32",
+  "version": "0.33",
   "date": "2026-11-12",
-  "notes": "- STATS screen in the main menu: your lifetime totals (kills, headshots, melee kills, Sir Chonks\n  defeated, Screamers silenced, Seal Launcher kills, trap kills, box spins, perks, upgrades, rounds, games).\n- Records for every map: best round, best score and games played. The game-over screen tells you when\n  you set a new personal best on that map, or shows the best to beat.\n- 14 challenges with progress bars and XP rewards, from First Blood (100 kills) to Legend (round 30).\n  A banner pops up in game the moment you complete one.\n- New launcher look: the maps in the background with zombies closing in, a red emergency light,\n  film grain and drifting ash, a glitching K7 logo and the patch notes on their own card. Your launcher\n  updates itself to it.",
+  "notes": "- Prison: the Riot Guard. Black riot armour, helmet and shoulder pads. Body shots glance off (sparks\n  and a ping) and only do a third of the damage. Headshots get through. Enough body damage cracks the\n  armour off, and then it charges you. It hits harder than the others. From round 4.\n- Lab: the Bloater. Swollen and covered in glowing green pustules. It bursts when it dies and leaves a\n  toxic cloud for 7 seconds that hurts anyone standing in it (your screen goes green). Kill it from a\n  distance. From round 3.\n- Outskirts: the Stalker. Grey, hunched, long-armed, with white eyes. Fast but fragile. When you're a\n  few metres away it crouches, shrieks and leaps at you. From round 3.\n- The Hospital keeps its Screamer.\n- New stats and challenges: Riot Guards put down, Bloaters popped and Stalkers killed, with Riot\n  Control, Hazard Pay and The Hunter Hunted (2,500 XP each).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.32/K7Lockdown_v0.32_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.32/K7Lockdown_v0.32_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_windows.zip.part1"
       ],
-      "size": 145596472,
-      "sha256": "50174bcb81d4516efbfb553e3a779ec3915119f64b6626291591189cf9442f2f",
-      "file": "K7Lockdown_v0.32_windows.zip"
+      "size": 148314307,
+      "sha256": "490b7c953776a6f57699d10aff92f68c1f46e63107bb74760e6f2bb678432c93",
+      "file": "K7Lockdown_v0.33_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.32/K7Lockdown_v0.32_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.32/K7Lockdown_v0.32_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.33/K7Lockdown_v0.33_linux.zip.part1"
       ],
-      "size": 137067607,
-      "sha256": "1b467ecb4999e0a6224a5954557e2b297540aa86d830149666d061b04c2d5ca2",
-      "file": "K7Lockdown_v0.32_linux.zip"
+      "size": 139789805,
+      "sha256": "bf6a81a18840b4ee922c0b7f2854799156d55f6e1721f1749a0f457333005d80",
+      "file": "K7Lockdown_v0.33_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "84535284d30cbbbe3fbce6110cd25c4f79a89fe1660524f979bc9f606ed27a5e",
-  "sha256_linux": "35da374a8939576cecda3974171a62a9361b7cbee97ab192ed1a7e1b613df6ac"
+  "sha256_windows": "c4043cc7068021cf7e0f7f4ac737433c02a513b4e2d877e5428a8a2c1c2421e4",
+  "sha256_linux": "b785b934e64627b755e056caf12a40af48106f9a87e52389bce35bf090cd014f"
 }
