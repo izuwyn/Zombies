@@ -1,31 +1,31 @@
 {
-  "version": "0.30",
+  "version": "0.31",
   "date": "2026-11-12",
-  "notes": "- Footsteps that match the floor: concrete, tile, metal grating (upper levels), wood and grass, quieter\n  when crouching, heavier when sprinting, and a thud when you land.\n- Zombie footsteps: walkers shuffle and drag their feet, runners thump. You can hear them coming.\n- Ambience for every map: the Prison's rumble and ventilation drone, the Hospital's fluorescent hum,\n  the Lab's machinery and the Outskirts' wind and crickets.\n- Distant sounds: now and then a far-off moan, a scream, a metal clang, dripping water or a\n  hospital monitor beeping, muffled by distance.\n- Room echo: big halls, cell blocks and gyms echo; corridors and small rooms stay tight; outside is dry.\n- Heartbeat when you're badly hurt, louder and faster the lower your health.",
+  "notes": "- Play with a controller: left stick to move (click to sprint), right stick to look (click to melee),\n  RT shoot, LT aim, A jump, B crouch, X reload and interact (hold to buy and rebuild), Y swap weapon,\n  RB melee, LB grenade, D-pad for the flashlight and weapons, Back for the scoreboard, Start to pause. Menus\n  work with the D-pad / stick and A. Prompts show the controller button (\"[X] Buy ...\") while you're using one.\n- Rebind your keys: CONTROLS lists every action. Click one and press the new key or mouse button. There's\n  also \"Reset to defaults\". Your bindings are saved.\n- Controller settings in CONTROLS: look speed and invert look up/down.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.31/K7Lockdown_v0.31_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.31/K7Lockdown_v0.31_windows.zip.part1"
       ],
-      "size": 145581833,
-      "sha256": "3b6355e9dde94a7d513b22e0385eda17c267fe7f1d585e7c1f35df71b37ccc91",
-      "file": "K7Lockdown_v0.30_windows.zip"
+      "size": 145583037,
+      "sha256": "bf2720c81e7b6b9288c3e1b9e02fed59e99a58c21044fd66f713042a4e7bd8d8",
+      "file": "K7Lockdown_v0.31_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.30/K7Lockdown_v0.30_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.31/K7Lockdown_v0.31_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.31/K7Lockdown_v0.31_linux.zip.part1"
       ],
-      "size": 137050009,
-      "sha256": "0c963c29c010bbbbd9647165c21da79e416f5c816c5b7677e73f283282d0f3bb",
-      "file": "K7Lockdown_v0.30_linux.zip"
+      "size": 137052535,
+      "sha256": "b7cd3ee9da1e6ed3ccd675cc4c7e17f56820c9537f5878949fc69f6c1d24af7a",
+      "file": "K7Lockdown_v0.31_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "ac9aac5d91ab44b11f8d753f890d9a44706d8b6dedf2f3247d04197700ce6bc5",
-  "sha256_linux": "4f2a764b52fbf46467260fad152b085e754ed49c46a5a46fba12f3ed763731c5"
+  "sha256_windows": "c663d3d63ee750684bdbb2a095c3c0e85baa30b7a92f2406878e889e86cdfaba",
+  "sha256_linux": "8792e0f8251a5cbe57e7bb98a20fba3f464c4bcedbec8f7db34496bbd6d0b89a"
 }
