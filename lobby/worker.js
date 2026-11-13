@@ -18,6 +18,8 @@
 // One Durable Object holds everything, so every request sees the same state.
 
 const TTL_MS = 45_000;
+const ONLINE_TTL_MS = 150_000; // a running game checks in every ~60 s
+const MAX_ONLINE = 20_000;
 const MAX_GAMES = 300;
 const MAX_PER_IP = 3;
 const MAX_JOINERS = 16;
@@ -56,12 +58,19 @@ export class Lobby {
     this.state = state;
     this.env = env;
     this.games = new Map(); // id -> game
+    this.online = new Map(); // anonymous session id -> last check-in (ms)
     this.ice = null; // cached {servers, until}
   }
 
   prune(now) {
     for (const [id, g] of this.games) {
       if (now - g.seen > TTL_MS) this.games.delete(id);
+    }
+    if (now - (this.onlinePruned || 0) > 10_000) {
+      this.onlinePruned = now;
+      for (const [sid, t] of this.online) {
+        if (now - t > ONLINE_TTL_MS) this.online.delete(sid);
+      }
     }
   }
 
@@ -87,6 +96,24 @@ export class Lobby {
           version: g.version, map: g.map, rtc: g.rtc, age: Math.round((now - g.seen) / 1000) });
       }
       return json({ games: out, you: ip });
+    }
+
+    // Players online: every running game posts {sid} about once a minute
+    // (sid = random per game launch, nothing else stored); the reply is how
+    // many sessions checked in during the last 2.5 minutes.
+    if (url.pathname === "/online") {
+      if (request.method === "POST") {
+        let body = {};
+        try {
+          body = await request.json();
+        } catch {
+          return json({ error: "bad json" }, 400);
+        }
+        const sid = clean(body.sid, 40);
+        if (!ID_RE.test(sid)) return json({ error: "bad id" }, 400);
+        if (this.online.has(sid) || this.online.size < MAX_ONLINE) this.online.set(sid, now);
+      }
+      return json({ online: this.online.size, games: this.games.size });
     }
 
     if (request.method === "POST" && (url.pathname === "/announce" || url.pathname === "/remove")) {
