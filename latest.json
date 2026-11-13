@@ -1,31 +1,31 @@
 {
-  "version": "0.51",
+  "version": "0.52",
   "date": "2026-11-13",
-  "notes": "- Muzzle flash toned down: about 30% less bright, a little smaller, and its light on the walls dimmer.\n- Props that were far too small are fixed: the gas tanks (they were a few tiny jerry cans) and the store\n  shelves (empty frames) use their proper models again, and the workbench, park bench, benches, picnic table,\n  lab bench, monitor desk, mess tables, pews, coffee table, bins, medicine cabinet and hospital beds are scaled to\n  fill the space they take up.",
+  "notes": "- Benches and pews were tiny: the bench model was really two little benches side by side, squashed to half\n  height. Benches (gardens, yards, corridors, gym, lobbies) and chapel pews now use a single full-size bench:\n  about 0.9 m to the top of the backrest, stretched to their proper length.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.51/K7Lockdown_v0.51_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.51/K7Lockdown_v0.51_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.52/K7Lockdown_v0.52_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.52/K7Lockdown_v0.52_windows.zip.part1"
       ],
-      "size": 161427324,
-      "sha256": "05ca997d5218ee7089ecc6094ad2941f4780ccd780d75d6a9341b8386b1e71ea",
-      "file": "K7Lockdown_v0.51_windows.zip"
+      "size": 161427528,
+      "sha256": "9b47d110865b1e2ffe5941c8cd3282967495d603a3e33faed7a3ba9355680840",
+      "file": "K7Lockdown_v0.52_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.51/K7Lockdown_v0.51_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.51/K7Lockdown_v0.51_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.52/K7Lockdown_v0.52_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.52/K7Lockdown_v0.52_linux.zip.part1"
       ],
-      "size": 152901012,
-      "sha256": "af258ac15bc19faf31fbf3faa6da38d9cac4ce6efaa39a161b0ab41208766acb",
-      "file": "K7Lockdown_v0.51_linux.zip"
+      "size": 152899456,
+      "sha256": "90c69d9821cbff609d2391c88de90a3ecac440d91ef91c3e6d4141622b470080",
+      "file": "K7Lockdown_v0.52_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "2711b1b30752ff141575e66a1afd7fb8412e4577c81b7ea5004921dec7eb49f0",
-  "sha256_linux": "defc238472a6250c01cae7b87a72f09714f7334285a8f721c0e476e721bfe98d"
+  "sha256_windows": "5970e7cd0e658ebc1c9d2664c62adbd385e1b1391a6dc951004d4eadd9418225",
+  "sha256_linux": "0ad299e7c1c425c730ff6abc6af553f34dae12effb13a0846df4ad04cd22873c"
 }
