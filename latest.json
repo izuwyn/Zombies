@@ -1,31 +1,31 @@
 {
-  "version": "0.47",
+  "version": "0.48",
   "date": "2026-11-13",
-  "notes": "- New perk, Heavy Handed (pink machine): melee hits 40% harder, and sliding into a zombie kicks it (80% of a\n  melee hit, with a big shove; each zombie once per slide).\n- Quick Fix is always in the spawn room (or the nearest room with space).\n- Daily challenges: three new ones every day (the same for everyone), like \"Kill 150 zombies\" or \"Upgrade 2\n  weapons\", worth 1,000 to 3,000 XP each. They're on the STATS screen and in the pause menu, with the time until\n  the next ones.\n- Players online: the main menu shows how many people are playing right now (bottom right).\n- Audio channels: a new AUDIO tab in Settings with Master plus separate Music & Jingles, Weapons, Zombies,\n  Effects, Ambience and Interface volumes (voice chat keeps its own slider on the VOICE tab).\n- Bullet tracers: a bright streak now flies from the muzzle to where the bullet lands at bullet speed (hot head,\n  soft tail), leaving a faint line of smoke. Wonder weapons and upgraded guns fire thicker blue bolts.\n- Weapon name on the HUD: your melee weapon's name shows while it's out; names take your camo's colour, and\n  upgraded weapons' names glow violet (that wins over the camo colour).\n- Grips, magazines and trigger guards: trigger guards now hang from the frame and join the grip on every\n  gun (they used to float). Moulded grips got textured side panels. The Mag-50's grip, wood panels and magazine\n  line up (the mag used to poke out of the front), and the Hand Cannon has a proper wrap-around wooden revolver\n  grip with a steel backstrap instead of a flat plank.\n- Explosive weapons' camos unlock by weapon level (like melee): the Thumper, Bolt Thrower and Seal Launcher\n  hardly ever get headshots. Camos you already earned stay unlocked.\n- Fewer power-up drops: 2.5% a kill (was 4%), at most 3 a round (was 4).\n- Boomstick and Twin Barrels: the stock's comb no longer fills the bottom of the view when aiming.\n\nA full playtest checklist ran before this release: all 19 guns with every attachment and upgraded (about 470\ncombinations), all 4 melee weapons, grenade cooking, sliding, Quick Fix, Sir Chonk's fish, the special zombies,\n15-round soak games on all 4 maps and every menu: no script errors.",
+  "notes": "- Prestige: once you reach level 55, a PRESTIGE button appears on your level card. Your level goes back to 1\n  and you climb the ranks again, but you keep everything you unlocked (guns, attachments, camos, looks, weapon\n  levels, stats and challenges). You get a prestige badge next to your level (menu, co-op lobby, scoreboard, pause\n  menu, over your head in co-op), up to Prestige 10, and the exclusive Prestige Crimson camo for every weapon.\n  It's cosmetic only, so co-op stays fair.\n- Rooms are furnished with sets that belong there, instead of random brick half-walls and crate stacks in the\n  middle of the floor. Weight benches, pull-up bars and stacked mats in the gym; serving counters and bins in mess\n  halls and cafeterias; IV stands and medicine cabinets on hospital wards; filing cabinets in offices; lockers in\n  guard rooms; benches and trees in courtyards; tyres and tool chests in the auto shop, and so on. They stand\n  against the walls facing in, clear of doors, windows and wall buys.\n- Windows match their room: barred windows in the prison (the middle bars bent apart where something got\n  through), white hospital windows with broken blinds, wooden house windows with shutters and a planter box,\n  aluminium shop frames, hazard-striped lab frames, all with a proper sill.\n- Boarded-up windows all look different: each window has its own board layout (level rows, a big X, or a\n  messy job), boards of different lengths, widths and shades of wood, with nails.\n- Fast Mag now unlocks before Extended Mag (gun level 3 and 10).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.47/K7Lockdown_v0.47_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.47/K7Lockdown_v0.47_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.48/K7Lockdown_v0.48_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.48/K7Lockdown_v0.48_windows.zip.part1"
       ],
-      "size": 161404937,
-      "sha256": "4d2c643b9c44dad878fb19bde53de904664654d39e8d03c9cae636f8510e7d47",
-      "file": "K7Lockdown_v0.47_windows.zip"
+      "size": 161413971,
+      "sha256": "8b193fc13487c46e646e90f2dc8a77abec6922af1e5195a321edb305f2884540",
+      "file": "K7Lockdown_v0.48_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.47/K7Lockdown_v0.47_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.47/K7Lockdown_v0.47_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.48/K7Lockdown_v0.48_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.48/K7Lockdown_v0.48_linux.zip.part1"
       ],
-      "size": 152878351,
-      "sha256": "4d699e78b09537a7bada6543db0d279c8a556ff5f6cf06234cf80eaf9be12693",
-      "file": "K7Lockdown_v0.47_linux.zip"
+      "size": 152884881,
+      "sha256": "4b3147720ec2b9a67dded9369cf2fa234c03be22eb558898b140d3658f07690c",
+      "file": "K7Lockdown_v0.48_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "c9ab1503579c1a63882ba7f61d6b1207c85ecd83ba52e1b8bb28a610eb8014f9",
-  "sha256_linux": "986c250614f849bebc9d16d5bca8a8073f32a203c60a50a0f98646d16a5f5e45"
+  "sha256_windows": "d4fe3ca9968962a5555d2a3efaf169ba8296f89df0d60722b85b298c38f7e9c8",
+  "sha256_linux": "51445f2068eadffb3cddc0d92b9dd558bd02fab492b189bb63c5242737886acd"
 }
