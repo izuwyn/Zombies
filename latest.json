@@ -1,31 +1,31 @@
 {
-  "version": "0.36",
-  "date": "2026-11-12",
-  "notes": "- Attachments match the realistic guns (the P-12 Sidearm and the Longshot): the suppressor, compensator,\n  long and heavy barrels, red dot, holographic sight, rail mount, vertical grip and padded stock are now\n  smooth, real-sized parts with real finishes (matte coating, bare steel, blued metal, rubber) instead of\n  1 cm voxel blocks. The voxel guns keep their voxel attachments so they still match.\n- Scope rings have proper legs and rail clamps.\n- The Longshot's preview in LOADOUT (and the HUD weapon icon) is no longer tiny and zoomed out: the\n  preview now measures realistic models correctly.\n- Combat Knife is a bit bigger.",
+  "version": "0.37",
+  "date": "2026-11-13",
+  "notes": "- New perk: Quick Fix (the light yellow machine, on every map). Solo: when you'd die, you get back\n  up once at full health with 2 seconds to get clear (the perk is used up). Co-op: you revive teammates\n  50% faster. Either way you heal sooner after a hit (1.6 s instead of 3.5 s) and faster.\n- Gunsmith screen (LOADOUT) redone: the slots are tabs that show what's fitted. Every attachment and\n  camo is a card with its stat changes in green and red (+15% Damage, -20% Recoil...), camo cards show a\n  swatch of the pattern, and locked ones show what they need with a progress bar (headshots for gun camos).\n  Hover a card to try it on: the gun preview and the stats change before you pick it.\n- Grenades: hold G (LB on a controller) to pull the pin and cook it. Your hand comes up with the\n  grenade, the fuse ticks faster as it runs down, and when you let go you wind up and throw it overhand\n  with whatever fuse is left, so a cooked grenade goes off right as it lands. Hold it past 2.5 seconds\n  and it goes off in your hand.\n- Melee weapons stay in view: while you hold a melee weapon (3), it's out in front of you, low on the\n  right and angled up, instead of resting off screen over your shoulder. It sways a little, and the swing\n  eases out of that pose.\n- Fixes: the Longshot's bolt no longer turns sideways and sticks out of the gun; the Fire Axe's blade\n  now faces the way you chop (it was on backwards).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_windows.zip.part1"
       ],
-      "size": 161340089,
-      "sha256": "499d2c06743cde46edc119cd55e50e8e2610e8ffb37f2b8c6a6b4f41dc169ca1",
-      "file": "K7Lockdown_v0.36_windows.zip"
+      "size": 161353482,
+      "sha256": "88f585f533c5e32535284f05d92ab6c60f12ca9c2c3f6904026644614d208ffc",
+      "file": "K7Lockdown_v0.37_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.36/K7Lockdown_v0.36_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_linux.zip.part1"
       ],
-      "size": 152813304,
-      "sha256": "396d67185473bba57d2d4d62203c8d49242e4f8cf1b60d60bd1b0795f9719886",
-      "file": "K7Lockdown_v0.36_linux.zip"
+      "size": 152823484,
+      "sha256": "ebf97ac07a03c1d259194d0d7835399d61191d2fffc854ba5e2b7b42595a6d96",
+      "file": "K7Lockdown_v0.37_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "d90c5bd771eb927acf9246f0e7a6eaae0255efe1bf3b5390c865f74eb344daa6",
-  "sha256_linux": "3fc51ea76a810ce85fa1602c4bf981f6040f03266cf09d71c465126e31953396"
+  "sha256_windows": "c4abad26daacd3cbce15bba27b743431d369cfc341ad6379c030d4287ca703c5",
+  "sha256_linux": "0299745059c4823f30a47ae71bbc42125910437c49568dcfda0826f1bef5a1bd"
 }
