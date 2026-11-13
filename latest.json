@@ -1,31 +1,31 @@
 {
-  "version": "0.44",
+  "version": "0.45",
   "date": "2026-11-13",
-  "notes": "- White props fixed: the pews, benches, park benches, trash cans, hydrants, barrels, crates, cabinets\n  and other realistic props that showed up plain white (on the Outskirts and elsewhere; the \"tiny white\n  chairs\") have their textures back. The models had been imported before their textures were ready and\n  kept blank materials; the build now re-imports them after the textures every time.\n- Longshot reload: it now has a detachable box magazine that comes out and goes back in when you reload\n  (the real model's magazine was part of the stock, so nothing moved).\n- Grenades with a melee weapon out: holding G puts the melee weapon away for the throw, and it comes\n  back out afterwards.",
+  "notes": "- Slide: while sprinting, press crouch (Ctrl, C, or B on a controller) to drop into a smooth slide. You\n  keep your momentum with a little boost, can steer a bit and shoot from the hip, and slow down over about\n  a second before ending up crouched. The camera drops low and leans into it, with a scraping sound.\n- Slide jump: jump during a slide to pop up and keep the speed.\n- A short cooldown stops slides being chained back to back.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.44/K7Lockdown_v0.44_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.44/K7Lockdown_v0.44_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_windows.zip.part1"
       ],
-      "size": 161388227,
-      "sha256": "0f28463bd71976c9eaf50012764c93a383c5f31ab75e99ffe8fb00bddac177ae",
-      "file": "K7Lockdown_v0.44_windows.zip"
+      "size": 161388268,
+      "sha256": "263cddf01f103886ffffb53bb4f08de50c581a9a1a1db2a262e135d0b067e49e",
+      "file": "K7Lockdown_v0.45_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.44/K7Lockdown_v0.44_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.44/K7Lockdown_v0.44_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_linux.zip.part1"
       ],
-      "size": 152858163,
-      "sha256": "1c540a283904d093977941000af112bdbe2bbd2a93213b9aa20d84ae0bd162e4",
-      "file": "K7Lockdown_v0.44_linux.zip"
+      "size": 152858746,
+      "sha256": "4042f62b550e57bf15ec4dd6975b44de4932634f42c5fe0657ebd24b47e7e71d",
+      "file": "K7Lockdown_v0.45_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "5f0513d09e2a9052fc57f1d07f6b72516c40be65d608c8a77338f9698f65a95b",
-  "sha256_linux": "69156321b8a6d563a97d6fef246632413c376d4a5ced28278c1760c0bd175ee1"
+  "sha256_windows": "dd3a9964c9b2436e15c147573d9047bfb494f22a97ddb293016e19404a29eb9d",
+  "sha256_linux": "2728e7a923666d5069a9c432fa804f77b37bd985bfe64a80177fdd9a9e98f210"
 }
