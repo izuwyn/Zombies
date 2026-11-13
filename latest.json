@@ -1,31 +1,31 @@
 {
-  "version": "0.39",
+  "version": "0.40",
   "date": "2026-11-13",
-  "notes": "- Headshots count properly: a bullet that touches the head hitbox is now always a headshot. Before,\n  hits near the edge or top of the head were measured as body shots, so they did a third of the damage\n  (that's why the Longshot needed two \"headshots\" on round 4). This applies to every gun.\n- Longshot buffed: 300 damage (was 200), x4 for headshots (was x3), fires a little faster, and it\n  keeps full damage through every zombie it punches through. One-shots to the head up to about round 12,\n  and to the body in the early rounds.",
+  "notes": "- Prison cell toilets were chunky 5 cm voxel blocks that looked like tiny white chairs. They're now a\n  proper stainless steel toilet and sink unit (pedestal, round bowl with a seat rim and water, back unit\n  with a sink, tap and push buttons) at real size.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.39/K7Lockdown_v0.39_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.39/K7Lockdown_v0.39_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_windows.zip.part1"
       ],
-      "size": 161352309,
-      "sha256": "227a38119a1274c6de8385e665991009555b9d07363fdfc6345e3d200b29ad6a",
-      "file": "K7Lockdown_v0.39_windows.zip"
+      "size": 161353590,
+      "sha256": "5af1638882b914986bffb23cf9157a611cd397719989fc02553aba9e781e596f",
+      "file": "K7Lockdown_v0.40_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.39/K7Lockdown_v0.39_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.39/K7Lockdown_v0.39_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_linux.zip.part1"
       ],
-      "size": 152824210,
-      "sha256": "72b1bd23c65bd7f82c38efbeccbc4da1d6fc910fba98e78f0b0a22a91c669b70",
-      "file": "K7Lockdown_v0.39_linux.zip"
+      "size": 152827112,
+      "sha256": "d70c15e8d810cc701db2c2987192285e6f760da93318b29ece6529e5db1c1841",
+      "file": "K7Lockdown_v0.40_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "f1a23a16f1553a003c61db679c5dcf3e8a5fbf9c7d045aa676565862e6d58dbc",
-  "sha256_linux": "764b925afafbf078aaa9ec02960b331f074a3e05fd6d2759c0a05d2fdc96518c"
+  "sha256_windows": "e0e72529180decf76bae4c4dea1835f49a59378205cb68ff5ac1fc2da86e8269",
+  "sha256_linux": "ba7147d71c057723b1f855d98f9a978f82cdd11c2effc9ebf088e5bf1ca6e92d"
 }
