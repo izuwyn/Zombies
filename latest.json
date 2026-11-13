@@ -1,31 +1,31 @@
 {
-  "version": "0.45",
+  "version": "0.46",
   "date": "2026-11-13",
-  "notes": "- Slide: while sprinting, press crouch (Ctrl, C, or B on a controller) to drop into a smooth slide. You\n  keep your momentum with a little boost, can steer a bit and shoot from the hip, and slow down over about\n  a second before ending up crouched. The camera drops low and leans into it, with a scraping sound.\n- Slide jump: jump during a slide to pop up and keep the speed.\n- A short cooldown stops slides being chained back to back.",
+  "notes": "- Sir Chonk has a ranged attack: every few seconds, when you're 5 to 22 metres away and in his line of\n  sight, he snarls and lobs a fish at you in an arc (leading you a little if you're running). It hits\n  for 28 and splats. Keep moving or get behind something.\n- Upgrading a melee weapon: while it's in the upgrade machine you no longer keep holding it (or a\n  knife): no melee until you take it back.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.46/K7Lockdown_v0.46_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.46/K7Lockdown_v0.46_windows.zip.part1"
       ],
-      "size": 161388268,
-      "sha256": "263cddf01f103886ffffb53bb4f08de50c581a9a1a1db2a262e135d0b067e49e",
-      "file": "K7Lockdown_v0.45_windows.zip"
+      "size": 161391611,
+      "sha256": "40b8bc60e30774e46fc14de50a2426681840a1056d923d1b10fede997e2f0bcd",
+      "file": "K7Lockdown_v0.46_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.45/K7Lockdown_v0.45_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.46/K7Lockdown_v0.46_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.46/K7Lockdown_v0.46_linux.zip.part1"
       ],
-      "size": 152858746,
-      "sha256": "4042f62b550e57bf15ec4dd6975b44de4932634f42c5fe0657ebd24b47e7e71d",
-      "file": "K7Lockdown_v0.45_linux.zip"
+      "size": 152864010,
+      "sha256": "9a18fab4ffb96a60a950710ae5a618ed483b69e266b9eb236c74216e07cfd964",
+      "file": "K7Lockdown_v0.46_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "dd3a9964c9b2436e15c147573d9047bfb494f22a97ddb293016e19404a29eb9d",
-  "sha256_linux": "2728e7a923666d5069a9c432fa804f77b37bd985bfe64a80177fdd9a9e98f210"
+  "sha256_windows": "92ab6081b12588b3c36470a4627a872511f52e6d5882b7edcc40a56186c38624",
+  "sha256_linux": "ecdcfc0c8a67ad6380d78c3e6ca99dd466f8767b835fdd6d489e3bea00fe0dd9"
 }
