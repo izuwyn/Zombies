@@ -1,31 +1,31 @@
 {
-  "version": "0.49",
+  "version": "0.50",
   "date": "2026-11-13",
-  "notes": "- Prison windows are barred, not boarded: zombies wrench the steel bars out of the rails one by one (they bend,\n  come free and drop outside, with a metal screech), and you repair the window by sliding the bars back in (with\n  a clank). Same rules as boards: points for repairing, Lockdown refills them, synced in co-op. The middle bars go\n  first, so the gap opens in the middle. Fence gaps in the yards keep their boards.\n- Fixed a board (or bar) torn off and put straight back sometimes staying invisible.",
+  "notes": "- St. Mercy Hospital has a main quest, Patient Zero (works in co-op too):\n  1. Find the 3 patient files hidden around the hospital (each tells part of Dr. Hale's story).\n  2. The power is out: throw the 3 breakers (grey cabinets with a red lamp) within 45 seconds of each other.\n     Every breaker draws a horde, and if the time runs out they trip and you start again.\n  3. The cure synthesizer in the Operating Theatre wakes up and needs bile from 3 Bloaters. They start\n     turning up; kill them anywhere.\n  4. Patient Zero, a glowing green Sir Chonk, breaks in. Kill it to finish the cure.\n  The reward: 5,000 XP, 2,000 points each, and the exclusive Antidote camo (toxic green veins) for every\n  weapon. The game carries on afterwards. \"Patient Zero cured\" is counted on the STATS screen.\n- New muzzle flash: three flame petals along the barrel and a star burst at the front, additive with a hot\n  white core, twisted and resized every shot so no two look the same. Shotguns and heavy rifles flash bigger,\n  suppressed guns barely at all, wonder weapons blue. The muzzle light flickers too.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.49/K7Lockdown_v0.49_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.49/K7Lockdown_v0.49_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.50/K7Lockdown_v0.50_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.50/K7Lockdown_v0.50_windows.zip.part1"
       ],
-      "size": 161415061,
-      "sha256": "b201a25d09143665203ab878f4348a3aad1caac752992049413e1bfb81a2d9b6",
-      "file": "K7Lockdown_v0.49_windows.zip"
+      "size": 161427840,
+      "sha256": "da747f6207ffe5fbd35cfe814bd9c311a8b04642870f602abe7afce626db7f32",
+      "file": "K7Lockdown_v0.50_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.49/K7Lockdown_v0.49_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.49/K7Lockdown_v0.49_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.50/K7Lockdown_v0.50_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.50/K7Lockdown_v0.50_linux.zip.part1"
       ],
-      "size": 152887331,
-      "sha256": "0758a128fc4d1a2d62afb1d85876e098b87470319613b0cdba3f5b22577ffa18",
-      "file": "K7Lockdown_v0.49_linux.zip"
+      "size": 152899354,
+      "sha256": "609fa9a82bd8a9f103cc232b27998945ac14bcc2b8449a6e9b2c4889dd7afab1",
+      "file": "K7Lockdown_v0.50_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "9b038f8eca7361823570cbae5bac37dfe0f7e137ac47919bc03a4614fb4b08ed",
-  "sha256_linux": "2831b4139e7715ed4e49d3d319c9d8b7d0c884349f19f133994c11d32997f960"
+  "sha256_windows": "55ba3c1259de637fad5e09e75a535e665c8056d703eaffad7737ac414b877a3d",
+  "sha256_linux": "a42241d48188be72f0a9cf108de9fcec2f0c223a29ab0d135e3fd74aa5728dfc"
 }
