@@ -1,31 +1,31 @@
 {
-  "version": "0.53",
+  "version": "0.54",
   "date": "2026-11-13",
-  "notes": "- Every prop checked against real-world size. The ones that were still short or narrow are fixed: crate\n  stacks and supply crates (about half height before), the pickup truck and sedan, tyre stacks, the laundry\n  cart, the monitor desk, wardrobes, bookcases, pharmacy and archive shelves, and beds.\n- All props are 12% bigger (and collide at that size): the buildings are built larger than real life (4 m\n  walls, 3 m doors), so life-size furniture looked tiny next to them. Every map still fits all its perk\n  machines, wall buys and the box.",
+  "notes": "- Staircases no longer block doorways: stairs up to walkways and upper floors are placed clear of doorways\n  (and windows where possible): they slide along the wall, switch ends, or the upper floor goes on the other side\n  of the room. If there's truly no room, that room has no upper floor rather than a blocked door. Checked on 48\n  generated maps: 0 doorways with stairs in them (there were 70).\n- The gym bleachers go against a wall without a doorway behind them.\n- Fixed: perk prices after Quick Fix (solo). When Quick Fix got you back up, the machines showed the cheaper\n  price but still charged the old, higher one. Now the price really drops by a step, and every machine's label\n  updates straight away.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.53/K7Lockdown_v0.53_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.53/K7Lockdown_v0.53_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_windows.zip.part1"
       ],
-      "size": 161428150,
-      "sha256": "4da613c0f1d2e3701835533c7e7a09933c0021749abfb843f3cfc47689a9457b",
-      "file": "K7Lockdown_v0.53_windows.zip"
+      "size": 161429045,
+      "sha256": "7b79bd48b805fd4487854884ece98d60a3d98f34e8ca87b69a847fb9b2d6c764",
+      "file": "K7Lockdown_v0.54_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.53/K7Lockdown_v0.53_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.53/K7Lockdown_v0.53_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_linux.zip.part1"
       ],
-      "size": 152900718,
-      "sha256": "6b2e7da2fb4a34c418c8edbc0f54909a5337f160d6b082afcc4ad77268c7ad8c",
-      "file": "K7Lockdown_v0.53_linux.zip"
+      "size": 152902801,
+      "sha256": "8cdf60d11bfab11d80b9e519ea106417fdd50827ef3d5594f8830da3e5eb17dd",
+      "file": "K7Lockdown_v0.54_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "e944c5c161d4241a80f17767b035e364f301823cd7ee39550b7bb331455ac06e",
-  "sha256_linux": "4693fcfcb36f1923a5dd476dc8df9a47988aed4b9a0272a0495325988c435d98"
+  "sha256_windows": "87aff2461f1e812afb2d10543cb63234e5ca844fd5da569c656da30ba0d70b3f",
+  "sha256_linux": "4540e4a5175da5a18132f2e12f5c651f69158e9c72be374fbc21e0214de64e13"
 }
