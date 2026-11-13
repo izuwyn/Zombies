@@ -1,31 +1,31 @@
 {
-  "version": "0.40",
+  "version": "0.41",
   "date": "2026-11-13",
-  "notes": "- Prison cell toilets were chunky 5 cm voxel blocks that looked like tiny white chairs. They're now a\n  proper stainless steel toilet and sink unit (pedestal, round bowl with a seat rim and water, back unit\n  with a sink, tap and push buttons) at real size.",
+  "notes": "- 13 guns rebuilt as realistic models (smooth, real-sized parts with real finishes: polymer, blued and\n  bare steel, walnut, brass, rubber) instead of 1 cm voxels: Rattler SMG, Vanguard AR, Boomstick, Grinder\n  LMG, Tri-Burst Carbine, Hornet PDW, Stalker 12, Twin Barrels, Warden DMR, Mag-50, Buzzsaw, Thumper and\n  Bolt Thrower. Stocks, grips and the AR's curved magazine have proper shaped outlines (drop stocks,\n  finger grooves, banana mag), with rails, vents, M-LOK slots, bipods, ammo belts and so on.\n- Everything works as before: the same moving parts (mags, charging handles, pumps, bolts, the Twin\n  Barrels and Thumper breaking open, the Buzzsaw's spinning barrels), hand positions, iron sights and aim\n  line, camos and the realistic attachments.\n- Still voxel for now: the Hand Cannon (its revolver cylinder animation) and the wonder weapons (Arc\n  Zapper, Cryo Freezer, Seal Launcher).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.41/K7Lockdown_v0.41_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.41/K7Lockdown_v0.41_windows.zip.part1"
       ],
-      "size": 161353590,
-      "sha256": "5af1638882b914986bffb23cf9157a611cd397719989fc02553aba9e781e596f",
-      "file": "K7Lockdown_v0.40_windows.zip"
+      "size": 161381584,
+      "sha256": "0d49baf158a724faca7f767de6f9dd31fa6b1e90c7bf41b18f17555c82c659b8",
+      "file": "K7Lockdown_v0.41_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.40/K7Lockdown_v0.40_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.41/K7Lockdown_v0.41_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.41/K7Lockdown_v0.41_linux.zip.part1"
       ],
-      "size": 152827112,
-      "sha256": "d70c15e8d810cc701db2c2987192285e6f760da93318b29ece6529e5db1c1841",
-      "file": "K7Lockdown_v0.40_linux.zip"
+      "size": 152854467,
+      "sha256": "7d58037efd614b387f7c7a3ce50de83a6790e7b517db6ac283357f60f4ec5092",
+      "file": "K7Lockdown_v0.41_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "e0e72529180decf76bae4c4dea1835f49a59378205cb68ff5ac1fc2da86e8269",
-  "sha256_linux": "ba7147d71c057723b1f855d98f9a978f82cdd11c2effc9ebf088e5bf1ca6e92d"
+  "sha256_windows": "99607763243246546e31a8faff586788aa601c7a06bb752b58bd27518c9f0349",
+  "sha256_linux": "ff6ad656ff6512fb2a738ebfb21c2e3b6dea3b03ac18ab6d1c912ac2deb64f47"
 }
