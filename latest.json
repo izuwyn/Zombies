@@ -1,31 +1,31 @@
 {
-  "version": "0.37",
+  "version": "0.38",
   "date": "2026-11-13",
-  "notes": "- New perk: Quick Fix (the light yellow machine, on every map). Solo: when you'd die, you get back\n  up once at full health with 2 seconds to get clear (the perk is used up). Co-op: you revive teammates\n  50% faster. Either way you heal sooner after a hit (1.6 s instead of 3.5 s) and faster.\n- Gunsmith screen (LOADOUT) redone: the slots are tabs that show what's fitted. Every attachment and\n  camo is a card with its stat changes in green and red (+15% Damage, -20% Recoil...), camo cards show a\n  swatch of the pattern, and locked ones show what they need with a progress bar (headshots for gun camos).\n  Hover a card to try it on: the gun preview and the stats change before you pick it.\n- Grenades: hold G (LB on a controller) to pull the pin and cook it. Your hand comes up with the\n  grenade, the fuse ticks faster as it runs down, and when you let go you wind up and throw it overhand\n  with whatever fuse is left, so a cooked grenade goes off right as it lands. Hold it past 2.5 seconds\n  and it goes off in your hand.\n- Melee weapons stay in view: while you hold a melee weapon (3), it's out in front of you, low on the\n  right and angled up, instead of resting off screen over your shoulder. It sways a little, and the swing\n  eases out of that pose.\n- Fixes: the Longshot's bolt no longer turns sideways and sticks out of the gun; the Fire Axe's blade\n  now faces the way you chop (it was on backwards).",
+  "notes": "- No more flickering above doors: the yellow hazard stripe over each door (and the price and the room\n  sign) sat almost exactly on the walls' paint bands, so the two surfaces fought and flickered. They now\n  stand clear of the wall.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.38/K7Lockdown_v0.38_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.38/K7Lockdown_v0.38_windows.zip.part1"
       ],
-      "size": 161353482,
-      "sha256": "88f585f533c5e32535284f05d92ab6c60f12ca9c2c3f6904026644614d208ffc",
-      "file": "K7Lockdown_v0.37_windows.zip"
+      "size": 161355152,
+      "sha256": "7057fcf229da63368db15435d50f7209dd49799c54fa5ae7d79ee7b3fc9bb46c",
+      "file": "K7Lockdown_v0.38_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.37/K7Lockdown_v0.37_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.38/K7Lockdown_v0.38_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.38/K7Lockdown_v0.38_linux.zip.part1"
       ],
-      "size": 152823484,
-      "sha256": "ebf97ac07a03c1d259194d0d7835399d61191d2fffc854ba5e2b7b42595a6d96",
-      "file": "K7Lockdown_v0.37_linux.zip"
+      "size": 152823885,
+      "sha256": "bcf0f6101c97f463dddd2b6f08211c461b442a566c47b06808d8cc47a41cbfb7",
+      "file": "K7Lockdown_v0.38_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "c4abad26daacd3cbce15bba27b743431d369cfc341ad6379c030d4287ca703c5",
-  "sha256_linux": "0299745059c4823f30a47ae71bbc42125910437c49568dcfda0826f1bef5a1bd"
+  "sha256_windows": "da11fd27183940f14a0c2a73cd4fbc102c0d369ed802265c8b918fd1379c6e9c",
+  "sha256_linux": "4b0b77dff3a942e7fb9a65032b5ea355547ffe27ee51eab43919c970144ea8bc"
 }
