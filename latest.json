@@ -1,31 +1,31 @@
 {
-  "version": "0.65",
+  "version": "0.66",
   "date": "2026-11-14",
-  "notes": "- The main menu is cleaned up: the title, buttons and tip line up on one edge, LOCKDOWN sits right under K7\n  with a red rule, PLAY is the big first button, and Settings, Controls, Check for Updates and Quit are a small\n  group of their own under a divider. A darker haze behind the menu keeps it readable over the scene, and the\n  tip and version sit along the bottom edge.",
+  "notes": "- The Prison has a main quest: Lockdown Protocol.\n  1. Find the control panel (in the Guard Station when there is one) and inspect it: Warden Cole pulled\n     the fuses and sealed himself in his vault.\n  2. Riot guards start coming for you. Each one you put down drops a glowing fuse: pick up all 3 (one\n     shot outside a window drops it just inside).\n  3. Fit the fuses and the alarm goes off. Hold the control room for 60 seconds while the vault\n     unlocks: the timer only runs while someone's in the room, and more zombies keep coming.\n  4. The vault opens and Warden Cole comes out (a boss with a red glow). Put him down.\n  - Reward: +5000 XP, 2000 points for everyone, the Lockdown Lifted achievement (and calling card)\n    and the Contraband camo (orange and black stripes) for every gun. And a piece of the K-7 story.\n- Quest camos are listed with the quest that unlocks them (Antidote: St. Mercy; Contraband: The Prison).\n- A new stat: Warden's vault opened.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.66/K7Lockdown_v0.66_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.66/K7Lockdown_v0.66_windows.zip.part1"
       ],
-      "size": 166760322,
-      "sha256": "80a35cd85067baf16636ce2be4bb26b1160ec247c0dd0ffc73752ca6524d4710",
-      "file": "K7Lockdown_v0.65_windows.zip"
+      "size": 166772504,
+      "sha256": "7945c2e05623ef9a3d563b87e346dd05b41f8aef82f8317ef202f48988d443fb",
+      "file": "K7Lockdown_v0.66_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.66/K7Lockdown_v0.66_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.66/K7Lockdown_v0.66_linux.zip.part1"
       ],
-      "size": 158231215,
-      "sha256": "e20c3b02105cf7cae61144e9650f1ae579fac888ee24047b35ccb58e53166f38",
-      "file": "K7Lockdown_v0.65_linux.zip"
+      "size": 158242315,
+      "sha256": "bb8848bb1c4d92a402027d43a32003d312e25bfdc54e101d9b97f4166321ee8a",
+      "file": "K7Lockdown_v0.66_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "e86335fb262d9cc83a1a8c5b486a4f5059a4eab3a81fa99366ec0d43ca15b726",
-  "sha256_linux": "0184f0455257ed815a215aa1352a59a5bc602de1de545689830f891b507af54e"
+  "sha256_windows": "162b0bdba532278f98a371583449cc2d2ba4adc230b1e15305aab57d56ee8f0f",
+  "sha256_linux": "157917a19380ce1715a50a63bef579bf9a60aa4ac094d3f30a115b954b3b025b"
 }
