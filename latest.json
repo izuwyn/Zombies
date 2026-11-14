@@ -1,31 +1,31 @@
 {
-  "version": "0.67",
+  "version": "0.68",
   "date": "2026-11-14",
-  "notes": "- Fixed: you couldn't press anything in the menus with a controller (you could move around them, but A did\n  nothing). A now presses the highlighted button and B goes back, in every menu and the pause menu.\n  While you're playing, B is still crouch / slide: it only closes the pause menu, it never opens it (Start does).",
+  "notes": "- Choosing a map is now a row of cards instead of a list of names. Each one has a picture of the map, its\n  own colour, a line about the place, your best round, games and kills there, and its quest (with what\n  to do next, or a \"QUEST DONE\" once you've finished it). Locked maps are greyed out and say how to unlock them.\n  Cards light up and lift when you hover over them or move to them with a controller.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.67/K7Lockdown_v0.67_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.67/K7Lockdown_v0.67_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.68/K7Lockdown_v0.68_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.68/K7Lockdown_v0.68_windows.zip.part1"
       ],
-      "size": 166770581,
-      "sha256": "c500143c05707e505322ac1b79d49a88f6344c8d7e9d871f7300a5605a7b2983",
-      "file": "K7Lockdown_v0.67_windows.zip"
+      "size": 167919047,
+      "sha256": "d90f4a4163c78abd58d6a3dc7460e55be3be7c5d0fcdc3b7ce7eb42ca2b5f07f",
+      "file": "K7Lockdown_v0.68_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.67/K7Lockdown_v0.67_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.67/K7Lockdown_v0.67_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.68/K7Lockdown_v0.68_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.68/K7Lockdown_v0.68_linux.zip.part1"
       ],
-      "size": 158243513,
-      "sha256": "3707d6883cf29ebe5da3274f60b119fd4b27ef09ed714d802329e156092c7596",
-      "file": "K7Lockdown_v0.67_linux.zip"
+      "size": 159390106,
+      "sha256": "16bc47b2f6d9651f3358885d0a9dba153c593001c881326e19096cc966d62440",
+      "file": "K7Lockdown_v0.68_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "9a819b53504bda0a58a6a55a0b4d4145b909f0c08ce8cff9c524212993fd2d11",
-  "sha256_linux": "8afde785984da2f93b9ba99b95d70ef14068a50d57f9008e8c4734da11c201d1"
+  "sha256_windows": "95970b6c2e3ca65e7e63eb972d5afef05f3d281ba009106ee42e03f97e62ee27",
+  "sha256_linux": "566dfd2a5f81068935bbaaadee09a95e782075fcb093fbae259aa1ee82597cbc"
 }
