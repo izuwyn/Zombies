@@ -1,31 +1,31 @@
 {
-  "version": "0.59",
+  "version": "0.60",
   "date": "2026-11-14",
-  "notes": "- Camo progress now slides out to the right of the pause menu as its own panel: each weapon you're holding,\n  its next camo (in that camo's colour) and a progress bar with headshots or weapon level. The pause menu itself is\n  shorter again.",
+  "notes": "- Rolling hills: the Outskirts' parks and overgrown backyards now have real terrain, smooth mounds up to\n  about 2.5 m that you can walk, slide and fight on (zombies climb them too). The ground levels out near walls,\n  doorways, gates and windows, under the park gazebo and round the keycard spots and the bunker hatch, so\n  everything that joins another area or hangs on a wall lines up as before. Benches, trees, bins and the rest\n  sit on the slopes. The hills come from the map seed, so co-op players get the same ones.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_windows.zip.part1"
       ],
-      "size": 161451391,
-      "sha256": "e3b441d6f78adaf9c9a73fbfc97725cb0b6e23aaac3dff8f26adaba60880cded",
-      "file": "K7Lockdown_v0.59_windows.zip"
+      "size": 161455165,
+      "sha256": "446361df628b3b037ec29c430c9b0b18dbcc3f385ae8df8d7bad65edc1db586e",
+      "file": "K7Lockdown_v0.60_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_linux.zip.part1"
       ],
-      "size": 152925645,
-      "sha256": "cf4377ac5782351085b1c357387086058e60e9ff15ab513ebac62a491ef28231",
-      "file": "K7Lockdown_v0.59_linux.zip"
+      "size": 152928755,
+      "sha256": "2e85496bd66bfe39f992465a8204ad1c90d416b835665c3f0140e75c630e3450",
+      "file": "K7Lockdown_v0.60_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "2a7795b6148d2ac4563fa635a33f05f6bb419c39da41133edbe60cf53fad81e0",
-  "sha256_linux": "0ce18a8128bf117e460474fb9d6f37a793cd0963c088e07442ecd336b98af99c"
+  "sha256_windows": "7265ac631cb296abec931b935cf90b486278e0ffe41d133af7a1f177543c4d9f",
+  "sha256_linux": "92967d1f05c489a0d093259a665d47b5703aa43aaccfff474c663ab6fc134f37"
 }
