@@ -1,31 +1,31 @@
 {
-  "version": "0.57",
+  "version": "0.58",
   "date": "2026-11-14",
-  "notes": "- Boosts: one-use bonuses you take into a game. Open BOOSTS in the main menu and pick up to 2 for your\n  next game; they're used up when it starts (picks stay selected while you have more of that boost).\n  - Head Start: start with 1,500 extra points.\n  - On the House: your first perk is free.\n  - Armory: start with a Vanguard AR as well as your pistol.\n  - Pocket Frags: start with 2 extra grenades.\n  - Lucky Box: your first Mystery Box spin is free.\n  - Overtime: +25% XP from the game.\n- Earning them: one random boost for every level you gain, every challenge and every daily challenge you\n  complete. You get 3 to start with. The end-of-game screen shows the boosts you earned.\n- In co-op a boost only helps the player who brought it.\n- The perk machine and Mystery Box prompts say FREE while you have On the House / Lucky Box ready.",
+  "notes": "- 14 achievements, each worth 1,000 XP (STATS > ACHIEVEMENTS):\n  No Perks Needed (round 10 without buying a perk), Pistol Pete (round 6 with only your pistol), Untouchable (a\n  whole round from round 5 without taking damage), Hoarder (5 perks at once), Fully Loaded (both guns upgraded),\n  Boot Camp (slide-kick kill), Grenadier (5 kills with one explosion), Supply Run (open a supply drop), Lights Out\n  (a whole blackout without going down), Headcase (100 headshots in a game), Big Spender (spend 50,000 points in a\n  game), The Cure (finish Patient Zero), Chonk Puncher (finish Sir Chonk with melee) and Prestigious (Prestige 1).\n- Calling cards: every achievement unlocks a calling card of the same name and colour (CUSTOMIZE > CALLING\n  CARD). It shows on your level card in the menu, next to your name in the co-op lobby and on the scoreboard.\n- Camo progress in the pause menu: for each weapon you're holding (both guns and your melee), the next camo\n  it's working towards and how far along you are (headshots, or weapon level for melee and explosive weapons).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_windows.zip.part1"
       ],
-      "size": 161445834,
-      "sha256": "bb0e3dc4787c4d9991756b982ac874078108a77e3a195ece61399f3bd848e062",
-      "file": "K7Lockdown_v0.57_windows.zip"
+      "size": 161450846,
+      "sha256": "4c963ac25c21b34444ec729f03a4e3dcc607cc5a0b05ce8e98f2ace5f252031e",
+      "file": "K7Lockdown_v0.58_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_linux.zip.part1"
       ],
-      "size": 152914573,
-      "sha256": "bf36b5f15b2f406bbaca3d70975601fa200f09cf8095e135e8e369a4d09d9476",
-      "file": "K7Lockdown_v0.57_linux.zip"
+      "size": 152923077,
+      "sha256": "fbb0e0dd94830df816a8ecef2b9b20b6c0028a8597915d65f1bf900e9e55ee9b",
+      "file": "K7Lockdown_v0.58_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "52e1399dff5dbe1642a2ca3e19bb2c493baff6bb642918039df2a4eeeb8591ad",
-  "sha256_linux": "edbed6548a2bd2803d71327f5f38164af76ccb4b0107f44ecc02ad033eb88cc1"
+  "sha256_windows": "6ffa3601133e0c97123dec2f6bbbdeaf6d92a54cb27ce8f098b2130068e64120",
+  "sha256_linux": "b3b04b8e91059d44f768fbb001bf405780ed8090896ebb93f3a3035fca441176"
 }
