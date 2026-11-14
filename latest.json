@@ -1,31 +1,31 @@
 {
-  "version": "0.61",
+  "version": "0.62",
   "date": "2026-11-14",
-  "notes": "- The Laboratory has a second floor: a tall stairwell off one side of the lab leads up a full flight of\n  stairs (6.4 m) to an upper wing of 4 more lab rooms (bio labs, cryo storage, server rooms, archives,\n  incubation, security, the director's office). Doors up there open with points like downstairs, and wall buys,\n  perk machines, the box and intel files can all turn up on the upper floor.\n- No windows upstairs: the only way in is the stairwell, so zombies have to come up the stairs after you.\n  A good place to hold out, as long as nothing comes up behind you.\n- Behind the scenes, every room now has a floor height, ready for the caves under the Laboratory next.",
+  "notes": "- Caves: a second stairwell in the Laboratory leads down a full flight (6.4 m) into a cave system of 4 more\n  areas: Caverns, Cave Tunnels and a Flooded Grotto. Rough rock walls, ceilings and floors, boulders,\n  stalagmites and stalactites, outcrops breaking up the walls, puddles, and glowing fungus as the only light.\n  Bring a flashlight.\n- No windows down there either: zombies have to follow you down the stairs. Wall buys, perk machines, the box and\n  intel files can turn up in the caves too.\n- Fixed (v0.61): intel files upstairs had their pedestal buried in the floor below, and the upper rooms'\n  walls were only tiled near the floor. Both line up properly now.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_windows.zip.part1"
       ],
-      "size": 161461364,
-      "sha256": "6054f003fc00cf15b652c6e918a365c4323171f91e8c9f621ce5be46a03b846a",
-      "file": "K7Lockdown_v0.61_windows.zip"
+      "size": 161463790,
+      "sha256": "6d53bd30005dd421f03001ec451ed76d5cab843ca466aa1bf5fadff8046a197d",
+      "file": "K7Lockdown_v0.62_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_linux.zip.part1"
       ],
-      "size": 152933048,
-      "sha256": "293edf5c551056d8f46f1e02a5bb8fb312013b7ae4c68095313c6cc977211edc",
-      "file": "K7Lockdown_v0.61_linux.zip"
+      "size": 152938298,
+      "sha256": "88da94b3bc064913239b87c55b922e910525bc4b70e1882de574810fa7fb3f82",
+      "file": "K7Lockdown_v0.62_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "b15407c7505623d5a268196a593b242862eda42d5093416db9a88b9756826dd6",
-  "sha256_linux": "cbb071e33006c2108929154f5fac006f5599213161451893bb26a4ecfaecda7c"
+  "sha256_windows": "9273a54a428b8cb7b63c527c936a8f28e1f0b58c1dc21719b4c1bf403f8e4a59",
+  "sha256_linux": "7faf3f81c410cbb42cfcaba0d89336bd14aa1fa76203d8635e0cad229751cf19"
 }
