@@ -1,31 +1,31 @@
 {
-  "version": "0.58",
+  "version": "0.59",
   "date": "2026-11-14",
-  "notes": "- 14 achievements, each worth 1,000 XP (STATS > ACHIEVEMENTS):\n  No Perks Needed (round 10 without buying a perk), Pistol Pete (round 6 with only your pistol), Untouchable (a\n  whole round from round 5 without taking damage), Hoarder (5 perks at once), Fully Loaded (both guns upgraded),\n  Boot Camp (slide-kick kill), Grenadier (5 kills with one explosion), Supply Run (open a supply drop), Lights Out\n  (a whole blackout without going down), Headcase (100 headshots in a game), Big Spender (spend 50,000 points in a\n  game), The Cure (finish Patient Zero), Chonk Puncher (finish Sir Chonk with melee) and Prestigious (Prestige 1).\n- Calling cards: every achievement unlocks a calling card of the same name and colour (CUSTOMIZE > CALLING\n  CARD). It shows on your level card in the menu, next to your name in the co-op lobby and on the scoreboard.\n- Camo progress in the pause menu: for each weapon you're holding (both guns and your melee), the next camo\n  it's working towards and how far along you are (headshots, or weapon level for melee and explosive weapons).",
+  "notes": "- Camo progress now slides out to the right of the pause menu as its own panel: each weapon you're holding,\n  its next camo (in that camo's colour) and a progress bar with headshots or weapon level. The pause menu itself is\n  shorter again.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_windows.zip.part1"
       ],
-      "size": 161450846,
-      "sha256": "4c963ac25c21b34444ec729f03a4e3dcc607cc5a0b05ce8e98f2ace5f252031e",
-      "file": "K7Lockdown_v0.58_windows.zip"
+      "size": 161451391,
+      "sha256": "e3b441d6f78adaf9c9a73fbfc97725cb0b6e23aaac3dff8f26adaba60880cded",
+      "file": "K7Lockdown_v0.59_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.58/K7Lockdown_v0.58_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.59/K7Lockdown_v0.59_linux.zip.part1"
       ],
-      "size": 152923077,
-      "sha256": "fbb0e0dd94830df816a8ecef2b9b20b6c0028a8597915d65f1bf900e9e55ee9b",
-      "file": "K7Lockdown_v0.58_linux.zip"
+      "size": 152925645,
+      "sha256": "cf4377ac5782351085b1c357387086058e60e9ff15ab513ebac62a491ef28231",
+      "file": "K7Lockdown_v0.59_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "6ffa3601133e0c97123dec2f6bbbdeaf6d92a54cb27ce8f098b2130068e64120",
-  "sha256_linux": "b3b04b8e91059d44f768fbb001bf405780ed8090896ebb93f3a3035fca441176"
+  "sha256_windows": "2a7795b6148d2ac4563fa635a33f05f6bb419c39da41133edbe60cf53fad81e0",
+  "sha256_linux": "0ce18a8128bf117e460474fb9d6f37a793cd0963c088e07442ecd336b98af99c"
 }
