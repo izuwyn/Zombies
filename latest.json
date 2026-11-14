@@ -1,31 +1,31 @@
 {
-  "version": "0.55",
+  "version": "0.56",
   "date": "2026-11-14",
-  "notes": "A handful of small changes that add up, rather than one big wall:\n- Tougher zombies: +55 health a round up to round 9 (was +50), then +11% a round (was +10%). Round 10: 655\n  (was 605), round 20: 1,860 (was 1,569), round 30: about 5,300 (was 4,070). Sir Chonk scales with it.\n- More of them: about 8% more zombies a round by round 10, about 10% more by round 20, and up to 26 at once\n  (was 24). They also arrive a little faster.\n- Runners come sooner: the first ones can show up in round 2, and 85% of zombies run from about round 6\n  (was round 8). Late-game runners are a touch quicker.\n- They hit harder: 38 damage a hit (was 35). Three hits still down you at 100 health, with less margin.\n- Slower healing: health starts coming back after 4 seconds (was 3.5) at 40 a second (was 45). Quick Fix's\n  faster healing is unchanged, so it's worth a little more now.",
+  "notes": "From round 4, there's a 30% chance each round (not Le Chonk rounds) that something happens 12 to 30 seconds in\n(never the same thing twice in a row, synced in co-op):\n- Blackout: the power goes out for 45 seconds: the map's lights die, the world goes dark and your flashlight\n  comes on. Perk machines and the box keep glowing.\n- Thick fog: visibility drops for 60 seconds; zombies come out of the murk.\n- Horde: a wave of extra zombies (8 + the round number) pours in fast from 3 windows on one side, and the\n  banner tells you where from.\n- Supply drop: a crate with a red flare falls from the sky into one of the open rooms, and 6 extra zombies\n  come with it. Whoever opens it gets 750 points, and it drops an ammo cache plus a random power-up (2x points,\n  Overkill, Purge or Lockdown).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_windows.zip.part1"
       ],
-      "size": 161430257,
-      "sha256": "187067ec26af216a48c0e27f7a56a96340162712a79d8ae19dff21a02ddd259a",
-      "file": "K7Lockdown_v0.55_windows.zip"
+      "size": 161435177,
+      "sha256": "9023fcdf02d83038610254e01d6f388aa15256673b843ab8b4eb3095a0e5e5af",
+      "file": "K7Lockdown_v0.56_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_linux.zip.part1"
       ],
-      "size": 152902253,
-      "sha256": "fe23d9c135d73de98720f39eb52161c937ba92419ffc150ade156d2ce0cb75e2",
-      "file": "K7Lockdown_v0.55_linux.zip"
+      "size": 152908726,
+      "sha256": "ec60b140266a3f04e2a1fbd050d9c2855ddd8b062ca3c1823f3caaf5c1583464",
+      "file": "K7Lockdown_v0.56_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "b60b3bb7fddd14904ae6cc2d0a038f514cc5a7048127da7948852b3e5733388c",
-  "sha256_linux": "49f9481bb2b4dcbdb51608efbbfe4342652a736b9c82631e9265a6b55338dd41"
+  "sha256_windows": "1798456ab7c07fa58c2031909c549a9f1efbe48f38ebe334fb29519fddbcbec5",
+  "sha256_linux": "fe20bf1fd55f508aadbc2f951b622cd124ebd2fa064e84b36dc89d5216097e4e"
 }
