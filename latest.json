@@ -1,31 +1,31 @@
 {
-  "version": "0.63",
+  "version": "0.64",
   "date": "2026-11-14",
-  "notes": "- The caves aren't blocky any more: boulders, rock outcrops, stalagmites, stalactites and the glowing fungus\n  are lumpy, rounded rock now, with a rocky lip along the floor and bulges near the ceiling. Outcrops stay off the\n  middle of each wall, where wall buys and machines hang.\n- Rubble: every wall buy, perk machine and Mystery Box in the caves sits behind a pile of rubble. Smash it\n  with melee (3 hits) to get through: it crumbles with dust and a crunch, and zombies re-path through the gap.\n- Zombies dig up out of the cave floor: while you're in the caves, zombies claw their way up out of the\n  ground nearby (never right on top of you) with a burst of dirt, instead of only coming down the stairs.\n- Family Home bedrooms: a proper master bedroom (bed centred on the wall with mattress, blanket and pillows,\n  two nightstands with lamps, a rug, a picture over the headboard, wardrobe and a dresser with a mirror), and a\n  second bedroom (bed along the wall, desk with a lamp, bookcase, rug and a poster).\n- Only one Ammo Cache at a time: a second one won't drop while one is still on the ground.\n- Fixed: you couldn't stay on the Laboratory's upper floor (the game thought you were somewhere you\n  shouldn't be and put you back downstairs), and zombies wouldn't go after players in the caves.\n- Fixed: the Outskirts hills were see-through from above (the ground was facing the wrong way).\n- Fixed: red signs and pipes floating in corridors where there was no wall to hang them on.",
+  "notes": "- New perk: Fart Cloud. Sliding leaves a poison cloud behind you (the same gas a Bloater bursts into) for\n  4 seconds. It hurts the zombies in it (a share of their health, so it still matters late on; bosses barely\n  notice) and never hurts you or your team. Recharges in 9 seconds. Points come from the kills it gets.\n- Perk upgrades (main menu > UPGRADES): every perk now has two skill trees of three tiers, bought with\n  Viral Ooze. You earn ooze by surviving: 1 at round 5, 2 at round 10, 3 at 15, 4 at 20, 5 at 25, then\n  more every 5 rounds up to 10 from round 40. Tiers cost 1, 3 and 5. The trees:\n  - Iron Gut: *Thick Skin* (up to +50 max health), *Shrug It Off* (up to 15% less damage).\n  - Quick Hands: *Sleight of Hand* (swap up to 55% faster), *Speed Loader* (reload up to 25% faster still).\n  - Rapid Fire: *Steady Aim* (up to 45% less recoil), *Hair Trigger* (fire up to 15% faster still).\n  - Fleet Foot: *Sprinter* (up to 15% faster still), *Slick Moves* (slides go up to 45% further).\n  - Quick Fix: *Patch Up* (heal up to 60% faster), *Back in Action* (up to 3 s of safety after getting back\n    up, revive up to 30% faster).\n  - Heavy Handed: *Brawler* (melee up to 30% harder still), *Boot* (slide kicks up to twice as hard).\n  - Fart Cloud: *Toxic* (up to double damage), *Gassy* (ready up to 4.5 s sooner).\n- Zombies come out of the vents upstairs: the Laboratory's upper floor has ceiling vents. When you're up\n  there, zombies burst the grate off (it clangs to the floor), drop through and land in a crouch.\n- The Mystery Box and upgrade machine beams are much taller (40 m), so you can spot them from across the map.\n- A hidden song: somewhere on every map there are three old radios. Find them... (the song itself comes in a\n  later update; for now the radios are already hiding).\n- Fixed: the TV floated above its stand.\n- The spawn room always has at least two windows now. A zombie that can't reach its window is moved right up\n  to it after 30 seconds (it used to be put back outside, where it could get stuck again).",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_windows.zip.part1"
       ],
-      "size": 161471248,
-      "sha256": "932be3b58e918263576015a30ee6a30313f7a5c23010f16c62a6fe7d87e7ea68",
-      "file": "K7Lockdown_v0.63_windows.zip"
+      "size": 161500454,
+      "sha256": "8bf5fdcce3e67e727d847d28cce70d24f1894fc17544bda59c577b37e42bb00f",
+      "file": "K7Lockdown_v0.64_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_linux.zip.part1"
       ],
-      "size": 152945328,
-      "sha256": "b0dd4f063a5608eb416eaac3a93882aef6dd0c0b388e4653ece76f036af570ab",
-      "file": "K7Lockdown_v0.63_linux.zip"
+      "size": 152970979,
+      "sha256": "0eb15e80ca7799e0a00ad8ffc4fdb1b21ba0b06de837da5a9aeba7cdc806d64b",
+      "file": "K7Lockdown_v0.64_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "eccaab99aa5c517ce8972496e6085208f3b36ea6aea336a25b7bfd21015fd17c",
-  "sha256_linux": "11340ddad2f512dfa814ceca4f1cf6d2fa5a561ed7f6b47e2883835604e56a08"
+  "sha256_windows": "6da0f1c66d0e3c1c9ed9fee222ff01951f9aa4b1edff5405b784cdf32659de98",
+  "sha256_linux": "9f8ee1b4d48b5d8c6a44a794547994b0a366662ed0e5571f285194706f9ba656"
 }
