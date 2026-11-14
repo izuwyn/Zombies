@@ -1,31 +1,31 @@
 {
-  "version": "0.70",
+  "version": "0.71",
   "date": "2026-11-14",
-  "notes": "- Credits on the main menu: who made the game, and the licences of the engine, art, co-op and voice chat\n  libraries it ships with.\n- Behind the scenes: tools/build.sh <godot> steam makes a Steam build (plain folders for Steam to\n  upload, no self-updating or downloads, since Steam does that, and a licenses folder). The launcher and\n  these zips work exactly as before.",
+  "notes": "- Main menu music: \"Main Menu\" plays (and loops) on the title screen.\n- Cell blocks: about a third of the cells stand open (a gap in the bars, the barred door swung back), on\n  both floors, so you can walk in. A catwalk bridge across the middle joins the two upper walkways, and\n  you can't jump over the railings any more (bullets still go over them).\n- Co-op: when the host pauses, everyone pauses (\"PAUSED BY THE HOST\"). Your melee weapon now shows\n  in your character's hands for everyone else.\n- Smoother: fixed the sharp stutters. Building a special zombie (riot guard, bloater, stalker, screamer)\n  the first time each look appeared took up to a quarter of a second; they're all built while the map loads now.\n- Red dot sight: slimmer and sleeker.\n- Fixed: a vertical grip on a pistol floated under the gun; on pistols it mounts under the barrel now.\n- Fixed: you could stand on the ends of the gym bleachers where zombies couldn't reach you. The ends now\n  follow the slope of the seats.\n- Main menu: zombies that get stuck on a post step around it, and ones that wander up to the walkway railing\n  topple over it, front-flip onto their backs, get up and keep coming.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.70/K7Lockdown_v0.70_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.70/K7Lockdown_v0.70_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_windows.zip.part1"
       ],
-      "size": 167920950,
-      "sha256": "3a411f6bf91b9b92e15e29290148d90ffdb33cb20f09402bea1bd4cef8efd79a",
-      "file": "K7Lockdown_v0.70_windows.zip"
+      "size": 172238197,
+      "sha256": "c1c2087e786657adc85d2c210cee02800445779dddfad165027be801d9dc235e",
+      "file": "K7Lockdown_v0.71_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.70/K7Lockdown_v0.70_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.70/K7Lockdown_v0.70_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_linux.zip.part1"
       ],
-      "size": 159390725,
-      "sha256": "655b0fbed5b0902a2c216b0dbaf78246b49f188aabfe27aef9998ba43c98d76c",
-      "file": "K7Lockdown_v0.70_linux.zip"
+      "size": 163712845,
+      "sha256": "8e3c0337f83b6b7ffb8989ff9d5e703153cf1635609d260fdcebbf5474746281",
+      "file": "K7Lockdown_v0.71_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "5ca47b7f74c82c6dd217e582b132b1868eec8d6ec99b0771bed6c3deb67fc127",
-  "sha256_linux": "a51b191855a7c5a0f5df1da7b64ab6d2bc86898c38e25b996d6ecf60df08c248"
+  "sha256_windows": "39d72745a88e4d02053576b671fa66d71a150997e2fc4791a62ae97756a19fb7",
+  "sha256_linux": "c374fdce1eae7a1eca78401dcb69b93a2d263e053d24a68d37a27cd939e4b99a"
 }
