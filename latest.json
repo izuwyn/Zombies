@@ -1,31 +1,31 @@
 {
-  "version": "0.62",
+  "version": "0.63",
   "date": "2026-11-14",
-  "notes": "- Caves: a second stairwell in the Laboratory leads down a full flight (6.4 m) into a cave system of 4 more\n  areas: Caverns, Cave Tunnels and a Flooded Grotto. Rough rock walls, ceilings and floors, boulders,\n  stalagmites and stalactites, outcrops breaking up the walls, puddles, and glowing fungus as the only light.\n  Bring a flashlight.\n- No windows down there either: zombies have to follow you down the stairs. Wall buys, perk machines, the box and\n  intel files can turn up in the caves too.\n- Fixed (v0.61): intel files upstairs had their pedestal buried in the floor below, and the upper rooms'\n  walls were only tiled near the floor. Both line up properly now.",
+  "notes": "- The caves aren't blocky any more: boulders, rock outcrops, stalagmites, stalactites and the glowing fungus\n  are lumpy, rounded rock now, with a rocky lip along the floor and bulges near the ceiling. Outcrops stay off the\n  middle of each wall, where wall buys and machines hang.\n- Rubble: every wall buy, perk machine and Mystery Box in the caves sits behind a pile of rubble. Smash it\n  with melee (3 hits) to get through: it crumbles with dust and a crunch, and zombies re-path through the gap.\n- Zombies dig up out of the cave floor: while you're in the caves, zombies claw their way up out of the\n  ground nearby (never right on top of you) with a burst of dirt, instead of only coming down the stairs.\n- Family Home bedrooms: a proper master bedroom (bed centred on the wall with mattress, blanket and pillows,\n  two nightstands with lamps, a rug, a picture over the headboard, wardrobe and a dresser with a mirror), and a\n  second bedroom (bed along the wall, desk with a lamp, bookcase, rug and a poster).\n- Only one Ammo Cache at a time: a second one won't drop while one is still on the ground.\n- Fixed: you couldn't stay on the Laboratory's upper floor (the game thought you were somewhere you\n  shouldn't be and put you back downstairs), and zombies wouldn't go after players in the caves.\n- Fixed: the Outskirts hills were see-through from above (the ground was facing the wrong way).\n- Fixed: red signs and pipes floating in corridors where there was no wall to hang them on.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_windows.zip.part1"
       ],
-      "size": 161463790,
-      "sha256": "6d53bd30005dd421f03001ec451ed76d5cab843ca466aa1bf5fadff8046a197d",
-      "file": "K7Lockdown_v0.62_windows.zip"
+      "size": 161471248,
+      "sha256": "932be3b58e918263576015a30ee6a30313f7a5c23010f16c62a6fe7d87e7ea68",
+      "file": "K7Lockdown_v0.63_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.62/K7Lockdown_v0.62_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.63/K7Lockdown_v0.63_linux.zip.part1"
       ],
-      "size": 152938298,
-      "sha256": "88da94b3bc064913239b87c55b922e910525bc4b70e1882de574810fa7fb3f82",
-      "file": "K7Lockdown_v0.62_linux.zip"
+      "size": 152945328,
+      "sha256": "b0dd4f063a5608eb416eaac3a93882aef6dd0c0b388e4653ece76f036af570ab",
+      "file": "K7Lockdown_v0.63_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "9273a54a428b8cb7b63c527c936a8f28e1f0b58c1dc21719b4c1bf403f8e4a59",
-  "sha256_linux": "7faf3f81c410cbb42cfcaba0d89336bd14aa1fa76203d8635e0cad229751cf19"
+  "sha256_windows": "eccaab99aa5c517ce8972496e6085208f3b36ea6aea336a25b7bfd21015fd17c",
+  "sha256_linux": "11340ddad2f512dfa814ceca4f1cf6d2fa5a561ed7f6b47e2883835604e56a08"
 }
