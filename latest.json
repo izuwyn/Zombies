@@ -1,31 +1,31 @@
 {
-  "version": "0.60",
+  "version": "0.61",
   "date": "2026-11-14",
-  "notes": "- Rolling hills: the Outskirts' parks and overgrown backyards now have real terrain, smooth mounds up to\n  about 2.5 m that you can walk, slide and fight on (zombies climb them too). The ground levels out near walls,\n  doorways, gates and windows, under the park gazebo and round the keycard spots and the bunker hatch, so\n  everything that joins another area or hangs on a wall lines up as before. Benches, trees, bins and the rest\n  sit on the slopes. The hills come from the map seed, so co-op players get the same ones.",
+  "notes": "- The Laboratory has a second floor: a tall stairwell off one side of the lab leads up a full flight of\n  stairs (6.4 m) to an upper wing of 4 more lab rooms (bio labs, cryo storage, server rooms, archives,\n  incubation, security, the director's office). Doors up there open with points like downstairs, and wall buys,\n  perk machines, the box and intel files can all turn up on the upper floor.\n- No windows upstairs: the only way in is the stairwell, so zombies have to come up the stairs after you.\n  A good place to hold out, as long as nothing comes up behind you.\n- Behind the scenes, every room now has a floor height, ready for the caves under the Laboratory next.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_windows.zip.part1"
       ],
-      "size": 161455165,
-      "sha256": "446361df628b3b037ec29c430c9b0b18dbcc3f385ae8df8d7bad65edc1db586e",
-      "file": "K7Lockdown_v0.60_windows.zip"
+      "size": 161461364,
+      "sha256": "6054f003fc00cf15b652c6e918a365c4323171f91e8c9f621ce5be46a03b846a",
+      "file": "K7Lockdown_v0.61_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.60/K7Lockdown_v0.60_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.61/K7Lockdown_v0.61_linux.zip.part1"
       ],
-      "size": 152928755,
-      "sha256": "2e85496bd66bfe39f992465a8204ad1c90d416b835665c3f0140e75c630e3450",
-      "file": "K7Lockdown_v0.60_linux.zip"
+      "size": 152933048,
+      "sha256": "293edf5c551056d8f46f1e02a5bb8fb312013b7ae4c68095313c6cc977211edc",
+      "file": "K7Lockdown_v0.61_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "7265ac631cb296abec931b935cf90b486278e0ffe41d133af7a1f177543c4d9f",
-  "sha256_linux": "92967d1f05c489a0d093259a665d47b5703aa43aaccfff474c663ab6fc134f37"
+  "sha256_windows": "b15407c7505623d5a268196a593b242862eda42d5093416db9a88b9756826dd6",
+  "sha256_linux": "cbb071e33006c2108929154f5fac006f5599213161451893bb26a4ecfaecda7c"
 }
