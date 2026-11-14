@@ -1,31 +1,31 @@
 {
-  "version": "0.54",
-  "date": "2026-11-13",
-  "notes": "- Staircases no longer block doorways: stairs up to walkways and upper floors are placed clear of doorways\n  (and windows where possible): they slide along the wall, switch ends, or the upper floor goes on the other side\n  of the room. If there's truly no room, that room has no upper floor rather than a blocked door. Checked on 48\n  generated maps: 0 doorways with stairs in them (there were 70).\n- The gym bleachers go against a wall without a doorway behind them.\n- Fixed: perk prices after Quick Fix (solo). When Quick Fix got you back up, the machines showed the cheaper\n  price but still charged the old, higher one. Now the price really drops by a step, and every machine's label\n  updates straight away.",
+  "version": "0.55",
+  "date": "2026-11-14",
+  "notes": "A handful of small changes that add up, rather than one big wall:\n- Tougher zombies: +55 health a round up to round 9 (was +50), then +11% a round (was +10%). Round 10: 655\n  (was 605), round 20: 1,860 (was 1,569), round 30: about 5,300 (was 4,070). Sir Chonk scales with it.\n- More of them: about 8% more zombies a round by round 10, about 10% more by round 20, and up to 26 at once\n  (was 24). They also arrive a little faster.\n- Runners come sooner: the first ones can show up in round 2, and 85% of zombies run from about round 6\n  (was round 8). Late-game runners are a touch quicker.\n- They hit harder: 38 damage a hit (was 35). Three hits still down you at 100 health, with less margin.\n- Slower healing: health starts coming back after 4 seconds (was 3.5) at 40 a second (was 45). Quick Fix's\n  faster healing is unchanged, so it's worth a little more now.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_windows.zip.part1"
       ],
-      "size": 161429045,
-      "sha256": "7b79bd48b805fd4487854884ece98d60a3d98f34e8ca87b69a847fb9b2d6c764",
-      "file": "K7Lockdown_v0.54_windows.zip"
+      "size": 161430257,
+      "sha256": "187067ec26af216a48c0e27f7a56a96340162712a79d8ae19dff21a02ddd259a",
+      "file": "K7Lockdown_v0.55_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.54/K7Lockdown_v0.54_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.55/K7Lockdown_v0.55_linux.zip.part1"
       ],
-      "size": 152902801,
-      "sha256": "8cdf60d11bfab11d80b9e519ea106417fdd50827ef3d5594f8830da3e5eb17dd",
-      "file": "K7Lockdown_v0.54_linux.zip"
+      "size": 152902253,
+      "sha256": "fe23d9c135d73de98720f39eb52161c937ba92419ffc150ade156d2ce0cb75e2",
+      "file": "K7Lockdown_v0.55_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "87aff2461f1e812afb2d10543cb63234e5ca844fd5da569c656da30ba0d70b3f",
-  "sha256_linux": "4540e4a5175da5a18132f2e12f5c651f69158e9c72be374fbc21e0214de64e13"
+  "sha256_windows": "b60b3bb7fddd14904ae6cc2d0a038f514cc5a7048127da7948852b3e5733388c",
+  "sha256_linux": "49f9481bb2b4dcbdb51608efbbfe4342652a736b9c82631e9265a6b55338dd41"
 }
