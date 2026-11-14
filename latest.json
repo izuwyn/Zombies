@@ -1,31 +1,31 @@
 {
-  "version": "0.64",
+  "version": "0.65",
   "date": "2026-11-14",
-  "notes": "- New perk: Fart Cloud. Sliding leaves a poison cloud behind you (the same gas a Bloater bursts into) for\n  4 seconds. It hurts the zombies in it (a share of their health, so it still matters late on; bosses barely\n  notice) and never hurts you or your team. Recharges in 9 seconds. Points come from the kills it gets.\n- Perk upgrades (main menu > UPGRADES): every perk now has two skill trees of three tiers, bought with\n  Viral Ooze. You earn ooze by surviving: 1 at round 5, 2 at round 10, 3 at 15, 4 at 20, 5 at 25, then\n  more every 5 rounds up to 10 from round 40. Tiers cost 1, 3 and 5. The trees:\n  - Iron Gut: *Thick Skin* (up to +50 max health), *Shrug It Off* (up to 15% less damage).\n  - Quick Hands: *Sleight of Hand* (swap up to 55% faster), *Speed Loader* (reload up to 25% faster still).\n  - Rapid Fire: *Steady Aim* (up to 45% less recoil), *Hair Trigger* (fire up to 15% faster still).\n  - Fleet Foot: *Sprinter* (up to 15% faster still), *Slick Moves* (slides go up to 45% further).\n  - Quick Fix: *Patch Up* (heal up to 60% faster), *Back in Action* (up to 3 s of safety after getting back\n    up, revive up to 30% faster).\n  - Heavy Handed: *Brawler* (melee up to 30% harder still), *Boot* (slide kicks up to twice as hard).\n  - Fart Cloud: *Toxic* (up to double damage), *Gassy* (ready up to 4.5 s sooner).\n- Zombies come out of the vents upstairs: the Laboratory's upper floor has ceiling vents. When you're up\n  there, zombies burst the grate off (it clangs to the floor), drop through and land in a crouch.\n- The Mystery Box and upgrade machine beams are much taller (40 m), so you can spot them from across the map.\n- Fixed: the TV floated above its stand.\n- The spawn room always has at least two windows now. A zombie that can't reach its window is moved right up\n  to it after 30 seconds (it used to be put back outside, where it could get stuck again).",
+  "notes": "- The main menu is cleaned up: the title, buttons and tip line up on one edge, LOCKDOWN sits right under K7\n  with a red rule, PLAY is the big first button, and Settings, Controls, Check for Updates and Quit are a small\n  group of their own under a divider. A darker haze behind the menu keeps it readable over the scene, and the\n  tip and version sit along the bottom edge.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_windows.zip.part1"
       ],
-      "size": 161500454,
-      "sha256": "8bf5fdcce3e67e727d847d28cce70d24f1894fc17544bda59c577b37e42bb00f",
-      "file": "K7Lockdown_v0.64_windows.zip"
+      "size": 166760322,
+      "sha256": "80a35cd85067baf16636ce2be4bb26b1160ec247c0dd0ffc73752ca6524d4710",
+      "file": "K7Lockdown_v0.65_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.64/K7Lockdown_v0.64_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.65/K7Lockdown_v0.65_linux.zip.part1"
       ],
-      "size": 152970979,
-      "sha256": "0eb15e80ca7799e0a00ad8ffc4fdb1b21ba0b06de837da5a9aeba7cdc806d64b",
-      "file": "K7Lockdown_v0.64_linux.zip"
+      "size": 158231215,
+      "sha256": "e20c3b02105cf7cae61144e9650f1ae579fac888ee24047b35ccb58e53166f38",
+      "file": "K7Lockdown_v0.65_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "6da0f1c66d0e3c1c9ed9fee222ff01951f9aa4b1edff5405b784cdf32659de98",
-  "sha256_linux": "9f8ee1b4d48b5d8c6a44a794547994b0a366662ed0e5571f285194706f9ba656"
+  "sha256_windows": "e86335fb262d9cc83a1a8c5b486a4f5059a4eab3a81fa99366ec0d43ca15b726",
+  "sha256_linux": "0184f0455257ed815a215aa1352a59a5bc602de1de545689830f891b507af54e"
 }
