@@ -1,31 +1,31 @@
 {
-  "version": "0.56",
+  "version": "0.57",
   "date": "2026-11-14",
-  "notes": "From round 4, there's a 30% chance each round (not Le Chonk rounds) that something happens 12 to 30 seconds in\n(never the same thing twice in a row, synced in co-op):\n- Blackout: the power goes out for 45 seconds: the map's lights die, the world goes dark and your flashlight\n  comes on. Perk machines and the box keep glowing.\n- Thick fog: visibility drops for 60 seconds; zombies come out of the murk.\n- Horde: a wave of extra zombies (8 + the round number) pours in fast from 3 windows on one side, and the\n  banner tells you where from.\n- Supply drop: a crate with a red flare falls from the sky into one of the open rooms, and 6 extra zombies\n  come with it. Whoever opens it gets 750 points, and it drops an ammo cache plus a random power-up (2x points,\n  Overkill, Purge or Lockdown).",
+  "notes": "- Boosts: one-use bonuses you take into a game. Open BOOSTS in the main menu and pick up to 2 for your\n  next game; they're used up when it starts (picks stay selected while you have more of that boost).\n  - Head Start: start with 1,500 extra points.\n  - On the House: your first perk is free.\n  - Armory: start with a Vanguard AR as well as your pistol.\n  - Pocket Frags: start with 2 extra grenades.\n  - Lucky Box: your first Mystery Box spin is free.\n  - Overtime: +25% XP from the game.\n- Earning them: one random boost for every level you gain, every challenge and every daily challenge you\n  complete. You get 3 to start with. The end-of-game screen shows the boosts you earned.\n- In co-op a boost only helps the player who brought it.\n- The perk machine and Mystery Box prompts say FREE while you have On the House / Lucky Box ready.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_windows.zip.part1"
       ],
-      "size": 161435177,
-      "sha256": "9023fcdf02d83038610254e01d6f388aa15256673b843ab8b4eb3095a0e5e5af",
-      "file": "K7Lockdown_v0.56_windows.zip"
+      "size": 161445834,
+      "sha256": "bb0e3dc4787c4d9991756b982ac874078108a77e3a195ece61399f3bd848e062",
+      "file": "K7Lockdown_v0.57_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.56/K7Lockdown_v0.56_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.57/K7Lockdown_v0.57_linux.zip.part1"
       ],
-      "size": 152908726,
-      "sha256": "ec60b140266a3f04e2a1fbd050d9c2855ddd8b062ca3c1823f3caaf5c1583464",
-      "file": "K7Lockdown_v0.56_linux.zip"
+      "size": 152914573,
+      "sha256": "bf36b5f15b2f406bbaca3d70975601fa200f09cf8095e135e8e369a4d09d9476",
+      "file": "K7Lockdown_v0.57_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "1798456ab7c07fa58c2031909c549a9f1efbe48f38ebe334fb29519fddbcbec5",
-  "sha256_linux": "fe20bf1fd55f508aadbc2f951b622cd124ebd2fa064e84b36dc89d5216097e4e"
+  "sha256_windows": "52e1399dff5dbe1642a2ca3e19bb2c493baff6bb642918039df2a4eeeb8591ad",
+  "sha256_linux": "edbed6548a2bd2803d71327f5f38164af76ccb4b0107f44ecc02ad033eb88cc1"
 }
