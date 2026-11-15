@@ -1,31 +1,31 @@
 {
-  "version": "0.74",
+  "version": "0.75",
   "date": "2026-11-15",
-  "notes": "- Fitting an optic now removes the iron sights, so a red dot, holo or scope doesn't sit between leftover\n  sight posts any more.\n- Fixed: the Laser Sight made the Gunsmith preview zoom right out (it measured the laser beam as part of\n  the gun). The beam doesn't show on the weapon icons any more either.",
+  "notes": "- Quick Fit in the Gunsmith: one click puts the best attachments you've unlocked on a gun, in a style:\n  Balanced, Accuracy, Power or Speed (it picks the gun-specific ones too, like the Laser,\n  Slugs or Bipod). Tick Every gun to do all your guns at once, or Clear to take everything off.\n- Co-op: downed teammates get a marker: a red \"+\" with their name and distance, kept on the edge of your\n  screen when they're out of view, so you can always find them to revive.\n- Fixed: after allowing the game through the Windows firewall, Find Game showed nothing until you\n  restarted. It now keeps retrying the online list and re-opens the LAN listener on its own.\n- Mouse wheel now scrolls through your guns and your melee weapon.\n- Fixed: the bunker hatch's striped frame flickered where its pieces overlapped.\n- Reviving shows progress: the downed player sees \"BEING REVIVED\" with a bar, and everyone sees the\n  percentage on their marker.\n- A moment of safety after each hit (0.4 s), so a crowd swinging at once can't take you down instantly.\n- Railings are jumpable again on every map (bullets went over them anyway).\n- Co-op: your melee weapon's camo now shows for everyone, and other players' guns are a bit bigger in\n  their hands (they looked tiny).\n- Co-op: fixed being unable to move when the host started the game while you were typing in the lobby chat.\n- Lab vents are easier to spot: bigger, with a duct lip hanging from the ceiling and a faint glow inside.\n- Fixed: the slimmer red dot sat a hair above its base.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_windows.zip.part1"
       ],
-      "size": 172252179,
-      "sha256": "9b93df29a3178d0a5d387e9c974f66dde01343fe510f01b183028f53f5c12364",
-      "file": "K7Lockdown_v0.74_windows.zip"
+      "size": 172266619,
+      "sha256": "2d4cdb0eb8403f6e6275ff2063865d327240387127d6970953f08cfaaf04f740",
+      "file": "K7Lockdown_v0.75_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_linux.zip.part1"
       ],
-      "size": 163725986,
-      "sha256": "3b747f8792197b501dd3dcb9f6616ab26082c27f94eaf8eaa502b33f63ce9e4f",
-      "file": "K7Lockdown_v0.74_linux.zip"
+      "size": 163737852,
+      "sha256": "cc01a241ddfbd0c1ac24f6e61e0bf48a440b436b2400acff5891a9230534f612",
+      "file": "K7Lockdown_v0.75_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "6ae116667e55ffe811fbfb1acd48147abf2714d2d5421c65b4e40fb2cc26793e",
-  "sha256_linux": "a2119999628639df721c5a6ba2fbea14e7544687fb795e27f04471659cc9271d"
+  "sha256_windows": "51afd4443079750112e4283849185a69bdf9f829960f1fcaa047fd50623a2fc2",
+  "sha256_linux": "90ebe9cf8e11c5fa215e47f4937d6ea9e6be2b534954813737d53f38764e81b4"
 }
