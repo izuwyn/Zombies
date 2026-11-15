@@ -1,31 +1,31 @@
 {
-  "version": "0.72",
+  "version": "0.73",
   "date": "2026-11-15",
-  "notes": "- Every attachment has its own job now (and its card says exactly what it does):\n  - Optics: Red Dot aims in 25% faster; Holographic is the steadiest aim; the Sniper Scope is\n    pinpoint aimed but wild from the hip.\n  - Muzzle: the Suppressor no longer costs damage: quiet, small flash, less kick and **+25% headshot\n    damage. Compensator**: much less recoil.\n  - Barrel: Long (+damage, slower aim-in), Heavy (bullets go through one more zombie), new **Short\n    Barrel** (aim in 30% faster, move faster while aiming, a little less damage).\n  - Mag: Fast Mag (35% faster reloads), Extended, new Hollow Points (+25% body damage, weaker\n    headshots).\n  - Stock: Vertical Grip (35% less recoil), Padded Stock (steadier hip fire).\n- New attachments that only fit certain guns:\n  - Laser Sight (pistols and SMGs): a visible red laser and much tighter hip fire.\n  - Auto Sear (P-12): fully automatic and faster.\n  - Burst Kit (Vanguard AR): a hard-hitting 3-round burst.\n  - Choke (shotguns): a much tighter pellet pattern.\n  - Slug Rounds (shotguns): one heavy slug that flies true and punches through 3 more zombies.\n  - Bayonet (rifles, shotguns, snipers): a blade under the barrel; quick melee hits 2.5x as hard.\n  - Drum Mag (SMGs, rifles, LMGs): double the magazine, slower to reload and aim.\n  - Speed Loader (Mag-50, Hand Cannon): reload in half the time.\n  - Bipod (LMGs, snipers): crouch to brace it: 60% less recoil and half the spread.\n- Shotguns don't take the Suppressor or Compensator any more (they get the Choke and Bayonet).\n- The vertical grip on pistols now clamps right under the frame.",
+  "notes": "- The Outskirts has a main quest: Mayday.\n  1. Check the emergency radio in the Sheriff's Office: it's dead, and the last log mentions a National\n     Guard evac on standby.\n  2. Find 3 car batteries around town (each one you pick up draws a few zombies) and wire them in.\n  3. Call in the evac. The pilot can't land blind: light the 4 signal flares out in the streets and yards.\n     Each burns for 75 seconds, so you have to get all four burning at the same time (they go out, and\n     you relight them).\n  4. The light draws the Alpha, a huge boss. Put it down.\n  - Reward: the chopper drops a supply crate, +5000 XP, 2000 points for everyone, the Mayday\n    achievement (and calling card), the Signal Flare camo (fiery red and orange), and another piece of the\n    K-7 story.\n- The map select card shows Mayday as the Outskirts quest. New stat: Evacs called in.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_windows.zip.part1"
       ],
-      "size": 172244055,
-      "sha256": "2c2090a58147f6b646e46362f46e9495fbbb8c746c82d3c735d324a5c61a6b87",
-      "file": "K7Lockdown_v0.72_windows.zip"
+      "size": 172256831,
+      "sha256": "6bf0b374deb3f123bc52b1726409b31124120aa8097de116bad4791988d722eb",
+      "file": "K7Lockdown_v0.73_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_linux.zip.part1"
       ],
-      "size": 163717890,
-      "sha256": "bf5b1309ee6e8e26c8d8bd995c68b9943a21bd31846802e2cd3a74c9667b4b0a",
-      "file": "K7Lockdown_v0.72_linux.zip"
+      "size": 163730370,
+      "sha256": "4e43acaf9ac58359b6bfd97fe2cdbac9366b6ecb39813e4788bc6247ba246df7",
+      "file": "K7Lockdown_v0.73_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "5c0a8851c6f75a3e5e5947ddcbfe372635b35308da953a552b716e339acfb7bb",
-  "sha256_linux": "370a964bd50086b73d564f5c36a4a6b7bc865e2bddcb359ee455b9bc9f204e27"
+  "sha256_windows": "4d96a98bffab66af227e72e5208b7c4d837740445607de83c34f47c30a908dec",
+  "sha256_linux": "df35c2d2ba654de041795c89d09129ed7a91ff86fc4e584fdc9c004992a0c278"
 }
