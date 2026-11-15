@@ -1,28 +1,28 @@
 {
-  "version": "0.78",
+  "version": "0.79",
   "date": "2026-11-15",
-  "notes": "- New perk: Bomber (light purple). Your own explosions can't hurt you, every melee hit goes off with a\n  small blast, and you carry 2 more grenades. Its upgrade trees: Big Bang (bigger, harder melee blasts) and\n  Bandolier (up to 3 more grenades).\n- New perk: Ice King / Ice Queen (named after the body you picked). Getting hit freezes every zombie\n  within 6 m solid for 4 s (every 45 s; bosses are only slowed). Your grenades become Blizzards: an\n  icy ball that bursts into a 6 s snowstorm, slowing everything inside and freezing it solid within\n  about 2 s, with light frost damage. Upgrade trees: Permafrost (longer freezes and storms) and Cold Snap\n  (freeze ready up to 24 s sooner).\n- Weapon upgrade tiers. The upgrade machine now takes an upgraded gun further: Tier II for 15,000\n  (half as much damage again, more ammo, a molten red-gold camo) and Tier III for 30,000 (double the\n  first upgrade's damage, bigger mags, faster fire and reload, a dark-matter camo) plus an effect for each\n  gun type: explosive rounds (pistols, shotguns), chain lightning (SMGs, LMG, minigun), cryo rounds\n  (assault rifles), ricochet (snipers), bigger blasts (launchers).\n- Family Home bedrooms have their own walls now, with a doorway into the rest of the house (the\n  wall stops beside the loft stairs where they pass). Pictures hang on the new walls too.",
+  "notes": "- Drop-in co-op. A hosted game now stays in the server browser while it's being played (shown as\n  \"IN GAME\", with a DROP IN button). Joiners load straight into the match as it is (the round, open doors,\n  boards, the box, the quest so far, the zombies) and watch until the next round starts. Hosts who want\n  privacy can turn off Show in browser while playing when hosting.\n- New perk: 3rd Hand (teal). Carry a third gun: it gets its own teal slot (key 4) in the weapon bar.\n  Upgrade trees: Juggler (faster swaps) and Spare Mags (guns you're not holding reload themselves).\n- The Alpha's entrance. The first time it comes, a short cutscene plays (letterbox, it drops in and roars,\n  its title card); every zombie holds still meanwhile, and Jump skips it. Once you've beaten it, the Alpha\n  comes back every 4-5 rounds on the Outskirts as a mini boss (no cutscene), a bit tougher each time.\n- Fixed: the Alpha's health bar said SIR CHONK if a Sir Chonk round had come first.\n- The last 2 zombies of a round glow red through walls, and in co-op your **teammates show as a\n  silhouette** in their colour through walls.\n- Fancier upgrade names: Tier I waves in violet, Tier II burns in flickering fire, Tier III shimmers\n  cyan and violet.\n- Tier III explosive rounds (pistols, shotguns) now go off on walls and floors too, not only zombies.\n- Family Home bedrooms reworked: whole walls only (no more odd stubs around the stairs), wider doorways\n  near the corners so zombies don't get stuck, and the bed and furniture laid out to fit the room. Beds no\n  longer stand in the open-plan part of the house.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_windows.zip.part1"
       ],
-      "size": 178759183,
-      "sha256": "0c5457e8c2f4cb9c68cd038512d81a3faacee9154da4c551f902de9888bd7568",
-      "file": "K7Lockdown_v0.78_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/manifest_windows.json",
+      "size": 178777922,
+      "sha256": "877ae8f79306bec93ca255aa5df34f38500b8ed9be98fe832032046f451252e9",
+      "file": "K7Lockdown_v0.79_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_linux.zip.part1"
       ],
-      "size": 170232984,
-      "sha256": "c58b4d5165386dbb73b8b45760363bbbccf5a52912c2e1abd3db118b97ef5fba",
-      "file": "K7Lockdown_v0.78_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/manifest_linux.json",
+      "size": 170251730,
+      "sha256": "c08107cf546afcc9e3aa5fca4e9ef9788c3d1f42a15bb1c6738a7dec99c23429",
+      "file": "K7Lockdown_v0.79_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +30,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "0ecd900cdc32be5b7607d2690f90dd20cee0314fca88f997e588b6f9a1336320",
-  "sha256_linux": "41970fa504336a26100fdec3f31756311d7f8fa8726e929f5aa9c0d7255fcf7a"
+  "sha256_windows": "55b9a5a067198d111ed49bd0c5c4f9210e81d186e63e40df4709887a09a19836",
+  "sha256_linux": "1277437033f3cb72149c3d1ca907257689670f069d77a199e4ba43bd6aa01183"
 }
