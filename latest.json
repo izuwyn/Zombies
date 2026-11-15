@@ -1,31 +1,31 @@
 {
-  "version": "0.73",
+  "version": "0.74",
   "date": "2026-11-15",
-  "notes": "- The Outskirts has a main quest: Mayday.\n  1. Check the emergency radio in the Sheriff's Office: it's dead, and the last log mentions a National\n     Guard evac on standby.\n  2. Find 3 car batteries around town (each one you pick up draws a few zombies) and wire them in.\n  3. Call in the evac. The pilot can't land blind: light the 4 signal flares out in the streets and yards.\n     Each burns for 75 seconds, so you have to get all four burning at the same time (they go out, and\n     you relight them).\n  4. The light draws the Alpha, a huge boss. Put it down.\n  - Reward: the chopper drops a supply crate, +5000 XP, 2000 points for everyone, the Mayday\n    achievement (and calling card), the Signal Flare camo (fiery red and orange), and another piece of the\n    K-7 story.\n- The map select card shows Mayday as the Outskirts quest. New stat: Evacs called in.",
+  "notes": "- Fitting an optic now removes the iron sights, so a red dot, holo or scope doesn't sit between leftover\n  sight posts any more.\n- Fixed: the Laser Sight made the Gunsmith preview zoom right out (it measured the laser beam as part of\n  the gun). The beam doesn't show on the weapon icons any more either.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_windows.zip.part1"
       ],
-      "size": 172256831,
-      "sha256": "6bf0b374deb3f123bc52b1726409b31124120aa8097de116bad4791988d722eb",
-      "file": "K7Lockdown_v0.73_windows.zip"
+      "size": 172252179,
+      "sha256": "9b93df29a3178d0a5d387e9c974f66dde01343fe510f01b183028f53f5c12364",
+      "file": "K7Lockdown_v0.74_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.73/K7Lockdown_v0.73_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.74/K7Lockdown_v0.74_linux.zip.part1"
       ],
-      "size": 163730370,
-      "sha256": "4e43acaf9ac58359b6bfd97fe2cdbac9366b6ecb39813e4788bc6247ba246df7",
-      "file": "K7Lockdown_v0.73_linux.zip"
+      "size": 163725986,
+      "sha256": "3b747f8792197b501dd3dcb9f6616ab26082c27f94eaf8eaa502b33f63ce9e4f",
+      "file": "K7Lockdown_v0.74_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "4d96a98bffab66af227e72e5208b7c4d837740445607de83c34f47c30a908dec",
-  "sha256_linux": "df35c2d2ba654de041795c89d09129ed7a91ff86fc4e584fdc9c004992a0c278"
+  "sha256_windows": "6ae116667e55ffe811fbfb1acd48147abf2714d2d5421c65b4e40fb2cc26793e",
+  "sha256_linux": "a2119999628639df721c5a6ba2fbea14e7544687fb795e27f04471659cc9271d"
 }
