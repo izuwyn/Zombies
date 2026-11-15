@@ -1,31 +1,31 @@
 {
-  "version": "0.71",
-  "date": "2026-11-14",
-  "notes": "- Main menu music: \"Main Menu\" plays (and loops) on the title screen.\n- Cell blocks: about a third of the cells stand open (a gap in the bars, the barred door swung back), on\n  both floors, so you can walk in. A catwalk bridge across the middle joins the two upper walkways, and\n  you can't jump over the railings any more (bullets still go over them).\n- Co-op: when the host pauses, everyone pauses (\"PAUSED BY THE HOST\"). Your melee weapon now shows\n  in your character's hands for everyone else.\n- Smoother: fixed the sharp stutters. Building a special zombie (riot guard, bloater, stalker, screamer)\n  the first time each look appeared took up to a quarter of a second; they're all built while the map loads now.\n- Red dot sight: slimmer and sleeker.\n- Fixed: a vertical grip on a pistol floated under the gun; on pistols it mounts under the barrel now.\n- Fixed: you could stand on the ends of the gym bleachers where zombies couldn't reach you. The ends now\n  follow the slope of the seats.\n- Main menu: zombies that get stuck on a post step around it, and ones that wander up to the walkway railing\n  topple over it, front-flip onto their backs, get up and keep coming.",
+  "version": "0.72",
+  "date": "2026-11-15",
+  "notes": "- Every attachment has its own job now (and its card says exactly what it does):\n  - Optics: Red Dot aims in 25% faster; Holographic is the steadiest aim; the Sniper Scope is\n    pinpoint aimed but wild from the hip.\n  - Muzzle: the Suppressor no longer costs damage: quiet, small flash, less kick and **+25% headshot\n    damage. Compensator**: much less recoil.\n  - Barrel: Long (+damage, slower aim-in), Heavy (bullets go through one more zombie), new **Short\n    Barrel** (aim in 30% faster, move faster while aiming, a little less damage).\n  - Mag: Fast Mag (35% faster reloads), Extended, new Hollow Points (+25% body damage, weaker\n    headshots).\n  - Stock: Vertical Grip (35% less recoil), Padded Stock (steadier hip fire).\n- New attachments that only fit certain guns:\n  - Laser Sight (pistols and SMGs): a visible red laser and much tighter hip fire.\n  - Auto Sear (P-12): fully automatic and faster.\n  - Burst Kit (Vanguard AR): a hard-hitting 3-round burst.\n  - Choke (shotguns): a much tighter pellet pattern.\n  - Slug Rounds (shotguns): one heavy slug that flies true and punches through 3 more zombies.\n  - Bayonet (rifles, shotguns, snipers): a blade under the barrel; quick melee hits 2.5x as hard.\n  - Drum Mag (SMGs, rifles, LMGs): double the magazine, slower to reload and aim.\n  - Speed Loader (Mag-50, Hand Cannon): reload in half the time.\n  - Bipod (LMGs, snipers): crouch to brace it: 60% less recoil and half the spread.\n- Shotguns don't take the Suppressor or Compensator any more (they get the Choke and Bayonet).\n- The vertical grip on pistols now clamps right under the frame.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_windows.zip.part1"
       ],
-      "size": 172238197,
-      "sha256": "c1c2087e786657adc85d2c210cee02800445779dddfad165027be801d9dc235e",
-      "file": "K7Lockdown_v0.71_windows.zip"
+      "size": 172244055,
+      "sha256": "2c2090a58147f6b646e46362f46e9495fbbb8c746c82d3c735d324a5c61a6b87",
+      "file": "K7Lockdown_v0.72_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.71/K7Lockdown_v0.71_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.72/K7Lockdown_v0.72_linux.zip.part1"
       ],
-      "size": 163712845,
-      "sha256": "8e3c0337f83b6b7ffb8989ff9d5e703153cf1635609d260fdcebbf5474746281",
-      "file": "K7Lockdown_v0.71_linux.zip"
+      "size": 163717890,
+      "sha256": "bf5b1309ee6e8e26c8d8bd995c68b9943a21bd31846802e2cd3a74c9667b4b0a",
+      "file": "K7Lockdown_v0.72_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "39d72745a88e4d02053576b671fa66d71a150997e2fc4791a62ae97756a19fb7",
-  "sha256_linux": "c374fdce1eae7a1eca78401dcb69b93a2d263e053d24a68d37a27cd939e4b99a"
+  "sha256_windows": "5c0a8851c6f75a3e5e5947ddcbfe372635b35308da953a552b716e339acfb7bb",
+  "sha256_linux": "370a964bd50086b73d564f5c36a4a6b7bc865e2bddcb359ee455b9bc9f204e27"
 }
