@@ -1,31 +1,31 @@
 {
-  "version": "0.75",
+  "version": "0.76",
   "date": "2026-11-15",
-  "notes": "- Quick Fit in the Gunsmith: one click puts the best attachments you've unlocked on a gun, in a style:\n  Balanced, Accuracy, Power or Speed (it picks the gun-specific ones too, like the Laser,\n  Slugs or Bipod). Tick Every gun to do all your guns at once, or Clear to take everything off.\n- Co-op: downed teammates get a marker: a red \"+\" with their name and distance, kept on the edge of your\n  screen when they're out of view, so you can always find them to revive.\n- Fixed: after allowing the game through the Windows firewall, Find Game showed nothing until you\n  restarted. It now keeps retrying the online list and re-opens the LAN listener on its own.\n- Mouse wheel now scrolls through your guns and your melee weapon.\n- Fixed: the bunker hatch's striped frame flickered where its pieces overlapped.\n- Reviving shows progress: the downed player sees \"BEING REVIVED\" with a bar, and everyone sees the\n  percentage on their marker.\n- A moment of safety after each hit (0.4 s), so a crowd swinging at once can't take you down instantly.\n- Railings are jumpable again on every map (bullets went over them anyway).\n- Co-op: your melee weapon's camo now shows for everyone, and other players' guns are a bit bigger in\n  their hands (they looked tiny).\n- Co-op: fixed being unable to move when the host started the game while you were typing in the lobby chat.\n- Lab vents are easier to spot: bigger, with a duct lip hanging from the ceiling and a faint glow inside.\n- Fixed: the slimmer red dot sat a hair above its base.",
+  "notes": "- The Outskirts' final boss is now the Alpha, its own monster instead of Sir Chonk: a huge, pale stalker\n  with red eyes and bone spikes down its back. It hunts low, hits twice as hard as a zombie and leaps at you\n  from up to 13 m away. It has its own health bar, and its limbs can't be shot off.\n- The Outskirts is now a forested town: Cedar Hollow, a logging town deep in the pines. A thick pine forest\n  surrounds it, log cabins with stone chimneys line its edge, and the fog is greener.\n- Car batteries now come from cars in the Mayday quest: look for the three cars parked on the streets\n  with their hoods up, and pull the battery out of the engine bay.\n- The Play menu is now picture cards: Solo, Find Game and Host Game, like the map selection screen.\n- The main menu's background now cycles through the maps: every 40 s it fades to a scene from another\n  map (the Prison, the Outskirts, the Lab and the Hospital).\n- Perk cards: walk up to a perk machine and a card pops out on the right with its icon, what it does,\n  the price and the upgrades you've bought for it.\n- Fixed: Hospital Screamers made zombies far too fast, and with two of them shrieking in turns the\n  zombies near them hardly ever slowed down. A shriek now speeds zombies up by 40%, capped below your sprint\n  speed. It can't be applied twice, always wears off, and leaves them winded for 6 s before another\n  shriek works on them. Bosses ignore it.\n- The boss bar now names the quest bosses (Warden Cole, Patient Zero, the Alpha) instead of always\n  saying Sir Chonk.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.76/K7Lockdown_v0.76_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.76/K7Lockdown_v0.76_windows.zip.part1"
       ],
-      "size": 172266619,
-      "sha256": "2d4cdb0eb8403f6e6275ff2063865d327240387127d6970953f08cfaaf04f740",
-      "file": "K7Lockdown_v0.75_windows.zip"
+      "size": 172283580,
+      "sha256": "fa5a53342c3925db9a40d897412bb208182237ae169e801027c7dea598d86e8d",
+      "file": "K7Lockdown_v0.76_windows.zip"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.75/K7Lockdown_v0.75_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.76/K7Lockdown_v0.76_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.76/K7Lockdown_v0.76_linux.zip.part1"
       ],
-      "size": 163737852,
-      "sha256": "cc01a241ddfbd0c1ac24f6e61e0bf48a440b436b2400acff5891a9230534f612",
-      "file": "K7Lockdown_v0.75_linux.zip"
+      "size": 163755795,
+      "sha256": "0a66a896142762428d01287f6a46c177b39f92ee4c3bb6c85558b81c7029960c",
+      "file": "K7Lockdown_v0.76_linux.zip"
     }
   },
   "file": "K7Launcher_windows.zip",
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "51afd4443079750112e4283849185a69bdf9f829960f1fcaa047fd50623a2fc2",
-  "sha256_linux": "90ebe9cf8e11c5fa215e47f4937d6ea9e6be2b534954813737d53f38764e81b4"
+  "sha256_windows": "dff5fc8681b8aca9420017372360109e2c1fb3caf213d93fd1dd0c9f70687acf",
+  "sha256_linux": "a046d127bb001f91eb6ccd40c9d95a1201099d55e5ea077ac52417b905be18f5"
 }
