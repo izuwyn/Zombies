@@ -1,28 +1,28 @@
 {
-  "version": "0.77",
+  "version": "0.78",
   "date": "2026-11-15",
-  "notes": "- Updates download only what changed. The launcher now patches the game: it keeps the parts you already\n  have and downloads just the new ones, so a typical update is a few MB instead of the whole 170 MB game.\n  (This update is still a full download, since the launcher has to learn about patches first.)\n- New Play menu layout: Solo is a big square on the left, with Host Game and Find Game stacked on the right.\n- Perk machines no longer have their description written on the front (the perk card shows it when you walk up).",
+  "notes": "- New perk: Bomber (light purple). Your own explosions can't hurt you, every melee hit goes off with a\n  small blast, and you carry 2 more grenades. Its upgrade trees: Big Bang (bigger, harder melee blasts) and\n  Bandolier (up to 3 more grenades).\n- New perk: Ice King / Ice Queen (named after the body you picked). Getting hit freezes every zombie\n  within 6 m solid for 4 s (every 45 s; bosses are only slowed). Your grenades become Blizzards: an\n  icy ball that bursts into a 6 s snowstorm, slowing everything inside and freezing it solid within\n  about 2 s, with light frost damage. Upgrade trees: Permafrost (longer freezes and storms) and Cold Snap\n  (freeze ready up to 24 s sooner).\n- Weapon upgrade tiers. The upgrade machine now takes an upgraded gun further: Tier II for 15,000\n  (half as much damage again, more ammo, a molten red-gold camo) and Tier III for 30,000 (double the\n  first upgrade's damage, bigger mags, faster fire and reload, a dark-matter camo) plus an effect for each\n  gun type: explosive rounds (pistols, shotguns), chain lightning (SMGs, LMG, minigun), cryo rounds\n  (assault rifles), ricochet (snipers), bigger blasts (launchers).\n- Family Home bedrooms have their own walls now, with a doorway into the rest of the house (the\n  wall stops beside the loft stairs where they pass). Pictures hang on the new walls too.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.77/K7Lockdown_v0.77_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.77/K7Lockdown_v0.77_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_windows.zip.part1"
       ],
-      "size": 178739571,
-      "sha256": "6ccc73d875fc29aed7a41e804253e37a2c29f432ab3965d37934b36ab708410e",
-      "file": "K7Lockdown_v0.77_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.77/manifest_windows.json",
+      "size": 178759183,
+      "sha256": "0c5457e8c2f4cb9c68cd038512d81a3faacee9154da4c551f902de9888bd7568",
+      "file": "K7Lockdown_v0.78_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.77/K7Lockdown_v0.77_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.77/K7Lockdown_v0.77_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/K7Lockdown_v0.78_linux.zip.part1"
       ],
-      "size": 170213374,
-      "sha256": "22ffdb9590093b541399582f4952d3367894762f32c59e0f1e9cd70f5dea7adc",
-      "file": "K7Lockdown_v0.77_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.77/manifest_linux.json",
+      "size": 170232984,
+      "sha256": "c58b4d5165386dbb73b8b45760363bbbccf5a52912c2e1abd3db118b97ef5fba",
+      "file": "K7Lockdown_v0.78_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.78/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +30,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "ccd68d4db228ca3f577aad8f7097af25bc3d1770a36890377ca861d121c3890f",
-  "sha256_linux": "548135253d6013f0207cfa91e290d6f0d11aefa27f080ab46326607112907ce3"
+  "sha256_windows": "0ecd900cdc32be5b7607d2690f90dd20cee0314fca88f997e588b6f9a1336320",
+  "sha256_linux": "41970fa504336a26100fdec3f31756311d7f8fa8726e929f5aa9c0d7255fcf7a"
 }
