@@ -1,28 +1,28 @@
 {
-  "version": "0.79",
-  "date": "2026-11-15",
-  "notes": "- Drop-in co-op. A hosted game now stays in the server browser while it's being played (shown as\n  \"IN GAME\", with a DROP IN button). Joiners load straight into the match as it is (the round, open doors,\n  boards, the box, the quest so far, the zombies) and watch until the next round starts. Hosts who want\n  privacy can turn off Show in browser while playing when hosting.\n- New perk: 3rd Hand (teal). Carry a third gun: it gets its own teal slot (key 4) in the weapon bar.\n  Upgrade trees: Juggler (faster swaps) and Spare Mags (guns you're not holding reload themselves).\n- The Alpha's entrance. The first time it comes, a short cutscene plays (letterbox, it drops in and roars,\n  its title card); every zombie holds still meanwhile, and Jump skips it. Once you've beaten it, the Alpha\n  comes back every 4-5 rounds on the Outskirts as a mini boss (no cutscene), a bit tougher each time.\n- Fixed: the Alpha's health bar said SIR CHONK if a Sir Chonk round had come first.\n- The last 2 zombies of a round glow red through walls, and in co-op your **teammates show as a\n  silhouette** in their colour through walls.\n- Fancier upgrade names: Tier I waves in violet, Tier II burns in flickering fire, Tier III shimmers\n  cyan and violet.\n- Tier III explosive rounds (pistols, shotguns) now go off on walls and floors too, not only zombies.\n- Family Home bedrooms reworked: whole walls only (no more odd stubs around the stairs), wider doorways\n  near the corners so zombies don't get stuck, and the bed and furniture laid out to fit the room. Beds no\n  longer stand in the open-plan part of the house.",
+  "version": "0.80",
+  "date": "2026-11-16",
+  "notes": "- Melee weapons upgrade to Tier III at the upgrade machine, like guns (same prices). Each tier hits\n  harder and cuts through more zombies; Tier III also swings faster and adds the weapon's own effect:\n  knife Lifesteal (each hit heals you), bat Shockwave (knocks back and stuns zombies around the\n  target), axe Execute (zombies under half health die in one hit), katana Blade wave (every swing\n  sends a slash 8 m ahead).\n- Weapon prestige. At level 50 a gun or melee weapon can be prestiged (up to P5) in the Gunsmith: back\n  to level 1, every attachment and camo stays unlocked, +2500 XP, and a P badge. P1, P3 and P5 unlock that\n  weapon's prestige camos (Veteran Bronze, Veteran Silver, Master Gold).\n- Warden Cole has his own model (armoured guard with cap, badge and baton), an arrival cutscene, and\n  bellows to rally zombies. Once beaten he comes back every 4-5 rounds. The Alpha and the Warden only return\n  after their quest is done in that game, and the Alpha is much tougher.\n- Mayday ending: the evac chopper flies in over the flares and the Alpha brings it down. The supply\n  crate lands at the wreck.\n- Drop-in co-op: joiners get catch-up points (75% of the others' average) and spin a wheel for their\n  spawn gun while they wait for the next round.\n- Reworded text across the menus, story cards, perks and pop-ups (shorter and plainer). Quick Fix only\n  describes what it does in your mode (solo or co-op).\n- Event pop-outs: Blackout, Thick Fog, Horde, Supply Drop and power coming back now slide in at the\n  bottom left with an icon. Camo unlocks show a small card with the gun turning in its new camo.\n- Blizzard overhaul: swirling snow, drifting snow clouds, frost spreading over the floor and ice shards\n  that shatter when it ends.\n- Your camo everywhere: wall buys, the Mystery Box and the upgrade machine show guns in your equipped\n  camo (the upgrade machine switches to the tier camo when it's done).\n- More graphics options in Video: shadows, ambient occlusion, SSIL, global illumination, volumetric fog,\n  bloom, film grain, anti-aliasing, a max FPS, and an FPS cap when the game isn't focused (30 by default).\n- Performance: only the 8 lamps nearest you cast shadows (maps have over 100), which was the main cost\n  in late rounds with lots of zombies.\n- Prison: zombies also drop from ceiling vents onto the upper floors; open cells have wide doorways so\n  zombies can follow you in; no catwalk bridge over the stairs in short cell blocks; clear space in front\n  of every staircase.\n- Le Chonks spawn inside the map instead of outside windows.\n- Collectibles sit where they belong: keycards in wall key cabinets, intel on filing cabinets, patient\n  charts on medical carts, breaker panels on the wall.\n- Models: Mag-50 rebuilt; the hand cannon's foregrip and heavy barrel line up with the gun; the\n  handgun Fast Mag is a base pad instead of a second mag sticking out of the grip.\n- Solo: the first Quick Fix costs 500. The last zombie of a round sprints. Picking up a fuse or battery beats\n  repairing a barricade. The LAN port only shows for LAN-only hosting.\n- Fixed: spectating a teammate in a tight spot showed the inside of their head (a black screen with a gas\n  mask). Fixed: furniture through upper-floor posts, gym bleachers in front of doors, a bench blocking\n  stairs, main menu zombies vanishing in view.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_windows.zip.part1"
       ],
-      "size": 178777922,
-      "sha256": "877ae8f79306bec93ca255aa5df34f38500b8ed9be98fe832032046f451252e9",
-      "file": "K7Lockdown_v0.79_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/manifest_windows.json",
+      "size": 178826768,
+      "sha256": "1762cc5c2f80a4862ba97f4dff053feb4b0a8a1a6be5fe2257637bc070f83de9",
+      "file": "K7Lockdown_v0.80_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/K7Lockdown_v0.79_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_linux.zip.part1"
       ],
-      "size": 170251730,
-      "sha256": "c08107cf546afcc9e3aa5fca4e9ef9788c3d1f42a15bb1c6738a7dec99c23429",
-      "file": "K7Lockdown_v0.79_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.79/manifest_linux.json",
+      "size": 170300575,
+      "sha256": "9d9a59df1a7c4639bde0cceab0c04ff7de32d3ed61256a9af29b57ab82207426",
+      "file": "K7Lockdown_v0.80_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +30,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "55b9a5a067198d111ed49bd0c5c4f9210e81d186e63e40df4709887a09a19836",
-  "sha256_linux": "1277437033f3cb72149c3d1ca907257689670f069d77a199e4ba43bd6aa01183"
+  "sha256_windows": "3c0753ecaeb468b78132427dd230e518368684fc5fd363e44f27d1356551f0c3",
+  "sha256_linux": "d5d8e6c965c83c8356198c5ca993882ca8d387f572087bcd2b9b84e3868824f6"
 }
