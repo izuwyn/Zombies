@@ -1,28 +1,28 @@
 {
-  "version": "0.80",
+  "version": "0.81",
   "date": "2026-11-16",
-  "notes": "- Melee weapons upgrade to Tier III at the upgrade machine, like guns (same prices). Each tier hits\n  harder and cuts through more zombies; Tier III also swings faster and adds the weapon's own effect:\n  knife Lifesteal (each hit heals you), bat Shockwave (knocks back and stuns zombies around the\n  target), axe Execute (zombies under half health die in one hit), katana Blade wave (every swing\n  sends a slash 8 m ahead).\n- Weapon prestige. At level 50 a gun or melee weapon can be prestiged (up to P5) in the Gunsmith: back\n  to level 1, every attachment and camo stays unlocked, +2500 XP, and a P badge. P1, P3 and P5 unlock that\n  weapon's prestige camos (Veteran Bronze, Veteran Silver, Master Gold).\n- Warden Cole has his own model (armoured guard with cap, badge and baton), an arrival cutscene, and\n  bellows to rally zombies. Once beaten he comes back every 4-5 rounds. The Alpha and the Warden only return\n  after their quest is done in that game, and the Alpha is much tougher.\n- Mayday ending: the evac chopper flies in over the flares and the Alpha brings it down. The supply\n  crate lands at the wreck.\n- Drop-in co-op: joiners get catch-up points (75% of the others' average) and spin a wheel for their\n  spawn gun while they wait for the next round.\n- Reworded text across the menus, story cards, perks and pop-ups (shorter and plainer). Quick Fix only\n  describes what it does in your mode (solo or co-op).\n- Event pop-outs: Blackout, Thick Fog, Horde, Supply Drop and power coming back now slide in at the\n  bottom left with an icon. Camo unlocks show a small card with the gun turning in its new camo.\n- Blizzard overhaul: swirling snow, drifting snow clouds, frost spreading over the floor and ice shards\n  that shatter when it ends.\n- Your camo everywhere: wall buys, the Mystery Box and the upgrade machine show guns in your equipped\n  camo (the upgrade machine switches to the tier camo when it's done).\n- More graphics options in Video: shadows, ambient occlusion, SSIL, global illumination, volumetric fog,\n  bloom, film grain, anti-aliasing, a max FPS, and an FPS cap when the game isn't focused (30 by default).\n- Performance: only the 8 lamps nearest you cast shadows (maps have over 100), which was the main cost\n  in late rounds with lots of zombies.\n- Prison: zombies also drop from ceiling vents onto the upper floors; open cells have wide doorways so\n  zombies can follow you in; no catwalk bridge over the stairs in short cell blocks; clear space in front\n  of every staircase.\n- Le Chonks spawn inside the map instead of outside windows.\n- Collectibles sit where they belong: keycards in wall key cabinets, intel on filing cabinets, patient\n  charts on medical carts, breaker panels on the wall.\n- Models: Mag-50 rebuilt; the hand cannon's foregrip and heavy barrel line up with the gun; the\n  handgun Fast Mag is a base pad instead of a second mag sticking out of the grip.\n- Solo: the first Quick Fix costs 500. The last zombie of a round sprints. Picking up a fuse or battery beats\n  repairing a barricade. The LAN port only shows for LAN-only hosting.\n- Fixed: spectating a teammate in a tight spot showed the inside of their head (a black screen with a gas\n  mask). Fixed: furniture through upper-floor posts, gym bleachers in front of doors, a bench blocking\n  stairs, main menu zombies vanishing in view.",
+  "notes": "- Every gun has its own Tier III name and effect: Hellfire Judge (blast and burn), Hornet Queen (hits\n  bounce to 2 more), Dragon's Breath (sets them alight), Widowmaker's Kiss (headshots burst in shrapnel),\n  Grinder Prime (every 8th hit explodes), Judgement Day (lightning strikes), Tempest Sovereign (chains to 4),\n  Shatterpoint (freezes; frozen kills shatter), Bloodline (kills refill the mag and heal), Trinity Storm,\n  Twin Dragons, Doomsday Bloom (cluster bombs), Reaper's Harvest, Sentinel's Mark, Deadeye Supernova,\n  Swarm Mother, Inferno Annihilator, Starfall Requiem (seeking shards) and Sir Chonk's Last Laugh (stuns).\n- New melee weapon: Excalibur. Tier III, Light of Avalon: hits consecrate the ground, healing players\n  in it and burning zombies.\n- Melee weapons come from the Mystery Box now (no more wall buys), and they're toned down: they\n  one-shot everything far too late into a game.\n- Tier III katana: a three-strike combo ending in a spinning slash and three blade waves. Tier III\n  melee weapons have their own names too.\n- Compass at the top of the screen: bearings, the perk machines in rooms you've opened, and your\n  teammates with their distance.\n- Ice King/Queen grenades are a spell: a frost orb charged in your hand and cast with a palm thrust.\n- Weapon prestige camos: Forged Bronze (P1), Obsidian Silver (P2), Moonforged Silver (P3), Obsidian\n  Gold (P4) and Sunforged Gold (P5), all animated, with particle auras.\n- Max level is now 100 (XP per level stops growing at 12,000), with new ranks. Guns and melee weapons\n  unlock for customizing over levels 1-72. An account prestige now needs level 100.\n- Teammate outlines and the last zombies' glow only show through walls, not in plain view.\n- Sir Chonk spawns on the real ground with room for his size (he came out inside a hill once).\n- The Alpha and Warden Cole never turn up during a Le Chonk round; they wait for the next normal one.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_windows.zip.part1"
       ],
-      "size": 178826768,
-      "sha256": "1762cc5c2f80a4862ba97f4dff053feb4b0a8a1a6be5fe2257637bc070f83de9",
-      "file": "K7Lockdown_v0.80_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/manifest_windows.json",
+      "size": 178853866,
+      "sha256": "86babbdf2f77b5e47a81d7a6f879582ca3498bf72f546807a0b88d98aed99bf0",
+      "file": "K7Lockdown_v0.81_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/K7Lockdown_v0.80_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_linux.zip.part1"
       ],
-      "size": 170300575,
-      "sha256": "9d9a59df1a7c4639bde0cceab0c04ff7de32d3ed61256a9af29b57ab82207426",
-      "file": "K7Lockdown_v0.80_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.80/manifest_linux.json",
+      "size": 170327677,
+      "sha256": "1cf49c2cb948a1115e665f15769df4afc1a8d2e59f900deb1601b0281fc15b93",
+      "file": "K7Lockdown_v0.81_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +30,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "3c0753ecaeb468b78132427dd230e518368684fc5fd363e44f27d1356551f0c3",
-  "sha256_linux": "d5d8e6c965c83c8356198c5ca993882ca8d387f572087bcd2b9b84e3868824f6"
+  "sha256_windows": "dba865f420322cddf3821be38f347f0089f4649dfb65225431c0567645379a6f",
+  "sha256_linux": "4079a25f1bd7e9d024ec263255457d2879604f3d3f723272bbcbd35e9a23ba7e"
 }
