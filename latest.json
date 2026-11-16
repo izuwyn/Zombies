@@ -1,28 +1,28 @@
 {
-  "version": "0.82",
+  "version": "0.83",
   "date": "2026-11-16",
-  "notes": "- Alone in an online lobby counts as solo for Quick Fix: the first one costs 500, it says what it does in\n  solo, and it gets you back up (you used to go down and bleed out waiting for a teammate). The price\n  switches when someone drops in or leaves.",
+  "notes": "- New challenge map: The Quarantine Line. Ten sealed chambers in a row. Walk into one and it locks:\n  its zombies come in through its own windows only. Clear it and the blast door to the next one opens.\n  A clock runs from the first chamber to the last; you're ranked on chambers cleared, then time.\n- Daily runs: the same chambers, guns and twist for everyone that day (Sprinters, Glass Cannon,\n  Horde or Riot Gear).\n- Leaderboards for all-time and daily runs, at the end of a solo run, under the map picker and on\n  the Stats page. Your own bests are kept offline too.\n- Each boss has its own health bar over its head, full when it arrives (the old shared bar on the\n  HUD could show the Alpha at half health after two Sir Chonks).\n- The Alpha actually hits you: longer reach, quicker wind-up, and its leap hits in a wider area.\n- The Alpha and Warden Cole have their own intro music (war drums and a roar; a lockdown siren and\n  slamming cell doors) instead of Sir Chonk's tune.\n- Sound overhaul: new gunshots for each class of gun (pistol, SMG, AR, LMG, shotgun, sniper, magnum),\n  explosions, hit/kill/headshot markers, reloads, barricades, perks, the box, footsteps and the UI, with\n  several takes each. Melee hits are rebuilt too (thump, flesh, wood, steel ring, bone crack).\n- Every gun fires while you hold the trigger, at its own fire rate.\n- Melee the Mystery Box's offer to get rid of it: alone it goes back in the box; in co-op anyone\n  can take it.\n- Viral Ooze pop-up at the top right, with an icon, the amount and your total, every time you earn it.\n- The HUD shows the next perk's price above your perk icons.\n- The compass hides perk machines for perks you already have.\n- P-12: the Competition Slide replaces the Auto Sear (faster fire, less kick, harder headshots).\n- Tri-Burst: optics sit on the rail (the red dot floated).\n- Camo unlock cards come out at the upper right, clear of the perk cards.\n- Outskirts quest: car batteries no longer end up on an auto shop's stairs.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.83/K7Lockdown_v0.83_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.83/K7Lockdown_v0.83_windows.zip.part1"
       ],
-      "size": 178853064,
-      "sha256": "a2acc586f5f3ea12aca0ae46f2e0201c3c43212942cc8f4915cfcd59f8b29cf0",
-      "file": "K7Lockdown_v0.82_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/manifest_windows.json",
+      "size": 179710851,
+      "sha256": "8eb5cb5266d0b68c12903cbdb97bb6a3e9a493b904e7ba138b59bdd5693fd08f",
+      "file": "K7Lockdown_v0.83_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.83/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.83/K7Lockdown_v0.83_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.83/K7Lockdown_v0.83_linux.zip.part1"
       ],
-      "size": 170326878,
-      "sha256": "b9aeee7243d819f91e4ebc78f67885f1575b7edc3837411a63b586cb4fa3ebb1",
-      "file": "K7Lockdown_v0.82_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/manifest_linux.json",
+      "size": 171184658,
+      "sha256": "6fafd45c00beab78b750ef46be3c986579b9b373e0263128a12b9aa72d117d39",
+      "file": "K7Lockdown_v0.83_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.83/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +30,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "a4417e8fd84f2f1bcfc7c6aa26fb01fcefa38a81faae08f94654c121f2ecd075",
-  "sha256_linux": "dc78ca1a45c0341fd4a775c88992326f3f9e8ca4c69cf4b12499f77a37132773"
+  "sha256_windows": "6d920a507e175ef0d06070890bc90faf652a8246c6e920032df35c1b02145d1b",
+  "sha256_linux": "768af97466969d00b44735fdcce27139595735740a3309929e92d403a702c1b0"
 }
