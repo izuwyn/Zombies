@@ -1,28 +1,28 @@
 {
-  "version": "0.81",
+  "version": "0.82",
   "date": "2026-11-16",
-  "notes": "- Every gun has its own Tier III name and effect: Hellfire Judge (blast and burn), Hornet Queen (hits\n  bounce to 2 more), Dragon's Breath (sets them alight), Widowmaker's Kiss (headshots burst in shrapnel),\n  Grinder Prime (every 8th hit explodes), Judgement Day (lightning strikes), Tempest Sovereign (chains to 4),\n  Shatterpoint (freezes; frozen kills shatter), Bloodline (kills refill the mag and heal), Trinity Storm,\n  Twin Dragons, Doomsday Bloom (cluster bombs), Reaper's Harvest, Sentinel's Mark, Deadeye Supernova,\n  Swarm Mother, Inferno Annihilator, Starfall Requiem (seeking shards) and Sir Chonk's Last Laugh (stuns).\n- New melee weapon: Excalibur. Tier III, Light of Avalon: hits consecrate the ground, healing players\n  in it and burning zombies.\n- Melee weapons come from the Mystery Box now (no more wall buys), and they're toned down: they\n  one-shot everything far too late into a game.\n- Tier III katana: a three-strike combo ending in a spinning slash and three blade waves. Tier III\n  melee weapons have their own names too.\n- Compass at the top of the screen: bearings, the perk machines in rooms you've opened, and your\n  teammates with their distance.\n- Ice King/Queen grenades are a spell: a frost orb charged in your hand and cast with a palm thrust.\n- Weapon prestige camos: Forged Bronze (P1), Obsidian Silver (P2), Moonforged Silver (P3), Obsidian\n  Gold (P4) and Sunforged Gold (P5), all animated, with particle auras.\n- Max level is now 100 (XP per level stops growing at 12,000), with new ranks. Guns and melee weapons\n  unlock for customizing over levels 1-72. An account prestige now needs level 100.\n- Teammate outlines and the last zombies' glow only show through walls, not in plain view.\n- Sir Chonk spawns on the real ground with room for his size (he came out inside a hill once).\n- The Alpha and Warden Cole never turn up during a Le Chonk round; they wait for the next normal one.",
+  "notes": "- Alone in an online lobby counts as solo for Quick Fix: the first one costs 500, it says what it does in\n  solo, and it gets you back up (you used to go down and bleed out waiting for a teammate). The price\n  switches when someone drops in or leaves.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_windows.zip.part1"
       ],
-      "size": 178853866,
-      "sha256": "86babbdf2f77b5e47a81d7a6f879582ca3498bf72f546807a0b88d98aed99bf0",
-      "file": "K7Lockdown_v0.81_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/manifest_windows.json",
+      "size": 178853064,
+      "sha256": "a2acc586f5f3ea12aca0ae46f2e0201c3c43212942cc8f4915cfcd59f8b29cf0",
+      "file": "K7Lockdown_v0.82_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/K7Lockdown_v0.81_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/K7Lockdown_v0.82_linux.zip.part1"
       ],
-      "size": 170327677,
-      "sha256": "1cf49c2cb948a1115e665f15769df4afc1a8d2e59f900deb1601b0281fc15b93",
-      "file": "K7Lockdown_v0.81_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.81/manifest_linux.json",
+      "size": 170326878,
+      "sha256": "b9aeee7243d819f91e4ebc78f67885f1575b7edc3837411a63b586cb4fa3ebb1",
+      "file": "K7Lockdown_v0.82_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.82/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +30,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "dba865f420322cddf3821be38f347f0089f4649dfb65225431c0567645379a6f",
-  "sha256_linux": "4079a25f1bd7e9d024ec263255457d2879604f3d3f723272bbcbd35e9a23ba7e"
+  "sha256_windows": "a4417e8fd84f2f1bcfc7c6aa26fb01fcefa38a81faae08f94654c121f2ecd075",
+  "sha256_linux": "dc78ca1a45c0341fd4a775c88992326f3f9e8ca4c69cf4b12499f77a37132773"
 }
