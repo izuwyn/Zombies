@@ -1,28 +1,30 @@
 {
-  "version": "0.84",
+  "version": "0.85",
   "date": "2026-11-16",
-  "notes": "- Sir Chonk drops a Free Perk instead of an ammo cache and 2x points: everyone standing gets a random\n  perk they don't have from the map's machines (it doesn't raise the price of your next perk). Have them\n  all? You get 1500 points instead.\n- Weapon level-ups are a slim card at the right edge (a level badge, a bar that fills, a chip for\n  each unlock) instead of the big banner in the middle of the screen.\n- New setting: Upgrades Replace Camo (Settings, Game). Turn it off to keep your own camo on upgraded\n  guns.\n- Prestiging a gun takes its attachments off (they stay unlocked).\n- The Drum Mag is the magazine: reloading pulls the drum out and puts a new one in (it used to drop a\n  tiny stock mag out from under it).\n- Boss health bars don't show through walls any more.\n- The Arc Zapper's shot is softer and shorter (its ending used to grate).",
+  "notes": "- Every gun has a new, realistic model (from Sketchfab, CC BY 4.0; the authors are in the Credits):\n  Vanguard AR, Rattler SMG, Boomstick, Grinder LMG, Tri-Burst, Hornet PDW, Stalker 12, Twin Barrels,\n  Warden DMR, Mag-50, Buzzsaw, Thumper, Bolt Thrower and Hand Cannon. Their real magazines, pumps, slides,\n  bolts, break-open barrels, spinning barrels and revolver cylinder move when you reload. Attachments and\n  camos work on all of them (camos now also cover slides, barrels, pumps and the cylinder).\n- Prestige tokens. Prestiging a gun now locks its attachments again (they unlock as it levels back\n  up), and gives a token: use it in the Gunsmith to keep one attachment unlocked on that gun for good.\n  An account prestige locks the guns again until you level back up to them, and gives a token that keeps\n  one gun unlocked for good. Camos, cosmetics, weapon levels and stats stay. If you prestiged before, you\n  already have a token for each prestige.\n- Touch controls for phones and tablets (a move stick, drag to look, on-screen buttons), for the Android\n  test build. Online co-op and voice aren't on Android yet.\n- Under the hood: the game's code is split into smaller files in tidy folders.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.84/K7Lockdown_v0.84_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.84/K7Lockdown_v0.84_windows.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_windows.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_windows.zip.part2"
       ],
-      "size": 179716311,
-      "sha256": "683575060a15ccd69e195d16985e972c21c97f746d85fe69f874120a50799b07",
-      "file": "K7Lockdown_v0.84_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.84/manifest_windows.json",
+      "size": 248753006,
+      "sha256": "0f11a7ed3a6a14b7938ea48bffce1d8496305685d5808583046dd0216dc0828d",
+      "file": "K7Lockdown_v0.85_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.84/K7Lockdown_v0.84_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.84/K7Lockdown_v0.84_linux.zip.part1"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_linux.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_linux.zip.part2"
       ],
-      "size": 171190127,
-      "sha256": "3ff6ced35cced7e56bf773531cb12b00f0e583aa0ab033511cd5a646fb0e90d1",
-      "file": "K7Lockdown_v0.84_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.84/manifest_linux.json",
+      "size": 240226814,
+      "sha256": "8c8a991e2b4f27789a87c2de27d3a556fb729757dc548bd2b5709dd5da5b65e0",
+      "file": "K7Lockdown_v0.85_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -30,6 +32,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "170542607c802e57dfb41391ce2ab8e088febec4b1fbfe0ef217ad075dfbacaf",
-  "sha256_linux": "dfa7c17b8642da9dc40507ffcbc9754fc7f5ed24565bddffc6a628654072bfff"
+  "sha256_windows": "eecbc8aeb73ca1214b2eea15ebaddbfa175012a006f2346a16324be791ab7a09",
+  "sha256_linux": "506b3615e72f6b57c37ac81b220d188d5c1abe5f0910b267e2629a460e07223a"
 }
