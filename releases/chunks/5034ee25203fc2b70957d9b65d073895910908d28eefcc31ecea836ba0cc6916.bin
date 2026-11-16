@@ -1,0 +1,1416 @@
+list=[{
+"base": &"GraphNodeResource",
+"class": &"StartNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/common/start_node/start_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"ReorderObjectiveCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/reorder_objective_command.gd"
+}, {
+"base": &"Node",
+"class": &"QuestController",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_controller.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"BranchNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/branch_node/branch_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"MoveNodesCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/move_nodes_command.gd"
+}, {
+"base": &"EditorExportPlugin",
+"class": &"QuestWeaverExportPlugin",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/io/qw_export.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"BackdropNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/common/backdrop/backdrop_node_resource.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"EventNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/event_node/event_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveRandomPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_random_port_command.gd"
+}, {
+"base": &"GraphEdit",
+"class": &"QuestWeaverGraphController",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/quest_weaver_graph.gd"
+}, {
+"base": &"PanelContainer",
+"class": &"QuestLogEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/ui_runtime/quest_log_entry.gd"
+}, {
+"base": &"EditorDebuggerPlugin",
+"class": &"QuestWeaverDebuggerPlugin",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/debugger/qw_debugger_plugin.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"WaitNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/wait_node/wait_node_executor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWFormat",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/io/qw_format.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"GiveTakeItemNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/give_take_item_node/give_take_item_node_executor.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"QuestCategoryHeader",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/ui_runtime/quest_category_header.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"ShowUIMessageNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/show_ui_message_node/show_ui_message_node_executor.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddRewardCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_reward_command.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"TimerNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/timer_node/timer_node_resource.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestTimerManager",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/managers/quest_timer_manager.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWLogger",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_logger.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"QWSortEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/sort_editor.gd"
+}, {
+"base": &"MarginContainer",
+"class": &"BaseUIPanel",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/presentation/base_ui_panel.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddConditionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_condition_command.gd"
+}, {
+"base": &"Resource",
+"class": &"ParallelOutputPort",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/parallel_output_port.gd"
+}, {
+"base": &"EditorPlugin",
+"class": &"QuestWeaverPlugin",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/plugin.gd"
+}, {
+"base": &"PanelContainer",
+"class": &"ObjectiveEditorEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/conditions/objective_editor_entry.gd"
+}, {
+"base": &"RefCounted",
+"class": &"ObjectiveTextProxy",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/objective_text_proxy.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddSimpleConditionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_simple_condition_command.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"SynchronizeNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/synchronize_node/synchronize_node_editor.gd"
+}, {
+"base": &"Resource",
+"class": &"UIPanelTemplateResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/presentation/ui_panel_template_resource.gd"
+}, {
+"base": &"Control",
+"class": &"QuestWeaverEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/quest_weaver_editor.gd"
+}, {
+"base": &"Node",
+"class": &"QuestValidator",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/validation/quest_validator.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveSyncInputPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_sync_input_port_command.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"AnchorNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/anchor_node/anchor_node_editor.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"BranchNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/branch_node/branch_node_executor.gd"
+}, {
+"base": &"Node",
+"class": &"QuestWeaverDebugger",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/debugger/quest_weaver_debugger.gd"
+}, {
+"base": &"Resource",
+"class": &"ObjectiveResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/conditions/objective_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"CompositeCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/composite_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddSyncOutputPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_sync_output_port_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveObjectiveCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_objective_command.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"JumpNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/jump_node/jump_node_resource.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"EventNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/event_node/event_node_executor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWEditorUtils",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_editor_utils.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"EndScopeNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/end_scope_node/end_scope_node_resource.gd"
+}, {
+"base": &"Resource",
+"class": &"NodeTypeInfo",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/node_type_info.gd"
+}, {
+"base": &"Resource",
+"class": &"QWItemRegistry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/examples/resources/qw_item_registry.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWNodeSizes",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_node_sizes.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWItem",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/examples/resources/qw_item.gd"
+}, {
+"base": &"Resource",
+"class": &"QuestRegistry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_registry.gd"
+}, {
+"base": &"GraphNode",
+"class": &"QWGraphNode",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_graph_node.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddParallelPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_parallel_port_command.gd"
+}, {
+"base": &"EditorImportPlugin",
+"class": &"QuestWeaverImportPlugin",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/io/qw_import.gd"
+}, {
+"base": &"Resource",
+"class": &"SynchronizeOutputPort",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/synchronize_output_port.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"TimerNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/timer_node/timer_node_executor.gd"
+}, {
+"base": &"Resource",
+"class": &"ConditionResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/conditions/condition_resource.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"ObjectiveNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/objective_node/objective_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"DeleteNodesCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/delete_nodes_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"SetSimpleConditionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/set_simple_condition_command.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"AutoCompleteLineEdit",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/auto_complete_line_edit.gd"
+}, {
+"base": &"Resource",
+"class": &"QuestGraphResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_graph_resource.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestInstance",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_instance.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"ShowUIMessageNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/show_ui_message_node/show_ui_message_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"PasteNodesCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/paste_nodes_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddSyncInputPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_sync_input_port_command.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"QuestContextNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/quest_context_node/quest_context_node_resource.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"RewardEditorEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/reward_entry.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWConstants",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_constants.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"ParallelOutputEditorEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/parallel_output_editor_entry.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"EventListenerNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/event_listener_node/event_listener_node_executor.gd"
+}, {
+"base": &"QuestInventoryAdapterBase",
+"class": &"SimpleInventoryAdapter",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/adapters/simple_inventory_adapter.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestInventoryAdapterBase",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/adapters/quest_inventory_adapter_base.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"SynchronizeOutputEditorEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/synchronize_output_editor_entry.gd"
+}, {
+"base": &"TextEdit",
+"class": &"TabFocusTextEdit",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/tab_focus_text_edit.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"EventListenerNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/event_listener_node/event_listener_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveRewardCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_reward_command.gd"
+}, {
+"base": &"CanvasLayer",
+"class": &"QuestLogUI",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/ui_runtime/quest_log_ui.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestProxy",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_proxy.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWClipboard",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_clipboard.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"JumpNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/jump_node/jump_node_executor.gd"
+}, {
+"base": &"Resource",
+"class": &"SynchronizeInputPort",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/synchronize_input_port.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemovePayloadCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_payload_command.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"ParallelNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/parallel_node/parallel_node_editor.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"JumpNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/jump_node/jump_node_editor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWEditorHistory",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_editor_history.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"ParallelNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/parallel_node/parallel_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"CreateBackdropCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/create_backdrop_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddObjectiveCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_objective_command.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"QuestNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/quest_node/quest_node_editor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestDebugProxy",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_debug_proxy.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"ConnectionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/connection_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveSimpleConditionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_simple_condition_command.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"QuestNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/quest_node/quest_node_executor.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"SynchronizeNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/synchronize_node/synchronize_node_resource.gd"
+}, {
+"base": &"Resource",
+"class": &"GraphNodeCategory",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/assets/graph_node_category.gd"
+}, {
+"base": &"Resource",
+"class": &"QuestWeaverDebugSettings",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/debug_settings.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"WaitNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/wait_node/wait_node_resource.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"QuestContextNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/quest_context_node/quest_context_node_executor.gd"
+}, {
+"base": &"RichTextEffect",
+"class": &"QWCharAnimationEffect",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/presentation/qw_char_animation_effect.gd"
+}, {
+"base": &"Node",
+"class": &"QWGameState",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_weaver_game_state.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveConditionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_condition_command.gd"
+}, {
+"base": &"Resource",
+"class": &"QuestEditorData",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_editor_data.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWEnums",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_enums.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"ObjectiveNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/objective_node/objective_node_editor.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"SetVariableNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/set_variable_node/set_variable_node_resource.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"ResetProgressNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/reset_progress_node/reset_progress_node_resource.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveParallelPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_parallel_port_command.gd"
+}, {
+"base": &"Node",
+"class": &"QWNodeFactory",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_node_factory.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWTextContext",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_text_context.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"ResetProgressNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/reset_progress_node/reset_progress_node_executor.gd"
+}, {
+"base": &"HBoxContainer",
+"class": &"ItemStackEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/item_stack_entry.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"TaskNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/task_node/task_node_resource.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"BranchNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/branch_node/branch_node_editor.gd"
+}, {
+"base": &"PopupPanel",
+"class": &"NodeSelectionMenu",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/node_selection_menu.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"QuestNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/quest_node/quest_node_resource.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"StartScopeNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/start_scope_node/start_scope_node_resource.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"TaskNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/task_node/task_node_executor.gd"
+}, {
+"base": &"FileDialog",
+"class": &"QuestFileDialog",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/dialogs/quest_file_dialog.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"NodeActionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/node_action_command.gd"
+}, {
+"base": &"Resource",
+"class": &"PresentationRegistry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/presentation/presentation_registry.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"ChangeDictionaryValueCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/change_dictionary_value_command.gd"
+}, {
+"base": &"Resource",
+"class": &"RandomOutputPort",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/random_output_port.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"TextNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/text_node/text_node_resource.gd"
+}, {
+"base": &"VBoxContainer",
+"class": &"SynchronizeInputEditorEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/synchronize_input_editor_entry.gd"
+}, {
+"base": &"ConfirmationDialog",
+"class": &"QuestConfirmationDialog",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/dialogs/quest_confirmation_dialog.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"SynchronizeNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/synchronize_node/synchronize_node_executor.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"SubGraphNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/sub_graph_node/sub_graph_node_resource.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"RandomNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/random_node/random_node_executor.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"TextNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/text_node/text_node_executor.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"StartScopeNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/start_scope_node/start_scope_node_executor.gd"
+}, {
+"base": &"Resource",
+"class": &"ValidationResult",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/validation/validation_result.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"RandomNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/random_node/random_node_resource.gd"
+}, {
+"base": &"MarginContainer",
+"class": &"QuestWeaverValidator",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/validation/validator_dock.gd"
+}, {
+"base": &"RefCounted",
+"class": &"LocalizationKeyScanner",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/localization_key_scanner.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddRandomPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_random_port_command.gd"
+}, {
+"base": &"HBoxContainer",
+"class": &"RandomOutputEditorEntry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/components/random_output_editor_entry.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"SetVariableNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/set_variable_node/set_variable_node_executor.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"ReorderConditionCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/reorder_condition_command.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"EndNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/common/end_node/end_node_resource.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"ParallelNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/parallel_node/parallel_node_executor.gd"
+}, {
+"base": &"Resource",
+"class": &"NodeTypeRegistry",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/node_type_registry.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"EventNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/event_node/event_node_editor.gd"
+}, {
+"base": &"Node",
+"class": &"PresentationManager",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/managers/presentation_manager.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"PlayCutsceneNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/play_cutscene_node/play_cutscene_node_resource.gd"
+}, {
+"base": &"NodePropertyEditorBase",
+"class": &"RandomNodeEditor",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/random_node/random_node_editor.gd"
+}, {
+"base": &"PanelContainer",
+"class": &"NodePropertyEditorBase",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/base/node_property_editor_base.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestRegistrar",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/quest_registrar.gd"
+}, {
+"base": &"Node",
+"class": &"QWInputHandler",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_input_handler.gd"
+}, {
+"base": &"Resource",
+"class": &"QuestWeaverSettings",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/quest_weaver_settings.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"AddPayloadCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/add_payload_command.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"CreateNodeCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/create_node_command.gd"
+}, {
+"base": &"QuestKillAdapterBase",
+"class": &"SimpleKillAdapter",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/adapters/simple_kill_adapter.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestKillAdapterBase",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/adapters/quest_kill_adapter_base.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"AnchorNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/flow/anchor_node/anchor_node_resource.gd"
+}, {
+"base": &"Node",
+"class": &"QWGraphData",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_graph_data.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"ChangePropertyCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/change_property_command.gd"
+}, {
+"base": &"Resource",
+"class": &"QWItemDefinition",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/examples/resources/qw_item_definition.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestEventManager",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/managers/quest_event_manager.gd"
+}, {
+"base": &"Node",
+"class": &"QWActionHandler",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/qw_action_handler.gd"
+}, {
+"base": &"RefCounted",
+"class": &"ExecutionContext",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/execution_context.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QWConditionLogic",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/core/qw_condition_logic.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"PlayCutsceneNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/play_cutscene_node/play_cutscene_node_executor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestScopeManager",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/managers/quest_scope_manager.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"SubGraphNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/sub_graph_node/sub_graph_node_executor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestSyncManager",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/managers/quest_sync_manager.gd"
+}, {
+"base": &"RefCounted",
+"class": &"QuestStatePersistenceManager",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/systems/managers/quest_state_persistence_manager.gd"
+}, {
+"base": &"NodeExecutor",
+"class": &"ObjectiveNodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/logic/objective_node/objective_node_executor.gd"
+}, {
+"base": &"RefCounted",
+"class": &"NodeExecutor",
+"icon": "",
+"is_abstract": false,
+"is_tool": false,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/base/node_executor.gd"
+}, {
+"base": &"EditorCommand",
+"class": &"RemoveSyncOutputPortCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/remove_sync_output_port_command.gd"
+}, {
+"base": &"RefCounted",
+"class": &"EditorCommand",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/editor/commands/editor_command.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"CommentNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/common/comment/comment_node_resource.gd"
+}, {
+"base": &"GraphNodeResource",
+"class": &"GiveTakeItemNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/action/give_take_item_node/give_take_item_node_resource.gd"
+}, {
+"base": &"Resource",
+"class": &"GraphNodeResource",
+"icon": "",
+"is_abstract": false,
+"is_tool": true,
+"language": &"GDScript",
+"path": "res://addons/quest_weaver/nodes/base/graph_node_resource.gd"
+}]
+     <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="124" height="124" x="2" y="2" fill="#363d52" stroke="#212532" stroke-width="4" rx="14"/><g fill="#fff" transform="translate(12.322 12.322)scale(.101)"><path d="M105 673v33q407 354 814 0v-33z"/><path fill="#478cbf" d="m105 673 152 14q12 1 15 14l4 67 132 10 8-61q2-11 15-15h162q13 4 15 15l8 61 132-10 4-67q3-13 15-14l152-14V427q30-39 56-81-35-59-83-108-43 20-82 47-40-37-88-64 7-51 8-102-59-28-123-42-26 43-46 89-49-7-98 0-20-46-46-89-64 14-123 42 1 51 8 102-48 27-88 64-39-27-82-47-48 49-83 108 26 42 56 81zm0 33v39c0 276 813 276 814 0v-39l-134 12-5 69q-2 10-14 13l-162 11q-12 0-16-11l-10-65H446l-10 65q-4 11-16 11l-162-11q-12-3-14-13l-5-69z"/><path d="M483 600c0 34 58 34 58 0v-86c0-34-58-34-58 0z"/><circle cx="725" cy="526" r="90"/><circle cx="299" cy="526" r="90"/></g><g fill="#414042" transform="translate(12.322 12.322)scale(.101)"><circle cx="307" cy="532" r="60"/><circle cx="717" cy="532" r="60"/></g></svg>
+             Ñ  &ˆïÑÿ h1   res://addons/quest_weaver/assets/icons/anchor.svg±íâ˝© [3   res://addons/quest_weaver/assets/icons/backdrop.svgımÃs1   res://addons/quest_weaver/assets/icons/branch.svgﬁ∞J¸≥ım2   res://addons/quest_weaver/assets/icons/comment.svgú=˘ÂÄ9   res://addons/quest_weaver/assets/icons/complete_quest.svg§ˆn/∂‡h2   res://addons/quest_weaver/assets/icons/context.svg¶eë†NO4   res://addons/quest_weaver/assets/icons/end_scope.svgD◊$}Ωæ=0   res://addons/quest_weaver/assets/icons/erase.svg*‘—Û¬¯/   res://addons/quest_weaver/assets/icons/flag.svg˚áä’íﬁq4   res://addons/quest_weaver/assets/icons/give_take.svgO.ºÒÄ!$4   res://addons/quest_weaver/assets/icons/hourglass.svg_XV´≥ä5/   res://addons/quest_weaver/assets/icons/icon.svgk™D•®‚Óg/   res://addons/quest_weaver/assets/icons/join.svgq‚‚C2(È1   res://addons/quest_weaver/assets/icons/jumper.svgµ0N•Ô/-K3   res://addons/quest_weaver/assets/icons/listener.svg¥9‘a˝ìö4   res://addons/quest_weaver/assets/icons/objective.svgõQlŒzt3   res://addons/quest_weaver/assets/icons/parallel.svg~u^+„Á8/   res://addons/quest_weaver/assets/icons/play.svgÜÔ˘ﬂîyM/   res://addons/quest_weaver/assets/icons/port.svg5…}≠8Œ—0   res://addons/quest_weaver/assets/icons/quest.svg?Ñ´cò+n1   res://addons/quest_weaver/assets/icons/random.svg∆u{±A
+3   res://addons/quest_weaver/assets/icons/save_all.svgÑû˚·{dY1   res://addons/quest_weaver/assets/icons/setvar.svgÑﬁ·Œàö’5   res://addons/quest_weaver/assets/icons/share_love.svg`àƒûU+QK1   res://addons/quest_weaver/assets/icons/signal.svgêC§fÍ!ä|5   res://addons/quest_weaver/assets/icons/sort_arrow.svgœAp∆/AA:   res://addons/quest_weaver/assets/icons/sort_arrow_down.svgπ»ê J
+÷b6   res://addons/quest_weaver/assets/icons/start_scope.svgÂ-&Á∆—s/   res://addons/quest_weaver/assets/icons/stop.svg4Ÿ∫øÂΩA3   res://addons/quest_weaver/assets/icons/subgraph.svg‘9yg±|/   res://addons/quest_weaver/assets/icons/text.svg¬¢å·$l0   res://addons/quest_weaver/assets/icons/timer.svgEú?ZX“ÏI5   res://addons/quest_weaver/assets/icons/ui_message.svgÙﬂ¿ù‹D?   res://addons/quest_weaver/assets/themes/quest_weaver_theme.tresßOY ÷U>J   res://addons/quest_weaver/assets/themes/quest_weaver_ui_message_theme.tresc“#tÒW?   res://addons/quest_weaver/assets/themes/qw_container_style.tres™¢<Ñ÷ıEB5   res://addons/quest_weaver/assets/themes/qw_popup.tres˙$≠'¯[o[@   res://addons/quest_weaver/assets/themes/qw_properties_theme.tresBÃÏÈ_óé7   res://addons/quest_weaver/assets/graph_node_category.gd√Ö÷ÙÂr´o9   res://addons/quest_weaver/assets/graph_node_category.tres6HÖØ[‚Üe0   res://addons/quest_weaver/core/debug_settings.gdS]d‘U“.2   res://addons/quest_weaver/core/debug_settings.tres(¨Âië¢t3   res://addons/quest_weaver/core/execution_context.gd™)ŸFh_0   res://addons/quest_weaver/core/node_type_info.gdW◊»>*è6   res://addons/quest_weaver/core/objective_text_proxy.gdÔT‘8ÕêG2   res://addons/quest_weaver/core/quest_controller.gd=êû±’≠;3   res://addons/quest_weaver/core/quest_debug_proxy.gdcÃ≈symËW3   res://addons/quest_weaver/core/quest_editor_data.gdΩ´ıXÂvC{5   res://addons/quest_weaver/core/quest_editor_data.tresh@[Æ6ãÅ~6   res://addons/quest_weaver/core/quest_graph_resource.gdQºËõ5x®z0   res://addons/quest_weaver/core/quest_instance.gdÌ±ójvƒQ>-   res://addons/quest_weaver/core/quest_proxy.gd8õî˝Å^0   res://addons/quest_weaver/core/quest_registry.gd”
++FBpN{9   res://addons/quest_weaver/core/quest_weaver_game_state.gd1ó∂§äAo5   res://addons/quest_weaver/core/quest_weaver_global.gd…≠Ÿçr√ 7   res://addons/quest_weaver/core/quest_weaver_services.gd=Ø.üJw7   res://addons/quest_weaver/core/quest_weaver_settings.gd«^6ı o4   res://addons/quest_weaver/core/qw_condition_logic.gdÅ’]ÖùõR.   res://addons/quest_weaver/core/qw_constants.gdó;#é$†Çp*   res://addons/quest_weaver/core/qw_enums.gd#®@õád¢/   res://addons/quest_weaver/core/qw_graph_data.gd¥o<MÓÿ+   res://addons/quest_weaver/core/qw_logger.gd∑£[ªw–ú/   res://addons/quest_weaver/core/qw_node_sizes.gd—iÒAõF*b1   res://addons/quest_weaver/core/qw_text_context.gdX¸¡π…4ZB   res://addons/quest_weaver/editor/commands/add_condition_command.gd!X8Àﬂv3B   res://addons/quest_weaver/editor/commands/add_objective_command.gd≤LƒÑ[Ê>	F   res://addons/quest_weaver/editor/commands/add_parallel_port_command.gdh™È	k~€R@   res://addons/quest_weaver/editor/commands/add_payload_command.gdvÔ« i`D   res://addons/quest_weaver/editor/commands/add_random_port_command.gdÖáÍu∫k‡?   res://addons/quest_weaver/editor/commands/add_reward_command.gd§DÅ€ÌLMI   res://addons/quest_weaver/editor/commands/add_simple_condition_command.gd`ˇÄ`|+RHH   res://addons/quest_weaver/editor/commands/add_sync_input_port_command.gdj¿ôk≤9I   res://addons/quest_weaver/editor/commands/add_sync_output_port_command.gdNz‰ﬁ¯√‡ML   res://addons/quest_weaver/editor/commands/change_dictionary_value_command.gd]„Ç·*˝D   res://addons/quest_weaver/editor/commands/change_property_command.gd6¸∫åÊ+'>   res://addons/quest_weaver/editor/commands/composite_command.gdáÔ—ΩD5?   res://addons/quest_weaver/editor/commands/connection_command.gdqgÚ:5l#D   res://addons/quest_weaver/editor/commands/create_backdrop_command.gdﬁî≈ÕìÉá	@   res://addons/quest_weaver/editor/commands/create_node_command.gd·¥ÒıÓ√fA   res://addons/quest_weaver/editor/commands/delete_nodes_command.gd†U•'ÓÚv;   res://addons/quest_weaver/editor/commands/editor_command.gdé?≈∂o‰?   res://addons/quest_weaver/editor/commands/move_nodes_command.gd1Èç	µö,@   res://addons/quest_weaver/editor/commands/node_action_command.gdGgƒ∏ïˆx@   res://addons/quest_weaver/editor/commands/paste_nodes_command.gdú+⁄¢@3!E   res://addons/quest_weaver/editor/commands/remove_condition_command.gd"Œhê>¬4E   res://addons/quest_weaver/editor/commands/remove_objective_command.gd€Íã%jI   res://addons/quest_weaver/editor/commands/remove_parallel_port_command.gd€Â*∑ÃnVC   res://addons/quest_weaver/editor/commands/remove_payload_command.gdŸµ?Yåf}G   res://addons/quest_weaver/editor/commands/remove_random_port_command.gd
+ÂMM>ΩTB   res://addons/quest_weaver/editor/commands/remove_reward_command.gdhâﬁ”ª≤L   res://addons/quest_weaver/editor/commands/remove_simple_condition_command.gdQOß˘xK   res://addons/quest_weaver/editor/commands/remove_sync_input_port_command.gd∞Xú^„ΩK%L   res://addons/quest_weaver/editor/commands/remove_sync_output_port_command.gdUGÏ3π-F   res://addons/quest_weaver/editor/commands/reorder_condition_command.gd‡tmeıfF   res://addons/quest_weaver/editor/commands/reorder_objective_command.gdâÏBUytpI   res://addons/quest_weaver/editor/commands/set_simple_condition_command.gdTEÊŒ˘Ã4F   res://addons/quest_weaver/editor/components/auto_complete_line_edit.gd,‘Û˚uf?   res://addons/quest_weaver/editor/components/item_stack_entry.gdFŒﬁx∫»qK   res://addons/quest_weaver/editor/components/parallel_output_editor_entry.gdË≈RÕ¥˝MC   res://addons/quest_weaver/editor/components/parallel_output_port.gdÀN-ú{mI   res://addons/quest_weaver/editor/components/random_output_editor_entry.gd	⁄A2ZfèA   res://addons/quest_weaver/editor/components/random_output_port.gd_lÙVc∂A;   res://addons/quest_weaver/editor/components/reward_entry.gdù7≠®À$í+E   res://addons/quest_weaver/editor/components/simple_condition_entry.gd◊åfb}*G:   res://addons/quest_weaver/editor/components/sort_editor.gd(˚£ e‡z7M   res://addons/quest_weaver/editor/components/synchronize_input_editor_entry.gdôK{<KwKE   res://addons/quest_weaver/editor/components/synchronize_input_port.gd´ÿí˜£G'N   res://addons/quest_weaver/editor/components/synchronize_output_editor_entry.gdîX [É‘˙7F   res://addons/quest_weaver/editor/components/synchronize_output_port.gd,+é®ö∞ÿ`B   res://addons/quest_weaver/editor/components/tab_focus_text_edit.gd3«çäz¨ˇB?   res://addons/quest_weaver/editor/conditions/condition_editor.gdeÜÆ^≥„zA   res://addons/quest_weaver/editor/conditions/condition_resource.gd\iÀK%€wE   res://addons/quest_weaver/editor/conditions/objective_editor_entry.gd≈∑ˇZÒˆVA   res://addons/quest_weaver/editor/conditions/objective_resource.gdg§m‚ËvK   res://addons/quest_weaver/editor/conditions/synchronize_condition_editor.gd>–í˛IHB   res://addons/quest_weaver/editor/debugger/quest_weaver_debugger.gdXä√ﬁnÅ$?   res://addons/quest_weaver/editor/debugger/qw_debugger_plugin.gdS0 ¡_{¯rE   res://addons/quest_weaver/editor/dialogs/quest_confirmation_dialog.gdo„ÏúœP=   res://addons/quest_weaver/editor/dialogs/quest_file_dialog.gd4ÛEFGA}<C   res://addons/quest_weaver/editor/inspector/qw_registry_inspector.gdh’üLÕ√é!0   res://addons/quest_weaver/editor/io/qw_export.gd(®x_‚ w0   res://addons/quest_weaver/editor/io/qw_format.gdùf∑n:0   res://addons/quest_weaver/editor/io/qw_import.gddkŒP⁄j9@   res://addons/quest_weaver/editor/presentation/area_template.tres6ﬁnüwr≈1>   res://addons/quest_weaver/editor/presentation/base_ui_panel.gdﬁt[/ç
+K   res://addons/quest_weaver/editor/presentation/bottom_centered_template.tres	p1≈˝°u?   res://addons/quest_weaver/editor/presentation/default_anims.resé…‰˛œ«ÙLC   res://addons/quest_weaver/editor/presentation/default_template.tresC!NÖ?:CG   res://addons/quest_weaver/editor/presentation/instruction_template.tresà>∆Sê(œ?F   res://addons/quest_weaver/editor/presentation/presentation_registry.gdı≈sBıÀ≥uH   res://addons/quest_weaver/editor/presentation/presentation_registry.tresΩ{∫ØCë∫uI   res://addons/quest_weaver/editor/presentation/qw_char_animation_effect.gd∂ÎØ.Û0	K   res://addons/quest_weaver/editor/presentation/ui_panel_template_resource.gdi(Ω\JD   res://addons/quest_weaver/editor/ui_runtime/quest_category_header.gdûêlbcı}>   res://addons/quest_weaver/editor/ui_runtime/quest_log_entry.gd1áœ˚ùÕ$;   res://addons/quest_weaver/editor/ui_runtime/quest_log_ui.gd;Ü‘:{$=>   res://addons/quest_weaver/editor/validation/quest_validator.gdI">Ëä∏-i@   res://addons/quest_weaver/editor/validation/validation_result.gdﬁ$f˛—-+=   res://addons/quest_weaver/editor/validation/validator_dock.gd(@ÓÍ„Ïj<   res://addons/quest_weaver/editor/localization_key_scanner.gd-Où…~CO7   res://addons/quest_weaver/editor/node_selection_menu.gd\˜éwh∫6   res://addons/quest_weaver/editor/node_type_registry.gd_ÖKé˙‚e8   res://addons/quest_weaver/editor/node_type_registry.tresZê[qÅıÕ)4   res://addons/quest_weaver/editor/properties_panel.gd6T˘Ï•˝ù0=   res://addons/quest_weaver/editor/quest_control_node_editor.gd+4ﬁüöK3   res://addons/quest_weaver/editor/quest_registrar.gdWÊ˛Ã •A$7   res://addons/quest_weaver/editor/quest_weaver_editor.gdÊÁ*f20z6   res://addons/quest_weaver/editor/quest_weaver_graph.gd«∑’æîì6Y5   res://addons/quest_weaver/editor/qw_action_handler.gdieÅwÈ—0   res://addons/quest_weaver/editor/qw_clipboard.gdb<¯⁄Ö¿)5   res://addons/quest_weaver/editor/qw_editor_history.gdµ◊¯˚73   res://addons/quest_weaver/editor/qw_editor_utils.gd€¥ˇ…ÛZ•q1   res://addons/quest_weaver/editor/qw_graph_node.gd\¶¨Ûî]4   res://addons/quest_weaver/editor/qw_input_handler.gd›YŸG=àu|3   res://addons/quest_weaver/editor/qw_node_factory.gd≤•Î|W˙W.   res://addons/quest_weaver/editor/side_panel.gd$QÂ_'ñ?7   res://addons/quest_weaver/examples/assets/bg_winter.jpg∑b”ÓÂµm7   res://addons/quest_weaver/examples/assets/portrait2.pnguƒUˆ¥‹I6   res://addons/quest_weaver/examples/assets/portrait.png´oﬂ|>u<8   res://addons/quest_weaver/examples/lang/localization.csv‡XÄaGù‚B   res://addons/quest_weaver/examples/quests/Credits/end_screen.quest©Æ¡é´ßêU>   res://addons/quest_weaver/examples/quests/main/questline.questXËﬂg¥ÂE   res://addons/quest_weaver/examples/quests/main/start_first_task.questO‰¿"ùå=H   res://addons/quest_weaver/examples/quests/side/side_a_little_favor.questÄ·ÉûÆ…}<   res://addons/quest_weaver/examples/resources/items/gold.tresá1≥Z÷=B<   res://addons/quest_weaver/examples/resources/items/iron.tres3ÁÏ´ÿ¨ST<   res://addons/quest_weaver/examples/resources/items/meat.tres74®X´œky<   res://addons/quest_weaver/examples/resources/items/silk.tresRÆd√oÈ0<   res://addons/quest_weaver/examples/resources/items/wood.tresœ±Öªaıu>7   res://addons/quest_weaver/examples/resources/qw_item.gdul£€¡3B   res://addons/quest_weaver/examples/resources/qw_item_definition.gdaÒ>>HZw@   res://addons/quest_weaver/examples/resources/qw_item_registry.gdı0ª|úﬂ+	F   res://addons/quest_weaver/examples/resources/sample_item_registry.tres®hè≠⁄ï<   res://addons/quest_weaver/examples/scenes/main_quest_test.gdûçÄb$x>   res://addons/quest_weaver/examples/scenes/main_quest_test.tscnUI¯»äBcH   res://addons/quest_weaver/examples/scenes/simple_inventory_controller.gd´Q—≠ÅtUF   res://addons/quest_weaver/nodes/action/event_node/event_node_editor.gdME¢í®x/	H   res://addons/quest_weaver/nodes/action/event_node/event_node_executor.gdÎºﬁØd#[H   res://addons/quest_weaver/nodes/action/event_node/event_node_resource.gdã‹Ÿ∑î cTX   res://addons/quest_weaver/nodes/action/give_take_item_node/give_take_item_node_editor.gd›jAp≠ü≤zZ   res://addons/quest_weaver/nodes/action/give_take_item_node/give_take_item_node_executor.gd \/X⁄{Z   res://addons/quest_weaver/nodes/action/give_take_item_node/give_take_item_node_resource.gdv›ïä	6V   res://addons/quest_weaver/nodes/action/play_cutscene_node/play_cutscene_node_editor.gdOæa∆[<XX   res://addons/quest_weaver/nodes/action/play_cutscene_node/play_cutscene_node_executor.gd`∞3†w˜X   res://addons/quest_weaver/nodes/action/play_cutscene_node/play_cutscene_node_resource.gdV2ñS¶€Z   res://addons/quest_weaver/nodes/action/show_ui_message_node/show_ui_message_node_editor.gd∏rx‘u1\   res://addons/quest_weaver/nodes/action/show_ui_message_node/show_ui_message_node_executor.gd3q‡¶ug ~\   res://addons/quest_weaver/nodes/action/show_ui_message_node/show_ui_message_node_resource.gdw4=dË[“yD   res://addons/quest_weaver/nodes/action/task_node/task_node_editor.gdœ‹Xw∏áßiF   res://addons/quest_weaver/nodes/action/task_node/task_node_executor.gd÷9ÎÉ0ªÆOF   res://addons/quest_weaver/nodes/action/task_node/task_node_resource.gdﬁTkB§ÀŸA;   res://addons/quest_weaver/nodes/base/graph_node_resource.gd(y¨HÂS5   res://addons/quest_weaver/nodes/base/node_executor.gd¸¬˝¥ﬁ	$A   res://addons/quest_weaver/nodes/base/node_property_editor_base.gdõ™ﬂm±áG   res://addons/quest_weaver/nodes/common/backdrop/backdrop_node_editor.gds,c<µÇµI   res://addons/quest_weaver/nodes/common/backdrop/backdrop_node_resource.gdΩ®◊‚‚E   res://addons/quest_weaver/nodes/common/comment/comment_node_editor.gdπdg3bé˚.G   res://addons/quest_weaver/nodes/common/comment/comment_node_resource.gdÓ√Ê‹gÓD   res://addons/quest_weaver/nodes/common/end_node/end_node_resource.gd´Sì≠&TsF   res://addons/quest_weaver/nodes/common/start_node/start_node_editor.gdüÜÛ˘µH   res://addons/quest_weaver/nodes/common/start_node/start_node_resource.gdµ‰’R´3F   res://addons/quest_weaver/nodes/flow/anchor_node/anchor_node_editor.gd0¨0-ﬂ2H   res://addons/quest_weaver/nodes/flow/anchor_node/anchor_node_resource.gdˆüBÒà®œ5F   res://addons/quest_weaver/nodes/flow/branch_node/branch_node_editor.gdU\âùÕ5BH   res://addons/quest_weaver/nodes/flow/branch_node/branch_node_executor.gdèæH›œM
+H   res://addons/quest_weaver/nodes/flow/branch_node/branch_node_resource.gdcÌîÉV2Í"V   res://addons/quest_weaver/nodes/flow/event_listener_node/event_listener_node_editor.gdpJÜ⁄Õ«X   res://addons/quest_weaver/nodes/flow/event_listener_node/event_listener_node_executor.gdKZh˚≤Ú2X   res://addons/quest_weaver/nodes/flow/event_listener_node/event_listener_node_resource.gd5ËÛÂ∞Æ—B   res://addons/quest_weaver/nodes/flow/jump_node/jump_node_editor.gdÿ¸Nﬁ+H<?D   res://addons/quest_weaver/nodes/flow/jump_node/jump_node_executor.gdﬂÅ⁄’ˇ`åfD   res://addons/quest_weaver/nodes/flow/jump_node/jump_node_resource.gd ˝F®û±àAJ   res://addons/quest_weaver/nodes/flow/parallel_node/parallel_node_editor.gdwÃ÷Œﬁº’ L   res://addons/quest_weaver/nodes/flow/parallel_node/parallel_node_executor.gd?'}äÒFÇ0L   res://addons/quest_weaver/nodes/flow/parallel_node/parallel_node_resource.gdôJcXqF   res://addons/quest_weaver/nodes/flow/random_node/random_node_editor.gdoiÉ8Œd<H   res://addons/quest_weaver/nodes/flow/random_node/random_node_executor.gdô≥rˆWP<H   res://addons/quest_weaver/nodes/flow/random_node/random_node_resource.gd9´°f8TP   res://addons/quest_weaver/nodes/flow/synchronize_node/synchronize_node_editor.gd∫ñÇÒÀÎn	R   res://addons/quest_weaver/nodes/flow/synchronize_node/synchronize_node_executor.gdyO·Ï≤¥wR   res://addons/quest_weaver/nodes/flow/synchronize_node/synchronize_node_resource.gd=¢|˜!êymD   res://addons/quest_weaver/nodes/flow/timer_node/timer_node_editor.gdƒYŒ–≥‘›F   res://addons/quest_weaver/nodes/flow/timer_node/timer_node_executor.gdÆ—˝`ñB\F   res://addons/quest_weaver/nodes/flow/timer_node/timer_node_resource.gdüƒF÷ìKïRB   res://addons/quest_weaver/nodes/flow/wait_node/wait_node_editor.gdÑd¡ñI2D   res://addons/quest_weaver/nodes/flow/wait_node/wait_node_executor.gde£6⁄–D   res://addons/quest_weaver/nodes/flow/wait_node/wait_node_resource.gd2◊~ê[Øo?M   res://addons/quest_weaver/nodes/logic/end_scope_node/end_scope_node_editor.gdd∂69pCO   res://addons/quest_weaver/nodes/logic/end_scope_node/end_scope_node_resource.gdÛ≈fÆ˛:pM   res://addons/quest_weaver/nodes/logic/objective_node/objective_node_editor.gda, ÉapO   res://addons/quest_weaver/nodes/logic/objective_node/objective_node_executor.gd´_Á”áÍlO   res://addons/quest_weaver/nodes/logic/objective_node/objective_node_resource.gdØﬁnπ"\(U   res://addons/quest_weaver/nodes/logic/quest_context_node/quest_context_node_editor.gdÎ."7[»S*W   res://addons/quest_weaver/nodes/logic/quest_context_node/quest_context_node_executor.gd‹ ;≠◊PW   res://addons/quest_weaver/nodes/logic/quest_context_node/quest_context_node_resource.gdË∑Rƒ†%∞eE   res://addons/quest_weaver/nodes/logic/quest_node/quest_node_editor.gdÄ*Ï‰?GG   res://addons/quest_weaver/nodes/logic/quest_node/quest_node_executor.gd@=‰0Ã‚ëG   res://addons/quest_weaver/nodes/logic/quest_node/quest_node_resource.gd˛pPlW   res://addons/quest_weaver/nodes/logic/reset_progress_node/reset_progress_node_editor.gdÓû>…håVY   res://addons/quest_weaver/nodes/logic/reset_progress_node/reset_progress_node_executor.gdP¿˝ÈåcY   res://addons/quest_weaver/nodes/logic/reset_progress_node/reset_progress_node_resource.gd˙%∞TU¿	S   res://addons/quest_weaver/nodes/logic/set_variable_node/set_variable_node_editor.gdP“ë6*MvU   res://addons/quest_weaver/nodes/logic/set_variable_node/set_variable_node_executor.gdæ ›kÑúñ~U   res://addons/quest_weaver/nodes/logic/set_variable_node/set_variable_node_resource.gdgãòÜîº∆3Q   res://addons/quest_weaver/nodes/logic/start_scope_node/start_scope_node_editor.gdDñfN:ÜULS   res://addons/quest_weaver/nodes/logic/start_scope_node/start_scope_node_executor.gd˙CkÎ}oNS   res://addons/quest_weaver/nodes/logic/start_scope_node/start_scope_node_resource.gd˜«K«UÆ+M   res://addons/quest_weaver/nodes/logic/sub_graph_node/sub_graph_node_editor.gd◊)ˆâƒO   res://addons/quest_weaver/nodes/logic/sub_graph_node/sub_graph_node_executor.gd;~NüÀ3]WO   res://addons/quest_weaver/nodes/logic/sub_graph_node/sub_graph_node_resource.gd…Âœ±πÉKZC   res://addons/quest_weaver/nodes/logic/text_node/text_node_editor.gd_µ‰XwZg^E   res://addons/quest_weaver/nodes/logic/text_node/text_node_executor.gd vºGˇÍLE   res://addons/quest_weaver/nodes/logic/text_node/text_node_resource.gd∂5Å…¡I J   res://addons/quest_weaver/systems/adapters/quest_inventory_adapter_base.gdu™ñpù]qE   res://addons/quest_weaver/systems/adapters/quest_kill_adapter_base.gdﬂ}§êº4F   res://addons/quest_weaver/systems/adapters/simple_inventory_adapter.gdπ€Q˘:T!A   res://addons/quest_weaver/systems/adapters/simple_kill_adapter.gd¸˝Y}◊‰.B   res://addons/quest_weaver/systems/managers/presentation_manager.gdJÈ·Ä˛ã≈%A   res://addons/quest_weaver/systems/managers/quest_event_manager.gd¥b&XãG4A   res://addons/quest_weaver/systems/managers/quest_scope_manager.gd]]>N‹Æ\M   res://addons/quest_weaver/systems/managers/quest_state_persistence_manager.gdÍŒAœ~Ω‘7@   res://addons/quest_weaver/systems/managers/quest_sync_manager.gdv¿◊VFÒcA   res://addons/quest_weaver/systems/managers/quest_timer_manager.gdf`≈€0r#   res://addons/quest_weaver/plugin.gdºÁπ :À-   res://addons/quest_weaver/quest_registry.tres≤˙&i√Ù§4   res://addons/quest_weaver/quest_weaver_settings.tresò”ÔT.   res://addons/script-ide/outline/icon/class.svgÌ@ˆŸÇﬁB1   res://addons/script-ide/outline/icon/constant.svg	ÆÎá<%&V4   res://addons/script-ide/outline/icon/engine_func.svgÆ≤#ë(e+6/   res://addons/script-ide/outline/icon/export.svgÖsÆÇG^-   res://addons/script-ide/outline/icon/func.svgﬂÉ%Sè\1   res://addons/script-ide/outline/icon/func_get.svgª
+[úó◊51   res://addons/script-ide/outline/icon/func_set.svgK˛KÔ˜d1   res://addons/script-ide/outline/icon/property.svg~µV%.2◊-/   res://addons/script-ide/outline/icon/signal.svgû&X¬øƒe*   res://addons/script-ide/outline/outline.gdqÍºíΩ$_2   res://addons/script-ide/override/override_panel.gdQ‰'3VŸ"4   res://addons/script-ide/override/override_panel.tscnª;®Î_zπH5   res://addons/script-ide/quickopen/quick_open_panel.gd¥øVö}»~7   res://addons/script-ide/quickopen/quick_open_panel.tscnô(¨{˘ge0   res://addons/script-ide/split/split_code_edit.gdl[¿ÉÀ+0,   res://addons/script-ide/tabbar/custom_tab.gdÇn^;ÎWy3   res://addons/script-ide/tabbar/multiline_tab_bar.gdàlﬂÑßÚ∫5   res://addons/script-ide/tabbar/multiline_tab_bar.tscnª~%”=¡»#!   res://addons/script-ide/plugin.gdAÉŒ·?l(   res://addons/twovoip/twovoip.gdextension»°ÎÄip4   res://addons/webrtc_native/webrtc_native.gdextensionŸñ÷Zä$   res://Materials/Fonts/ByteBounce.ttf•⁄B])≥Lf,   res://Materials/Fonts/ui_label_settings.tres\6º$ñbf#   res://Materials/Fonts/ui_theme.tres1àA˝ä@#5   res://Materials/Images/Sky/NightSkyHDRI003_4K_HDR.exr>N◊jJ$   res://Materials/Textures/player.tresçT‰ãS¿àj#   res://Materials/Textures/water.tres{ªÒ»F„##   res://Objects/Animals/butterfly.fbxÉπGiœ˚G%   res://Objects/Animals/butterfly_0.pngÛv‰¸co   res://Objects/Animals/cat.fbxƒ\gj$ô˚   res://Objects/Animals/cat_0.pngGÑ–lYe!   res://Objects/Animals/chicken.fbxb£–«hfM#   res://Objects/Animals/chicken_0.pngÊ˚¿/#   res://Objects/Animals/chicken_1.png%µ•ã˙Y=   res://Objects/Animals/Cow.fbxêjADrQ/=   res://Objects/Animals/Cow_0.png4ØKiêÈ0   res://Objects/Animals/Cow_1.pngO>Àëó∏   res://Objects/Animals/Cow_2.png‘˛#†¢§
+   res://Objects/Animals/dog.fbxºuãp« _   res://Objects/Animals/dog_0.png"»®/©	ıN   res://Objects/Animals/dog_1.pngJÀp›˜g⁄S    res://Objects/Animals/girafe.fbxÙmá.˜"   res://Objects/Animals/girafe_0.png£¸2Õ¸ã!   res://Objects/Animals/ladybug.fbxÒ}¶È˛I#   res://Objects/Animals/ladybug_0.pngynôhôÜ   res://Scenes/Enemy.tscnà©Hià*0   res://Scenes/main_menu.tscnçû/˜•ãY   res://Scenes/main_menu_ui.tscn™D∏Q8?   res://Scenes/Platform.tscnU∑s+CZ{   res://Scenes/PlayerWallet.gd√¡/[ˆ˜”   res://Scenes/Reset_Check.gdÅ¬˚/Y¬;   res://Scenes/SkillX.tscnÃ¥m‹ﬁ9   res://Scenes/Water.tscnt'∂⁄€   res://Scripts/Enemy/Enemy.gdÔûÒÚ§+)$   res://Scripts/Player/PlayerSkills.gdAh¶åwX'   res://Scripts/Player/player_movement.gdE•Ks›˝‰   res://Scripts/System/game.gdÂ9]∆^+#   res://Scripts/System/SaveManager.gd˘∑P•ÒI   res://Scripts/System/SkillX.gd5&f›≈˝U#   res://Scripts/System/Ui_Elements.gdî˝B0-Ì($   res://Scripts/System/VolumeSlider.gdTãkT†(ÚG0   res://Sounds/Music/FragmentsAndMemories_Loop.oggR1≥Í[∏63   res://Sounds/Music/JourneyThroughThePlains_Loop.ogg[¯›mtû£j-   res://Sounds/Music/TheForestWhispers_Loop.oggN]]	LV‰0   res://Zombies/audio/blunt_0.wavﬂbôlÕ∑q    res://Zombies/audio/blunt_1.wav~áoπ{=   res://Zombies/audio/blunt_2.wav‹uwcU   res://Zombies/audio/blunt_3.wavçR"7H"%   res://Zombies/audio/board_break_0.wave	ﬂ´/æÌo%   res://Zombies/audio/board_break_1.wav©J∑±∑ ˆl%   res://Zombies/audio/board_break_2.wav◊¥\	LL%   res://Zombies/audio/board_place_0.wav‹£eËu∞ú%   res://Zombies/audio/board_place_1.wavWAm0Çkg%   res://Zombies/audio/board_place_2.wavà†˙…èi`"   res://Zombies/audio/bolt_close.wav|ótçúÅtc!   res://Zombies/audio/bolt_open.wav≤–ù9z   res://Zombies/audio/boom_0.wavßƒÿ∂Xl1   res://Zombies/audio/boom_1.wav™√M>—)   res://Zombies/audio/boom_2.wavä ¸ï{åb"   res://Zombies/audio/boss_alpha.wav§’r·)Ã¥l#   res://Zombies/audio/boss_warden.wavÛµÕ>“Võe   res://Zombies/audio/buy.waveÓï¯@t   res://Zombies/audio/charge.wavÎ ¸ÉSZ&   res://Zombies/audio/chonk_attack_0.wav4:ü8*$&   res://Zombies/audio/chonk_attack_1.wav"#ﬂvK$   res://Zombies/audio/chonk_bark_0.wavÃágO≈d$   res://Zombies/audio/chonk_bark_1.wav”ˇV±Á6\$   res://Zombies/audio/chonk_bark_2.wavÓuR(ãb($   res://Zombies/audio/chonk_bark_3.wavÔiûµ¬¥ÔA%   res://Zombies/audio/chonk_death_0.wavGl\ºÙ^~%   res://Zombies/audio/chonk_death_1.wav∆}êX…•   res://Zombies/audio/chop_0.wavú’ë©÷    res://Zombies/audio/chop_1.wav–:ˇﬁx   res://Zombies/audio/chop_2.wavÑŒbh®Ü3   res://Zombies/audio/chop_3.wav»• x,íO   res://Zombies/audio/clang.wavTí‰˚˚µ    res://Zombies/audio/crossbow.wavy_∞â$I   res://Zombies/audio/cryo.wavKÊ‹¸°vÁz!   res://Zombies/audio/cyl_close.wavzmÕÆ∏˙I9    res://Zombies/audio/cyl_open.wav∞æ÷(c6   res://Zombies/audio/deny.wavµÓÙhﬂı   res://Zombies/audio/dry.wavfÀ`àÔ_–~   res://Zombies/audio/freeze.wavH˛¯¸.&#   res://Zombies/audio/glass_smash.wav›≠)ÅÛE(   res://Zombies/audio/grenade_bounce_0.wavq(6b§É+w(   res://Zombies/audio/grenade_bounce_1.wav|pŒÚ27¶(   res://Zombies/audio/grenade_bounce_2.wavaë√˜‘)    res://Zombies/audio/headshot.wav¿S„‚î@v   res://Zombies/audio/hit.wavM]äà(¡P    res://Zombies/audio/hurt_0.wav%n|;É–   res://Zombies/audio/hurt_1.wav%Ø◊Y¥ìä    res://Zombies/audio/hurt_2.wav6çñ˘ƒ\$   res://Zombies/audio/jingle_fleet.wav38◊‡hT#   res://Zombies/audio/jingle_iron.wavëÓ$Á(ƒ,B$   res://Zombies/audio/jingle_quick.wav÷_=ãÀ)N$   res://Zombies/audio/jingle_rapid.wav:˛˛πDf   res://Zombies/audio/kill.wavÆil®5/   res://Zombies/audio/land_0.wav+ØDh/   res://Zombies/audio/land_1.wav %©≤pj`   res://Zombies/audio/launch.wavø+\∆¡…    res://Zombies/audio/mag_in_0.wavˆJ›BVﬂ#l    res://Zombies/audio/mag_in_1.wavC‹ßJk18!   res://Zombies/audio/mag_out_0.wavFçÍ1mÍ]!   res://Zombies/audio/mag_out_1.wav*ıãı"   res://Zombies/audio/perk_drink.wavdEÀÓNØU!   res://Zombies/audio/perk_open.wavÃ_ﬂ⁄Ç   res://Zombies/audio/pin.wav≈ÿ8bpÆD   res://Zombies/audio/powerup.wavfKäﬂΩ≈ÓT   res://Zombies/audio/pump_0.wav⁄‹∞i>Î*    res://Zombies/audio/pump_1.wavØ5+’Ω7#   res://Zombies/audio/round_chonk.wavΩ©[a(óÈ>#   res://Zombies/audio/round_start.wavTO	©ù[%   res://Zombies/audio/shells_drop_0.wav≠OLNºÖ≈Z%   res://Zombies/audio/shells_drop_1.wav"”n,ÜÙ"   res://Zombies/audio/shell_in_0.wav«ã˛AÔrC"   res://Zombies/audio/shell_in_1.wavP,hK*1"   res://Zombies/audio/shell_in_2.wavÔd∂=ÎUMs!   res://Zombies/audio/shot_ar_0.wavGﬁ@ˇ_>¯4!   res://Zombies/audio/shot_ar_1.wav‚â9‘ıÈ(!   res://Zombies/audio/shot_ar_2.wav°ñTX≥L!   res://Zombies/audio/shot_ar_3.wav¶ÎlVª∫z"   res://Zombies/audio/shot_lmg_0.wavJ€QŸh˜"   res://Zombies/audio/shot_lmg_1.wavÎ7ä3„ç"   res://Zombies/audio/shot_lmg_2.wav\aö∞IÓ
+"   res://Zombies/audio/shot_lmg_3.wavãHÃ=e6%   res://Zombies/audio/shot_magnum_0.wavªPˇ“{'%   res://Zombies/audio/shot_magnum_1.wavØ™DÒQ^JC%   res://Zombies/audio/shot_magnum_2.wav8´3È‰A%   res://Zombies/audio/shot_magnum_3.wav≥±,j,(%   res://Zombies/audio/shot_pistol_0.wavM±§á?ª‰W%   res://Zombies/audio/shot_pistol_1.wav|jL≠pGCK%   res://Zombies/audio/shot_pistol_2.wav˝Ï¥@é!{%   res://Zombies/audio/shot_pistol_3.wavJ^KË$O0y&   res://Zombies/audio/shot_shotgun_0.wavΩ3π≠≤s0&   res://Zombies/audio/shot_shotgun_1.wav$¸–ÓIbØ^&   res://Zombies/audio/shot_shotgun_2.wav	BIΩqh&   res://Zombies/audio/shot_shotgun_3.wavÑÜWΩ^∑q"   res://Zombies/audio/shot_smg_0.wav0†:O™6”
+"   res://Zombies/audio/shot_smg_1.wav[ëÇÃ” O"   res://Zombies/audio/shot_smg_2.wavüí/2a7o"   res://Zombies/audio/shot_smg_3.wavÂ–´C%   res://Zombies/audio/shot_sniper_0.wavPúF¡:‰'s%   res://Zombies/audio/shot_sniper_1.wavy>Ppø¡›(%   res://Zombies/audio/shot_sniper_2.wav◊(•πË˝\%   res://Zombies/audio/shot_sniper_3.wavr—?(Eê   res://Zombies/audio/slice_0.wav}R\i   res://Zombies/audio/slice_1.wavã”∏©∑éu\   res://Zombies/audio/slice_2.wavò¿Ùhd]Y   res://Zombies/audio/slice_3.wavz»ôî_O   res://Zombies/audio/slide_0.wav«è‚¶öeˇR   res://Zombies/audio/slide_1.wavT2~Xí¢Xe'   res://Zombies/audio/stab_concrete_0.waváÀì%Ë¿4'   res://Zombies/audio/stab_concrete_1.wav´¡`)2?_6'   res://Zombies/audio/stab_concrete_2.wavT8^ YÓ‰~$   res://Zombies/audio/stab_flesh_0.wavP,≠ˆ&œÒJ$   res://Zombies/audio/stab_flesh_1.wav"ëÑ{K$   res://Zombies/audio/stab_flesh_2.wav≠yÓÃÍ«$   res://Zombies/audio/stab_flesh_3.wavW%>O
+ì{O'   res://Zombies/audio/step_concrete_0.wav(ˇÚÍz¢~&'   res://Zombies/audio/step_concrete_1.wavπfé*2!1^'   res://Zombies/audio/step_concrete_2.wavÅﬂ/©/π}r'   res://Zombies/audio/step_concrete_3.wav˘k'3JP$   res://Zombies/audio/step_grass_0.wavÿ“‘ãRhw$   res://Zombies/audio/step_grass_1.wavo5÷˝)«3M$   res://Zombies/audio/step_grass_2.wavüè∆T«@$   res://Zombies/audio/step_grass_3.wavÛQ√≤¬6$   res://Zombies/audio/step_metal_0.wav‰fy}ù 7$   res://Zombies/audio/step_metal_1.wavÓ¢aZ´∂Áy$   res://Zombies/audio/step_metal_2.wavŒäïõ±q-$   res://Zombies/audio/step_metal_3.wav‹πV†õ?M#   res://Zombies/audio/step_tile_0.wav‹†x	Anf#   res://Zombies/audio/step_tile_1.wavç¶â:Ç-#   res://Zombies/audio/step_tile_2.wav3áÊÈYﬁ"#   res://Zombies/audio/step_tile_3.wavÆ•1MFÊo#   res://Zombies/audio/step_wood_0.wavûˆ°÷£% #   res://Zombies/audio/step_wood_1.wav£´·qâÙè#   res://Zombies/audio/step_wood_2.wavF}›XÆf#   res://Zombies/audio/step_wood_3.wavÇk≤Kº   res://Zombies/audio/swing_0.wav9CÏ†˛àói   res://Zombies/audio/swing_1.wavÆ’≈Õó‹   res://Zombies/audio/swing_2.wavYûë*	ò~    res://Zombies/audio/ui_click.wavÅ/’«â˜úq    res://Zombies/audio/ui_hover.wavJ6ΩÕ9qHO&   res://Zombies/audio/whoosh_heavy_0.wav©JWº–x&   res://Zombies/audio/whoosh_heavy_1.wav•~yt∑GÌY   res://Zombies/audio/zap_0.wav’»†`%ÙP   res://Zombies/audio/zap_1.wav¶0*ul
+∂.!   res://Zombies/audio/zattack_0.wavùq˚Ë#˝œ.!   res://Zombies/audio/zattack_1.wavÜn¢‰TIÂ?!   res://Zombies/audio/zattack_2.wav¥‹øj”Rà[!   res://Zombies/audio/zattack_3.wav4™¸hjõP    res://Zombies/audio/zdeath_0.wav‰∫˛Ì’U◊N    res://Zombies/audio/zdeath_1.wavoÿì£K´\0    res://Zombies/audio/zdeath_2.wav%úc!:~2    res://Zombies/audio/zgroan_0.wav·™⁄àmòA    res://Zombies/audio/zgroan_1.wav”Mõ=¬0    res://Zombies/audio/zgroan_2.wavﬁIdLyòq    res://Zombies/audio/zgroan_3.wavÑ„%[J+ñr    res://Zombies/audio/zgroan_4.wavŸ’/ÇÀåÖw    res://Zombies/audio/zgroan_5.wavú–`∂÷E     res://Zombies/audio/zgroan_6.wavVïX]L…@    res://Zombies/audio/zgroan_7.wavVË—ê\    res://Zombies/audio/zgroan_8.wav… ?>∑än    res://Zombies/audio/zgroan_9.wav3Úv46"   res://Zombies/audio/zscreech_0.wavlt¯Qƒ∆G"   res://Zombies/audio/zscreech_1.wav˚§^õ[ck"   res://Zombies/audio/zscreech_2.wav5bƒÎÊ*§J'   res://Zombies/launcher/art/hospital.jpg!˜[‡s.:"   res://Zombies/launcher/art/lab.jpg√ÄÚ#åq4g(   res://Zombies/launcher/art/outskirts.jpgkM/∆˘p%   res://Zombies/launcher/art/prison.jpgzÒ≤ﬂﬂ∫◊%   res://Zombies/launcher/zm_launcher.gdÃªÏ÷=û‡I6   res://Zombies/models/arms/textures/aout_shirt_grey.jpgiªYHyè?   res://Zombies/models/arms/textures/male_casualsuit01_normal.jpgΩÃ+î:¿H   res://Zombies/models/arms/textures/young_lightskinned_female_diffuse.jpgö‰I
+F   res://Zombies/models/arms/textures/young_lightskinned_male_diffuse.jpgìŒÈ/t≈/'   res://Zombies/models/arms/arm_fist.gltfè)$™‡ä7)   res://Zombies/models/arms/arm_f_fist.gltfCNFnIz)   res://Zombies/models/arms/arm_f_left.gltfM‰Î»Ü–N50   res://Zombies/models/arms/arm_f_pistol_left.gltfåº¯ó:lZ	1   res://Zombies/models/arms/arm_f_pistol_right.gltfJ<ïÌßõX8   res://Zombies/models/arms/arm_f_pistol_right_finger.gltfU™IFa#Ÿ9*   res://Zombies/models/arms/arm_f_right.gltf„ôí˚g1   res://Zombies/models/arms/arm_f_right_finger.gltf<AT-3'   res://Zombies/models/arms/arm_left.gltfLIÃ∆¯„¿V.   res://Zombies/models/arms/arm_pistol_left.gltfìÜ´ßÖÜf/   res://Zombies/models/arms/arm_pistol_right.gltf|∂ <Kæu56   res://Zombies/models/arms/arm_pistol_right_finger.gltf…û[ON-ä(   res://Zombies/models/arms/arm_right.gltf¨7DEÆÑá@/   res://Zombies/models/arms/arm_right_finger.gltf@esdHÔO   res://Zombies/models/guns/textures/bolt_action_rifle_7_62_accesories_arm_1k.jpgÌ`„®›C:P   res://Zombies/models/guns/textures/bolt_action_rifle_7_62_accesories_diff_1k.jpgÜ©5‰ma,zR   res://Zombies/models/guns/textures/bolt_action_rifle_7_62_accesories_nor_gl_1k.jpg0(ôIOlxD   res://Zombies/models/guns/textures/bolt_action_rifle_7_62_arm_1k.jpgSä˚Üùî=E   res://Zombies/models/guns/textures/bolt_action_rifle_7_62_diff_1k.jpg∏g›è	MG   res://Zombies/models/guns/textures/bolt_action_rifle_7_62_nor_gl_1k.jpgÛhÆºS~<   res://Zombies/models/guns/textures/service_pistol_arm_1k.jpg˝∫–ù˜∞«=   res://Zombies/models/guns/textures/service_pistol_diff_1k.jpgW”Û<òÌ?   res://Zombies/models/guns/textures/service_pistol_nor_gl_1k.jpgI#âHÀrÿp%   res://Zombies/models/guns/pistol.gltfNAëÎ≥á7$   res://Zombies/models/guns/rifle.gltf∆@Y◊ﬂ5   res://Zombies/models/humans/textures/afro_diffuse.pngF—ı?√™¬n6   res://Zombies/models/humans/textures/bob01_diffuse.png¯çeKñá…46   res://Zombies/models/humans/textures/bob02_diffuse.pngÖ∏_pÂ®îB8   res://Zombies/models/humans/textures/BootsAnkle-norm.jpg≈∏?Wcx=s9   res://Zombies/models/humans/textures/cargo_pants_norm.jpgÌısn…Ù33   res://Zombies/models/humans/textures/eyebrow001.png«>ç		4   res://Zombies/models/humans/textures/eyelashes01.pngœ&Ñ√€”^]1   res://Zombies/models/humans/textures/eye_dead.jpgÓîÅ 2ÖÌnC   res://Zombies/models/humans/textures/female_casualsuit01_normal.jpg=±	ÎßÀooC   res://Zombies/models/humans/textures/female_casualsuit02_normal.jpg‘ﬂÉe–2rB   res://Zombies/models/humans/textures/female_sportsuit01_normal.jpg∫> ã"mF   res://Zombies/models/humans/textures/guard_culturalibre_male_boots.jpgp©»æ‘©g >   res://Zombies/models/humans/textures/guard_male_worksuit01.jpgß‹æJÏ b3   res://Zombies/models/humans/textures/guard_skin.jpgz˜œﬂeá]G   res://Zombies/models/humans/textures/hazmat_culturalibre_male_boots.jpg.m/rÕe[?   res://Zombies/models/humans/textures/hazmat_male_worksuit01.jpg€W◊Y+	q4   res://Zombies/models/humans/textures/hazmat_skin.jpg›S)áO¬Q"A   res://Zombies/models/humans/textures/inmate_a_male_worksuit01.jpgŒ‰Ë∂fík9   res://Zombies/models/humans/textures/inmate_a_shoes02.jpg†]í¡
+-D6   res://Zombies/models/humans/textures/inmate_a_skin.jpg¨ü/&†íÈA   res://Zombies/models/humans/textures/inmate_b_male_worksuit01.jpg(†$—ÈsôJ6   res://Zombies/models/humans/textures/inmate_b_skin.jpgq[c%OıJ.H   res://Zombies/models/humans/textures/inmate_b_toigo_ankle_boots_male.jpg´%AÙ‚OÎ!A   res://Zombies/models/humans/textures/inmate_c_male_worksuit01.jpg¬hX0ÌRj9   res://Zombies/models/humans/textures/inmate_c_shoes01.jpgCî]u›^6   res://Zombies/models/humans/textures/inmate_c_skin.jpgïó¶Ë`xA   res://Zombies/models/humans/textures/male_casualsuit02_normal.jpg”ÓkÇ˚∑u(A   res://Zombies/models/humans/textures/male_casualsuit04_normal.jpgè<-≤Çr«?   res://Zombies/models/humans/textures/male_worksuit01_normal.jpgK’jha älA   res://Zombies/models/humans/textures/medic_female_sportsuit01.jpgÆQ)3`¯x3   res://Zombies/models/humans/textures/medic_skin.jpg«¸e∫ãt:   res://Zombies/models/humans/textures/medic_toigo_flats.jpgÂp¥U˙	D   res://Zombies/models/humans/textures/scientist_f_male_worksuit01.jpg¢‘˙”CŸA9   res://Zombies/models/humans/textures/scientist_f_skin.jpgNyêÀÖÍ V@   res://Zombies/models/humans/textures/scientist_f_toigo_flats.jpg<u¥yeGFB   res://Zombies/models/humans/textures/scientist_male_worksuit01.jpgì ≈Ò˜~:   res://Zombies/models/humans/textures/scientist_shoes06.jpg‡ùV%HÂq7   res://Zombies/models/humans/textures/scientist_skin.jpg°≤ö-.ív7   res://Zombies/models/humans/textures/shoes01_normal.jpg,|ïoUm7   res://Zombies/models/humans/textures/shoes04_normal.jpg’B©◊åõ‹.8   res://Zombies/models/humans/textures/short01_diffuse.pngD¿>ƒxñu8   res://Zombies/models/humans/textures/short02_diffuse.png§p%*r¬Ç%8   res://Zombies/models/humans/textures/short03_diffuse.pngé$fåå”Ø?8   res://Zombies/models/humans/textures/short04_diffuse.png¸÷WLØ†<^E   res://Zombies/models/humans/textures/townsman_a_male_casualsuit02.jpgEhÍo(ù\;   res://Zombies/models/humans/textures/townsman_a_shoes03.jpg…È≈èƒ-g*8   res://Zombies/models/humans/textures/townsman_a_skin.jpg—[øg™ö’UE   res://Zombies/models/humans/textures/townsman_b_cortu_cargo_pants.jpgRs∑ÛU8M   res://Zombies/models/humans/textures/townsman_b_namuhekam_male_polo_shirt.jpgê√ñ]∑'h;   res://Zombies/models/humans/textures/townsman_b_shoes05.jpg·Ñ·ÄFF-8   res://Zombies/models/humans/textures/townsman_b_skin.jpgÃDwÂ$PE   res://Zombies/models/humans/textures/townsman_c_male_casualsuit04.jpg∏®›ûºLg;   res://Zombies/models/humans/textures/townsman_c_shoes04.jpg:uL≤ôç}8   res://Zombies/models/humans/textures/townsman_c_skin.jpgÜ]L≈≤|-nI   res://Zombies/models/humans/textures/townswoman_a_female_casualsuit01.jpgÕ"q»¯ı}4:   res://Zombies/models/humans/textures/townswoman_a_skin.jpg#ı˜’)UN   res://Zombies/models/humans/textures/townswoman_a_toigo_ankle_boots_female.jpg∏ıcœdÍ[I   res://Zombies/models/humans/textures/townswoman_b_female_casualsuit02.jpgõ5µ∑ˆi:   res://Zombies/models/humans/textures/townswoman_b_skin.jpgÙ€È Ürç(A   res://Zombies/models/humans/textures/townswoman_b_toigo_flats.jpg>ﬂÔ:ôeY&   res://Zombies/models/humans/guard.gltfRí6Œó[^'   res://Zombies/models/humans/hazmat.gltf*é<9}¯$)   res://Zombies/models/humans/inmate_a.gltf˝3ΩÅÙ ä])   res://Zombies/models/humans/inmate_b.gltf˛ó^Tµî¸)   res://Zombies/models/humans/inmate_c.gltfÄ,˜QøÌV&   res://Zombies/models/humans/medic.gltf"ˇ—ì±g#*   res://Zombies/models/humans/scientist.gltf>•ÚC_U4S,   res://Zombies/models/humans/scientist_f.gltf:üiqåÉ
++   res://Zombies/models/humans/townsman_a.gltf'%>˚ùV+   res://Zombies/models/humans/townsman_b.gltf˘dπ‚‚'πN+   res://Zombies/models/humans/townsman_c.gltf˙ËZÒQ Å]-   res://Zombies/models/humans/townswoman_a.gltfY„‘WUﬁ6O-   res://Zombies/models/humans/townswoman_b.gltf⁄ÕS®w@   res://Zombies/models/melee/textures/antique_katana_01_arm_1k.jpgnvõ†ïA   res://Zombies/models/melee/textures/antique_katana_01_diff_1k.jpg"ƒ≥9ÍGqC   res://Zombies/models/melee/textures/antique_katana_01_nor_gl_1k.jpg
+åVÛa:d;   res://Zombies/models/melee/textures/baseball_bat_arm_1k.jpgh®‹™ï_G<   res://Zombies/models/melee/textures/baseball_bat_diff_1k.jpgx´ƒÇrx˜G>   res://Zombies/models/melee/textures/baseball_bat_nor_gl_1k.jpgbHt)ùK(s6   res://Zombies/models/melee/textures/machete_arm_1k.jpg.∆5Tã2Àj7   res://Zombies/models/melee/textures/machete_diff_1k.jpgØ1 ﬂ{|A69   res://Zombies/models/melee/textures/machete_nor_gl_1k.jpgî¯]ﬁ]Úó-<   res://Zombies/models/melee/textures/wooden_axe_02_arm_1k.jpg ñG3â¬◊<=   res://Zombies/models/melee/textures/wooden_axe_02_diff_1k.jpglxê/UA%?   res://Zombies/models/melee/textures/wooden_axe_02_nor_gl_1k.jpgÃ˘∑Gekï`#   res://Zombies/models/melee/axe.gltf˘#~üM»D#   res://Zombies/models/melee/bat.gltfÔvΩév†™o&   res://Zombies/models/melee/katana.gltfA^6ºô2%   res://Zombies/models/melee/knife.gltf-€‹ZÊNsB   res://Zombies/models/props/textures/Barrel_01_explosive_arm_1k.jpg üˆ*î°ôC   res://Zombies/models/props/textures/Barrel_01_explosive_diff_1k.jpg∆E –	áZE   res://Zombies/models/props/textures/Barrel_01_explosive_nor_gl_1k.jpgTw<BòË’~<   res://Zombies/models/props/textures/bench_vice_01_arm_1k.jpgSò∂é/oÌk=   res://Zombies/models/props/textures/bench_vice_01_diff_1k.jpg]N;ÇSvb?   res://Zombies/models/props/textures/bench_vice_01_nor_gl_1k.jpgj—4yoE<   res://Zombies/models/props/textures/bunsen_burner_arm_1k.jpgøÔC∑=   res://Zombies/models/props/textures/bunsen_burner_diff_1k.jpg&Ä›áÌƒ\?   res://Zombies/models/props/textures/bunsen_burner_nor_gl_1k.jpgy—Ã8K]'<   res://Zombies/models/props/textures/chemistry_set_arm_1k.jpgf—˘û„⁄o=   res://Zombies/models/props/textures/chemistry_set_diff_1k.jpgÌO;Ã`,=   res://Zombies/models/props/textures/chemistry_set_diff_1k.pngÉ5…í‚•Ì7?   res://Zombies/models/props/textures/chemistry_set_nor_gl_1k.jpg;àG[í≈ıj=   res://Zombies/models/props/textures/classic_laptop_arm_1k.jpg‹√*d~Qb>   res://Zombies/models/props/textures/classic_laptop_diff_1k.jpg¢Ó<˚äÜ	@   res://Zombies/models/props/textures/classic_laptop_nor_gl_1k.jpgﬁÓÕMâo˙2:   res://Zombies/models/props/textures/covered_car_arm_1k.jpgçK◊g/Ê;   res://Zombies/models/props/textures/covered_car_diff_1k.jpg≠ø¬Ö•ˆ}=   res://Zombies/models/props/textures/covered_car_nor_gl_1k.jpg§“|¨ÛËÅ\>   res://Zombies/models/props/textures/dining_chair_02_arm_1k.jpg°S3Å€ãG&?   res://Zombies/models/props/textures/dining_chair_02_diff_1k.jpg:ıÆÙèwA   res://Zombies/models/props/textures/dining_chair_02_nor_gl_1k.jpg¸‚˚˙äJ;   res://Zombies/models/props/textures/dining_table_arm_1k.jpgíJtΩbV√3<   res://Zombies/models/props/textures/dining_table_diff_1k.jpgèÖEe…>   res://Zombies/models/props/textures/dining_table_nor_gl_1k.jpg©˛Uí/p#'=   res://Zombies/models/props/textures/drawer_cabinet_arm_1k.jpgπÓJv”'q>   res://Zombies/models/props/textures/drawer_cabinet_diff_1k.jpgû0ê˘;ôU@   res://Zombies/models/props/textures/drawer_cabinet_nor_gl_1k.jpgún0¸É≤\H;   res://Zombies/models/props/textures/fire_hydrant_arm_1k.jpgÉî¨,s∫3}<   res://Zombies/models/props/textures/fire_hydrant_diff_1k.jpgÉÛìÔmR>   res://Zombies/models/props/textures/fire_hydrant_nor_gl_1k.jpggK”ÿ≈1F   res://Zombies/models/props/textures/industrial_coffee_table_arm_1k.jpgv\Û≥”˛G   res://Zombies/models/props/textures/industrial_coffee_table_diff_1k.jpg‰‰HÇ£*©nI   res://Zombies/models/props/textures/industrial_coffee_table_nor_gl_1k.jpgÆïË,{ß;-D   res://Zombies/models/props/textures/industrial_microscope_arm_1k.jpgÊ^Í\‰r
+6E   res://Zombies/models/props/textures/industrial_microscope_diff_1k.jpgBX√’t‘ûMG   res://Zombies/models/props/textures/industrial_microscope_nor_gl_1k.jpg>R¡˝%/BIF   res://Zombies/models/props/textures/industrial_storage_cart_arm_1k.jpg6L¡æˇG   res://Zombies/models/props/textures/industrial_storage_cart_diff_1k.jpgø.cJyiI   res://Zombies/models/props/textures/industrial_storage_cart_nor_gl_1k.jpgãó2áé!=   res://Zombies/models/props/textures/metal_jerrycan_arm_1k.jpgLì[,9q>   res://Zombies/models/props/textures/metal_jerrycan_diff_1k.jpg\˝ç;‚MC   res://Zombies/models/props/textures/metal_jerrycan_green_arm_1k.jpgã+˝â2ü”D   res://Zombies/models/props/textures/metal_jerrycan_green_diff_1k.jpg¨≤—ò™4ﬂOF   res://Zombies/models/props/textures/metal_jerrycan_green_nor_gl_1k.jpgÖã#†|@   res://Zombies/models/props/textures/metal_jerrycan_nor_gl_1k.jpg_åœì‰Ljp@   res://Zombies/models/props/textures/metal_office_desk_arm_1k.jpgNò≠eÕ∞IA   res://Zombies/models/props/textures/metal_office_desk_diff_1k.jpg{ay§),ózC   res://Zombies/models/props/textures/metal_office_desk_nor_gl_1k.jpg∂‘Ë•ãı:<   res://Zombies/models/props/textures/metal_toolbox_arm_1k.jpgv Úíò x^=   res://Zombies/models/props/textures/metal_toolbox_diff_1k.jpg'hÕDiØO?   res://Zombies/models/props/textures/metal_toolbox_nor_gl_1k.jpgê]≠Ú¬»']?   res://Zombies/models/props/textures/metal_tool_chest_arm_1k.jpgç∞ö\I^@   res://Zombies/models/props/textures/metal_tool_chest_diff_1k.jpg“FäÌPB   res://Zombies/models/props/textures/metal_tool_chest_nor_gl_1k.jpgÄ÷YﬂÚJC   res://Zombies/models/props/textures/metal_trash_can_rust_arm_1k.jpgÚàô{k˚D   res://Zombies/models/props/textures/metal_trash_can_rust_diff_1k.jpgt›–íWF   res://Zombies/models/props/textures/metal_trash_can_rust_nor_gl_1k.jpg¶™˛6çÃÏD   res://Zombies/models/props/textures/modern_wooden_cabinet_arm_1k.jpgœéˆ – ;E   res://Zombies/models/props/textures/modern_wooden_cabinet_diff_1k.jpg∞¢·FJò;G   res://Zombies/models/props/textures/modern_wooden_cabinet_nor_gl_1k.jpgUneL˘€*!<   res://Zombies/models/props/textures/old_bed_frame_arm_1k.jpgfhˆ∞,7µG=   res://Zombies/models/props/textures/old_bed_frame_diff_1k.jpgî∑H
+*9∞?   res://Zombies/models/props/textures/old_bed_frame_nor_gl_1k.jpgÆ:˝.∏9vA   res://Zombies/models/props/textures/old_military_crate_arm_1k.jpgX“~òßÑ[B   res://Zombies/models/props/textures/old_military_crate_diff_1k.jpgßve≥dÿ®D   res://Zombies/models/props/textures/old_military_crate_nor_gl_1k.jpgÆúr¡£%Ì7   res://Zombies/models/props/textures/old_tyre_arm_1k.jpgQ°i≠©TbI8   res://Zombies/models/props/textures/old_tyre_diff_1k.jpg¬?P®õ¿∫S:   res://Zombies/models/props/textures/old_tyre_nor_gl_1k.jpgü*Â<üØ’lC   res://Zombies/models/props/textures/painted_wooden_bench_arm_1k.jpgìëÁé±◊ÜDD   res://Zombies/models/props/textures/painted_wooden_bench_diff_1k.jpgÛëNÕ√UF   res://Zombies/models/props/textures/painted_wooden_bench_nor_gl_1k.jpgÏΩrñ<{˙vH   res://Zombies/models/props/textures/painted_wooden_cabinet_02_arm_1k.jpgp⁄vÇ gË*I   res://Zombies/models/props/textures/painted_wooden_cabinet_02_diff_1k.jpg~3öéãùµiK   res://Zombies/models/props/textures/painted_wooden_cabinet_02_nor_gl_1k.jpg‘ÅƒÆáÁ&H   res://Zombies/models/props/textures/painted_wooden_nightstand_arm_1k.jpg™°>G„é2I   res://Zombies/models/props/textures/painted_wooden_nightstand_diff_1k.jpg{Àêt-ÓdK   res://Zombies/models/props/textures/painted_wooden_nightstand_nor_gl_1k.jpg:Œ∆M∏óA   res://Zombies/models/props/textures/portable_generator_arm_1k.jpgô4‰îíÍGB   res://Zombies/models/props/textures/portable_generator_diff_1k.jpg}Td	PDŸ*B   res://Zombies/models/props/textures/portable_generator_diff_1k.png‚–\íß)L1D   res://Zombies/models/props/textures/portable_generator_nor_gl_1k.jpg˛2†Û˙fwB   res://Zombies/models/props/textures/portable_generator_spec_1k.jpg«ü§L#å7   res://Zombies/models/props/textures/sofa_03_diff_1k.jpgˇõ»e¢ä7   res://Zombies/models/props/textures/sofa_03_diff_1k.png©¥-8”(l9   res://Zombies/models/props/textures/sofa_03_nor_gl_1k.jpg™ º;xÌV8   res://Zombies/models/props/textures/sofa_03_rough_1k.jpgv£πª;gy_E   res://Zombies/models/props/textures/steel_frame_shelves_01_arm_1k.jpg¢Lc'ñ˘5F   res://Zombies/models/props/textures/steel_frame_shelves_01_diff_1k.jpg˙Ó≤[OﬁoqH   res://Zombies/models/props/textures/steel_frame_shelves_01_nor_gl_1k.jpgnWUã:◊Á3E   res://Zombies/models/props/textures/steel_frame_shelves_02_arm_1k.jpg	™da¯õãF   res://Zombies/models/props/textures/steel_frame_shelves_02_diff_1k.jpgœ÷Û.niihH   res://Zombies/models/props/textures/steel_frame_shelves_02_nor_gl_1k.jpgrÉˆJ9z=   res://Zombies/models/props/textures/street_lamp_01_arm_1k.jpgáÒb0¨j>   res://Zombies/models/props/textures/street_lamp_01_diff_1k.jpgÔéã<˜"v>   res://Zombies/models/props/textures/street_lamp_01_diff_1k.pngõŒb)
+jY@   res://Zombies/models/props/textures/street_lamp_01_nor_gl_1k.jpg‘Ñßèo–Àg<   res://Zombies/models/props/textures/television_02_arm_1k.jpg3+–Æ|†_*=   res://Zombies/models/props/textures/television_02_diff_1k.jpgôÎ6(˜á?   res://Zombies/models/props/textures/television_02_nor_gl_1k.jpg£¥˝˘I"C   res://Zombies/models/props/textures/vintage_cabinet_01_a_arm_1k.jpg\⁄oÑuD   res://Zombies/models/props/textures/vintage_cabinet_01_a_diff_1k.jpg‹`‚¡‚»»EF   res://Zombies/models/props/textures/vintage_cabinet_01_a_nor_gl_1k.jpg¬Rz®≈•ÑuE   res://Zombies/models/props/textures/vintage_cabinet_01_a_rough_1k.jpgã /!„1D   res://Zombies/models/props/textures/vintage_cabinet_01_b_diff_1k.jpgÒÜ“ßØù©GF   res://Zombies/models/props/textures/vintage_cabinet_01_b_nor_gl_1k.jpg-∆N“G√JE   res://Zombies/models/props/textures/vintage_cabinet_01_b_rough_1k.jpg·`c9äBD   res://Zombies/models/props/textures/wooden_bookshelf_worn_arm_1k.jpgÔ°˘©∑Í9E   res://Zombies/models/props/textures/wooden_bookshelf_worn_diff_1k.jpgqZ>a∑Ñ◊vG   res://Zombies/models/props/textures/wooden_bookshelf_worn_nor_gl_1k.jpg˚üâ§+p4>   res://Zombies/models/props/textures/wooden_crate_02_arm_1k.jpg´Z O@Ñ1?   res://Zombies/models/props/textures/wooden_crate_02_diff_1k.jpg}>†Qù.û<A   res://Zombies/models/props/textures/wooden_crate_02_nor_gl_1k.jpgJ«ë•ø~:I   res://Zombies/models/props/textures/wooden_picnic_table_bottom_arm_1k.jpgµØÂjKRJ   res://Zombies/models/props/textures/wooden_picnic_table_bottom_diff_1k.jpgÚ±+|~JML   res://Zombies/models/props/textures/wooden_picnic_table_bottom_nor_gl_1k.jpg,-∏ıcF   res://Zombies/models/props/textures/wooden_picnic_table_top_arm_1k.jpg§< œRîêfG   res://Zombies/models/props/textures/wooden_picnic_table_top_diff_1k.jpg—ˇno˝"5I   res://Zombies/models/props/textures/wooden_picnic_table_top_nor_gl_1k.jpgr–(ƒ˙Ø>   res://Zombies/models/props/textures/wooden_table_02_arm_1k.jpgY!æ¡e,[?   res://Zombies/models/props/textures/wooden_table_02_diff_1k.jpgêLØ@ÿ∏7A   res://Zombies/models/props/textures/wooden_table_02_nor_gl_1k.jpgı‰íP<W{>   res://Zombies/models/props/textures/worn_metal_rack_arm_1k.jpgH¬Äj¯&6S?   res://Zombies/models/props/textures/worn_metal_rack_diff_1k.jpgDfı|»]A   res://Zombies/models/props/textures/worn_metal_rack_nor_gl_1k.jpg&¸CdH«-   res://Zombies/models/props/archive_shelf.gltf¨öM{úÆO%&   res://Zombies/models/props/barrel.gltfSC.ˇ“Ög#   res://Zombies/models/props/bed.gltfj|Ç◊y¸≥I%   res://Zombies/models/props/bench.gltfu	äî¨Mq(   res://Zombies/models/props/bookcase.gltf¸qœ,Tv$   res://Zombies/models/props/bunk.gltfH‚Ø•dy),   res://Zombies/models/props/coffee_table.gltfyÑñGGÈ+   res://Zombies/models/props/crate_stack.gltf.W˚’¯˜x*   res://Zombies/models/props/dining_set.gltfWD¿€}zy)   res://Zombies/models/props/exec_desk.gltfµ©Ω¨EWn.   res://Zombies/models/props/filing_cabinet.gltf|›j›öã
+)   res://Zombies/models/props/gas_tanks.gltfJÀ.{>ıp*   res://Zombies/models/props/guard_desk.gltf]é,ÉÄ`,   res://Zombies/models/props/hospital_bed.gltf´J§◊ar'   res://Zombies/models/props/hydrant.gltf±Ûóˆ®ßY)   res://Zombies/models/props/lab_bench.gltfT˝B@dÀN,   res://Zombies/models/props/laundry_cart.gltf5hyÙØv q+   res://Zombies/models/props/med_cabinet.gltfΩÉfR]*   res://Zombies/models/props/mess_table.gltfnª‘¶•µ·.,   res://Zombies/models/props/monitor_desk.gltf˚E?◊åL*   res://Zombies/models/props/nightstand.gltf“-»@<è”+   res://Zombies/models/props/office_desk.gltf”Y<' E˘N*   res://Zombies/models/props/park_bench.gltfÔ"Àâ|#   res://Zombies/models/props/pew.gltfq`~"Ô(.   res://Zombies/models/props/pharmacy_shelf.gltfp| Ó3á„%&   res://Zombies/models/props/pickup.gltf§+±õM1,   res://Zombies/models/props/picnic_table.gltf˝gPˆ˘>%   res://Zombies/models/props/sedan.gltfF«8ÌŒ¡Ùe$   res://Zombies/models/props/sofa.gltfŸË’J;Ö/+   res://Zombies/models/props/store_shelf.gltf@ˇiwﬁüı_+   res://Zombies/models/props/street_lamp.gltf}‚^ã€YS,   res://Zombies/models/props/supply_crate.gltfÔ;un®	KU*   res://Zombies/models/props/tire_stack.gltf>Ù)vó˜g*   res://Zombies/models/props/tool_chest.gltfq~«>1%Œ)   res://Zombies/models/props/trash_can.gltfH9◊º9L(   res://Zombies/models/props/tv_stand.gltfò∞ú,'ë@(   res://Zombies/models/props/wardrobe.gltfvÁ6o)PÎc)   res://Zombies/models/props/workbench.gltf÷»qŸo(   res://Zombies/music/k7_song.mp3dÑ,@!   res://Zombies/music/main_menu.mp3d ›‹∫q>&   res://Zombies/music/outskirts_song.mp3Ü7[âÖE∆s   res://Zombies/pbr/asphalt_a.jpgÚ÷rUŸóD   res://Zombies/pbr/asphalt_n.jpg·Æ="«§   res://Zombies/pbr/asphalt_r.jpgÂ0æX   res://Zombies/pbr/block_a.jpgÔa>üÒi4   res://Zombies/pbr/block_n.jpgQÖR}{Ãi   res://Zombies/pbr/block_r.jpgr„§mÌÃÚ   res://Zombies/pbr/boards_a.jpgøîr÷®åë:   res://Zombies/pbr/boards_n.jpg,G*88	&   res://Zombies/pbr/boards_r.jpg\áË˚~SŒk   res://Zombies/pbr/brick_a.jpgcGxòÍÎc   res://Zombies/pbr/brick_n.jpgBN†–Òê   res://Zombies/pbr/brick_r.jpgÔo¥åï   res://Zombies/pbr/checker_a.jpg∞∞XÌöèˆ'   res://Zombies/pbr/checker_n.jpgÇ∞#ö—]   res://Zombies/pbr/checker_r.jpgÃõÁ0jsù   res://Zombies/pbr/cloth_a.jpgVdÖå˚}7   res://Zombies/pbr/cloth_n.jpg—`≈òF/   res://Zombies/pbr/cloth_r.jpgeâ≤‹“õ8    res://Zombies/pbr/concrete_a.jpg'íc t[    res://Zombies/pbr/concrete_n.jpgjF‹P#o    res://Zombies/pbr/concrete_r.jpg¸˝RP
+J   res://Zombies/pbr/dirt_a.jpg1r«^e‚][   res://Zombies/pbr/dirt_n.jpgy”8vCÖf   res://Zombies/pbr/dirt_r.jpgi£√&6ÏP   res://Zombies/pbr/fence_a.png6Ø‚6¨ìŸ_   res://Zombies/pbr/fence_n.jpg ?ﬁ_ù‹E~   res://Zombies/pbr/fence_r.jpgv:ˇÇ e   res://Zombies/pbr/grass_a.jpgZ“Sæó   res://Zombies/pbr/grass_n.jpgw5Bâﬂ2U   res://Zombies/pbr/grass_r.jpgAjFX,X   res://Zombies/pbr/grate_a.jpgÅs®ÆÒF   res://Zombies/pbr/grate_n.jpgTù“ê◊mπZ   res://Zombies/pbr/grate_r.jpgA:;Â^er   res://Zombies/pbr/metal_a.jpg÷KÌ≤„H   res://Zombies/pbr/metal_n.jpgç'˝HÆ"   res://Zombies/pbr/metal_r.jpgeÃËúî–∏k"   res://Zombies/pbr/paintmetal_a.jpgπKΩ3£˘∏5"   res://Zombies/pbr/paintmetal_n.jpgwãX¢K	"   res://Zombies/pbr/paintmetal_r.jpg.kÕ√ò≈"   res://Zombies/pbr/panel_a.jpgXgh–»A_   res://Zombies/pbr/panel_n.jpgˇBúå¯B   res://Zombies/pbr/panel_r.jpgÕ∫}IË˙Ø   res://Zombies/pbr/plank_a.jpgIVã+{^   res://Zombies/pbr/plank_n.jpgÎx:Ñe(Y'   res://Zombies/pbr/plank_r.jpg∑J ˛äÓÂ   res://Zombies/pbr/plaster_a.jpgtÕ€K⁄OÃv   res://Zombies/pbr/plaster_n.jpgø :Wc2·M   res://Zombies/pbr/plaster_r.jpg∆éπëdå£(   res://Zombies/pbr/plastic_a.jpg‹óí÷∫»v\   res://Zombies/pbr/plastic_n.jpgˆ∏íñQ∞k;   res://Zombies/pbr/plastic_r.jpgnÊ¢2òyO   res://Zombies/pbr/rock_a.jpgﬁdYß~
+Z1   res://Zombies/pbr/rock_n.jpg≤mˇ˘¢Q÷V   res://Zombies/pbr/rock_r.jpgÉ´c£w^Ä   res://Zombies/pbr/rust_a.jpg(PíÂò0]   res://Zombies/pbr/rust_n.jpgò≥°‚¥xÍ   res://Zombies/pbr/rust_r.jpgû_Õ§é¶ﬂM   res://Zombies/pbr/shingle_a.png~˚˙◊9   res://Zombies/pbr/shingle_n.jpgi≥<O#—Ut   res://Zombies/pbr/shingle_r.jpgG◊¢"ˆò[   res://Zombies/pbr/siding_a.jpgôH„Ω∏œ0|   res://Zombies/pbr/siding_n.jpg/‘òvzˇt   res://Zombies/pbr/siding_r.jpg$⁄˘A•÷œ$   res://Zombies/pbr/tile_a.jpg>Œ®†-	   res://Zombies/pbr/tile_n.jpg@ÅXŒŸ$   res://Zombies/pbr/tile_r.jpgÌXå§Ï?!   res://Zombies/pbr/wallpaper_a.jpgCI≤’–@∂4!   res://Zombies/pbr/wallpaper_n.jpg˙rä√˙[4!   res://Zombies/pbr/wallpaper_r.jpg1é«Ô,Œ6"   res://Zombies/ui/maps/hospital.jpgŸjEîK   res://Zombies/ui/maps/lab.jpgƒ¨ˇf/˚P#   res://Zombies/ui/maps/outskirts.jpg7≤q40‰8    res://Zombies/ui/maps/prison.jpgç8*     res://Zombies/zm_achievements.gdØe“D!ı™Y   res://Zombies/zm_audio.gd$Q&Â7⁄>   res://Zombies/zm_boosts.gdúK´{Zµb   res://Zombies/zm_chat.gddÕ⁄i,á?   res://Zombies/zm_chonk.gdCt‡‰_mA   res://Zombies/zm_custom.gd Zë∏≈4   res://Zombies/zm_gauntlet.gdÏr÷∫ée¢d   res://Zombies/zm_gunmodel.gd<drï√Ã'   res://Zombies/zm_gunsmith.gd’s„ßI“C   res://Zombies/zm_hud.gdU∏iIs˜~   res://Zombies/zm_human.gd}∫IÉÂE   res://Zombies/zm_input.gd‡¥ö¸¿Ú>*   res://Zombies/zm_latejoin.gdòÀôn(x   res://Zombies/zm_lobby.gd>ÈÓõo’’g   res://Zombies/zm_look.gd#]Ø§é@   res://Zombies/zm_mapgen.gd£ Ò7®Y!F   res://Zombies/zm_menu.gd˜@›{(~   res://Zombies/zm_net.gdÒtﬂí3Ê?&   res://Zombies/zm_online.gdÈÍâáﬁò   res://Zombies/zm_pbr.gdw÷N<á?   res://Zombies/zm_perkup.gdÁ€|(»jÿQ   res://Zombies/zm_player.gd
+:ˆÖe   res://Zombies/zm_profile.gdÑˆ˚Ûπov   res://Zombies/zm_propmodels.gd$*©è2Ó|   res://Zombies/zm_props.gdòØô
+∂"P:   res://Zombies/zm_realguns.gdq.⁄»%é0   res://Zombies/zm_realprops.gd?≥ìg$!   res://Zombies/zm_remote_player.gdb⁄h©D   res://Zombies/zm_rtc.gdùtµõˇ
+<   res://Zombies/zm_scores.gdJdƒˆkfœ   res://Zombies/zm_settings.gdt>ÓÜ1;7E   res://Zombies/zm_sfx.gd»ä∆®çÑR   res://Zombies/zm_sirchonk.gd™˛Ö≥@;y   res://Zombies/zm_stats.gdp•‹ßW¬Ó8   res://Zombies/zm_survivor.gdÔHÛÂÊ†w%   res://Zombies/zm_ui.gdE(ïPjE   res://Zombies/zm_voice.gd˜ñÿ˛Y!   res://Zombies/zm_voxel.gdO`j∞g–†)   res://Zombies/zm_weapons.gdÕÅÅZ;èÃ]   res://Zombies/zm_window.gdkÆÚK–õc   res://Zombies/zm_zombie.gd„ˇù;˚wNR   res://Zombies/zombies_game.gdT9Eß◊i?   res://check-mark-symbol-transparent-background-2-2313071550.png©◊’ëîñ   res://icon.svg              res://addons/webrtc_native/webrtc_native.gdextension
+res://addons/twovoip/twovoip.gdextension
+  ECFG      _custom_features         zombies_build      application/config/name         test1      application/config/version         0.84   application/run/main_scene         uid://bppir0xvyxyw5    application/config/features$   "         4.6    Forward Plus       application/config/icon         res://icon.svg  (   application/run/main_scene.zombies_build$         res://Zombies/zm_menu.tscn  #   application/run/main_scene.launcher0      '   res://Zombies/launcher/zm_launcher.tscn    audio/driver/enable_input            autoload/QuestWeaverGlobal         *uid://dmhog666hpq8h   autoload/QuestWeaverServices         *uid://1umj0il2i4h     autoload/QuestWeaverGameState         *uid://dyublgkaguaj8"   display/window/size/viewport_width       
+  #   display/window/size/viewport_height      †     display/window/size/borderless            display/window/stretch/mode         canvas_items   editor_plugins/enabled\   "      %   res://addons/quest_weaver/plugin.cfg    #   res://addons/script-ide/plugin.cfg     gui/theme/custom_font         uid://2imm8cys5qnd     input/move_forwardÃ              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode   W   	   key_label             unicode    w      location          echo          script         input/move_backÃ              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode   S   	   key_label             unicode    s      location          echo          script         input/move_leftÃ              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode   A   	   key_label             unicode    a      location          echo          script         input/move_rightÃ              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode   D   	   key_label             unicode    d      location          echo          script      
+   input/jumpÃ              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode       	   key_label             unicode           location          echo          script      	   input/runÃ              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode    @ 	   key_label             unicode           location          echo          script         input/skill_1Ã              deadzone  öôôôôô…?      events              InputEventKey         resource_local_to_scene           resource_name             device     ˇˇˇˇ	   window_id             alt_pressed           shift_pressed             ctrl_pressed          meta_pressed          pressed           keycode           physical_keycode   1   	   key_label             unicode    1      location          echo          script         physics/3d/physics_engine         Jolt Physics)   rendering/rendering_device/driver.windows         d3d12   -   rendering/limits/opengl/max_renderable_lights         -   rendering/limits/opengl/max_lights_per_object            shader_globals/zm_grime<               type      float         value        Ä?   shader_globals/zm_whimsy<               type      float         value                  
