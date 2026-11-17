@@ -1,30 +1,30 @@
 {
-  "version": "0.85",
-  "date": "2026-11-16",
-  "notes": "- Every gun has a new, realistic model (from Sketchfab, CC BY 4.0; the authors are in the Credits):\n  Vanguard AR, Rattler SMG, Boomstick, Grinder LMG, Tri-Burst, Hornet PDW, Stalker 12, Twin Barrels,\n  Warden DMR, Mag-50, Buzzsaw, Thumper, Bolt Thrower and Hand Cannon. Their real magazines, pumps, slides,\n  bolts, break-open barrels, spinning barrels and revolver cylinder move when you reload. Attachments and\n  camos work on all of them (camos now also cover slides, barrels, pumps and the cylinder).\n- Prestige tokens. Prestiging a gun now locks its attachments again (they unlock as it levels back\n  up), and gives a token: use it in the Gunsmith to keep one attachment unlocked on that gun for good.\n  An account prestige locks the guns again until you level back up to them, and gives a token that keeps\n  one gun unlocked for good. Camos, cosmetics, weapon levels and stats stay. If you prestiged before, you\n  already have a token for each prestige.\n- Touch controls for phones and tablets (a move stick, drag to look, on-screen buttons), for the Android\n  test build. Online co-op and voice aren't on Android yet.\n- Under the hood: the game's code is split into smaller files in tidy folders.",
+  "version": "0.86",
+  "date": "2026-11-17",
+  "notes": "- Loadout: weapon classes are tabs across the top (Pistols, SMGs, Assault Rifles, Shotguns, Marksman,\n  Heavy, Launchers, Wonder Weapons, Melee), one class at a time. Locked guns and attachments look locked\n  even when a prestige token could unlock them, and the token hint no longer pushes the screen wider.\n- Optics fixed on the Tri-Burst (its carry handle comes off for a flat-top rail) and the Twin Barrels\n  (on the rib; it tips open with the barrels). Every gun's optic now sits on the gun and clears its sights.\n  The Twin Barrels' foregrip no longer floats when you reload.\n- Iron sights have an edge: with no optic fitted, +15% aim-in speed, +10% move speed while aiming and\n  8% less recoil.\n- Dark Matter is the mastery camo: 2500 headshots and gun level 50 (melee and explosive weapons:\n  Weapon Prestige 2). Already unlocked? You keep it.\n- The Alpha's entrance: it drops in, lands in a crouch, rears up and roars (a new, much louder roar),\n  beats its chest and stalks forward. No name card over its head during it.\n- Pause stops everything in a hosted game too: rounds, events, grenades and the clock. Pop-ups wait.\n- Pause menu camo progress: once every camo is unlocked, it shows the weapon's level and how far to the next.\n- Supply drops show on the compass until they're opened.\n- Shatterpoint (Cryo Freezer Tier III) is much stronger: a longer freeze, frozen zombies take double\n  damage, and kills shatter in a bigger, harder burst that freezes what's left.\n- The weapon bar shows each weapon's camo; Excalibur keeps its steel edges under a camo.\n- Explosions only jolt your gun a little (a string of blasts used to flip it over).\n- The Hand Cannon sits upright. The P-12's suppressor (and the Mag-50's) is a short, slim can.\n- The Ice King / Ice Queen freeze is a little quieter.\n- Customize: 14 more hair colours, 6 more outfits (Mechanic, Woodsman, Woodland Camo, Scrubs, Arctic,\n  Night Ops) and 6 more skin tones.\n- New pictures on the Play menu's Solo, Host Game and Find Game cards.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_windows.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_windows.zip.part2"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/K7Lockdown_v0.86_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/K7Lockdown_v0.86_windows.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/K7Lockdown_v0.86_windows.zip.part2"
       ],
-      "size": 248753006,
-      "sha256": "0f11a7ed3a6a14b7938ea48bffce1d8496305685d5808583046dd0216dc0828d",
-      "file": "K7Lockdown_v0.85_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/manifest_windows.json",
+      "size": 250355182,
+      "sha256": "801f5bc9fd3a41c3a07631066462d78848f27f5cbb312588da8e16ea791d9017",
+      "file": "K7Lockdown_v0.86_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_linux.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/K7Lockdown_v0.85_linux.zip.part2"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/K7Lockdown_v0.86_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/K7Lockdown_v0.86_linux.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/K7Lockdown_v0.86_linux.zip.part2"
       ],
-      "size": 240226814,
-      "sha256": "8c8a991e2b4f27789a87c2de27d3a556fb729757dc548bd2b5709dd5da5b65e0",
-      "file": "K7Lockdown_v0.85_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.85/manifest_linux.json",
+      "size": 241829078,
+      "sha256": "83b982a37b985a7a907f405b4e365b8910a4f42b36cb4854e1e208532999470b",
+      "file": "K7Lockdown_v0.86_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.86/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -32,6 +32,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "eecbc8aeb73ca1214b2eea15ebaddbfa175012a006f2346a16324be791ab7a09",
-  "sha256_linux": "506b3615e72f6b57c37ac81b220d188d5c1abe5f0910b267e2629a460e07223a"
+  "sha256_windows": "133711054dd91123e9c51b3db7d4e57a33db8ceecab9aa26c609dd0d922ecf40",
+  "sha256_linux": "e61cfdc15fd55762d09323719aab3ccb5204d4221539b9b609011855b63ebe5b"
 }
