@@ -1,30 +1,32 @@
 {
-  "version": "0.88",
+  "version": "0.89",
   "date": "2026-11-17",
-  "notes": "- New first-person arms and hands on every gun (\"FPS Arms\" by HuskySkullz, CC BY 4.0, in the Credits):\n  sleeves in your outfit's colour, hands in your skin tone. The right hand wraps the grip with a finger on\n  the trigger (it pulls when you fire); the left holds the handguard, or cups your right hand on a\n  handgun. They follow every reload (mags, pumps, bolts, break-opens).\n- Drum Mags look like the real thing for each gun: a twin-drum C-Mag on the Vanguard and Tri-Burst,\n  a single drum on the Rattler and Hornet, and a box mag on the Grinder and Buzzsaw.\n- Iron sights: the Rattler's (and the Hornet's, Grinder's, DMR's and shotguns') sights no longer\n  block your view when aiming; the Rattler's optics sit higher too.\n- Round counter: rounds I to IX in Roman numerals, then 10, 11, 12..., in blood red with a ROUND\n  caption, punching in white-hot at the start of each round.\n- Twin Dragons (Twin Barrels Tier III) and Dragon's Breath (Boomstick Tier III) shoot a roaring\n  jet of fire you can see.\n- Camo challenges rebalanced around Dark Matter at 1500 headshots (plus gun level 50): Woodland 10,\n  Desert 30, Urban 60, Arctic 100, Crimson 160, Tiger 240, Gold 350, Diamond 500, Plasma 750.\n- Seal Launcher goes off the moment it hits something.\n- Slide kicks are weaker (they were one-shotting zombies late on); the Boot upgrade adds up to 50%.\n- The crash-through window vault no longer sinks zombies into the floor.",
+  "notes": "- Eight new guns, in the Mystery Box and the Gunsmith (each with its own upgrade names and a Tier III effect):\n  - Ironside BR: a hard-hitting battle rifle (20 rounds, punches through 2 zombies). Gunsmith at level 26.\n  - Viper Carbine: a light, quick compact rifle. Level 15.\n  - Strix Bullpup: an accurate bullpup rifle with its own vertical grip. Level 54.\n  - Kestrel Bolt: a bolt-action sniper rifle; huge damage, goes through 5 zombies. Level 38.\n  - Bastion .50: a semi-auto .50 cal sniper; 10 rounds that go through 6. Level 60.\n  - Breacher 12: a semi-auto shotgun, no pumping between shots. Level 30.\n  - Locust 50: a top-loading PDW with a 50-round magazine. Level 42.\n  - Vortex SMG: a compact SMG with a very fast fire rate and its own vertical grip. Level 19.\n- The first-person hands are fitted to each gun's own grip and handguard (every gun, new ones included).\n- Models from Sketchfab (CC BY 4.0), listed in the Credits.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/K7Lockdown_v0.88_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/K7Lockdown_v0.88_windows.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/K7Lockdown_v0.88_windows.zip.part2"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part3"
       ],
-      "size": 260093780,
-      "sha256": "4cb1e36fd69a1f466058d6e3ddf0221aecd1833d3f72cd249d77fc031f04e6ef",
-      "file": "K7Lockdown_v0.88_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/manifest_windows.json",
+      "size": 288002338,
+      "sha256": "da5a1c15fab4fbfe4d35f20f67eb211cb6e6262f2c47c6e1bb73e1225e48a25c",
+      "file": "K7Lockdown_v0.89_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/K7Lockdown_v0.88_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/K7Lockdown_v0.88_linux.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/K7Lockdown_v0.88_linux.zip.part2"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part3"
       ],
-      "size": 251567669,
-      "sha256": "105df93a016f5accdc1dcef8874ed9ddce9df115ad13bc16ae39af3e57310f84",
-      "file": "K7Lockdown_v0.88_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.88/manifest_linux.json",
+      "size": 279476225,
+      "sha256": "d77cbaa7e6ee79a0666ee2d1fe265ffe02a2297a84c35dd4e73a09bc819e9046",
+      "file": "K7Lockdown_v0.89_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -32,6 +34,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "26eeb25954a3fabbb8eeee6098452ae4c055c81eeb7ee9dd8b6cb55e61841b88",
-  "sha256_linux": "bd4d0c9889ea5e4e4fee5d0325a7b99a67435c545bb8c0b1a5263e12e6c8939e"
+  "sha256_windows": "979bb71598e5879b2ba364d56b645dddbfdcd7d96bae36e256ef544ec6de83de",
+  "sha256_linux": "f37ffa4710ef6516d48a0a260a37b6fcf394fdbd2630b563cf6f0a8b6c8f5151"
 }
