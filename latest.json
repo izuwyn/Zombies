@@ -1,32 +1,32 @@
 {
-  "version": "0.89",
+  "version": "0.90",
   "date": "2026-11-17",
-  "notes": "- Eight new guns, in the Mystery Box and the Gunsmith (each with its own upgrade names and a Tier III effect):\n  - Ironside BR: a hard-hitting battle rifle (20 rounds, punches through 2 zombies). Gunsmith at level 26.\n  - Viper Carbine: a light, quick compact rifle. Level 15.\n  - Strix Bullpup: an accurate bullpup rifle with its own vertical grip. Level 54.\n  - Kestrel Bolt: a bolt-action sniper rifle; huge damage, goes through 5 zombies. Level 38.\n  - Bastion .50: a semi-auto .50 cal sniper; 10 rounds that go through 6. Level 60.\n  - Breacher 12: a semi-auto shotgun, no pumping between shots. Level 30.\n  - Locust 50: a top-loading PDW with a 50-round magazine. Level 42.\n  - Vortex SMG: a compact SMG with a very fast fire rate and its own vertical grip. Level 19.\n- The first-person hands are fitted to each gun's own grip and handguard (every gun, new ones included).\n- Models from Sketchfab (CC BY 4.0), listed in the Credits.",
+  "notes": "- First-person hands redone on every gun, set by hand gun by gun: real-size hands (they were far too big,\n  which swallowed the handguns and SMGs), the right hand wrapped round the grip with a finger on the trigger\n  and the thumb round the far side, the left hand under the handguard with its fingers curled up the far side.\n  Handguns get a proper two-handed grip; shotguns and bolt rifles hold the wrist of the stock; vertical grips\n  (the attachment, and the Strix's and Vortex's own) are wrapped properly. Thumbs no longer stick out.\n- Drawing tablet support (Settings: Drawing Tablet (Pen Aims)): the pen aims and tapping shoots. Lifting\n  the pen and putting it down elsewhere doesn't jerk the view; hold it at the left or right edge to keep\n  turning. Mouse Sensitivity sets the speed.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part2",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_windows.zip.part3"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_windows.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_windows.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_windows.zip.part3"
       ],
-      "size": 288002338,
-      "sha256": "da5a1c15fab4fbfe4d35f20f67eb211cb6e6262f2c47c6e1bb73e1225e48a25c",
-      "file": "K7Lockdown_v0.89_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/manifest_windows.json",
+      "size": 288002111,
+      "sha256": "f043d1a0fd2a4b5229a0b90629caca84cdeab0600ddd92e49d2e8e9a285170b6",
+      "file": "K7Lockdown_v0.90_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part2",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/K7Lockdown_v0.89_linux.zip.part3"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_linux.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_linux.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/K7Lockdown_v0.90_linux.zip.part3"
       ],
-      "size": 279476225,
-      "sha256": "d77cbaa7e6ee79a0666ee2d1fe265ffe02a2297a84c35dd4e73a09bc819e9046",
-      "file": "K7Lockdown_v0.89_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.89/manifest_linux.json",
+      "size": 279475993,
+      "sha256": "a5b07b7fe5bd5faa867ab9a7c87684536c088f29bc1c81a642bae5e33a7c3dda",
+      "file": "K7Lockdown_v0.90_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.90/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -34,6 +34,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "979bb71598e5879b2ba364d56b645dddbfdcd7d96bae36e256ef544ec6de83de",
-  "sha256_linux": "f37ffa4710ef6516d48a0a260a37b6fcf394fdbd2630b563cf6f0a8b6c8f5151"
+  "sha256_windows": "04d191a691c77ec8923124c5c4097e1e4968335e525dcba5760025c25fa757af",
+  "sha256_linux": "0b6f1019ec17c4588cdc506ce0937904ab85792f4d750d4f13e90d1136178c63"
 }
