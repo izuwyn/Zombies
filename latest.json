@@ -1,0 +1,39 @@
+{
+  "version": "0.93",
+  "date": "2026-11-22",
+  "notes": "- Quest log on the right of the screen: the map's objective and its side quest, each step ticked off as\n  you go (with counts like keycards 2/3 and the time left to hold the control room).\n- Story cards are side cards now: map intros, quest hints and intel slide in on the left like the event\n  pop-ups, instead of a block of text at the top of the screen.\n- Camo picker redone: small swatches five to a row, grouped (camos, weapon prestige, prestige, map quests)\n  with a count each; hover one to see its name and what unlocks it.\n- Prestige camos 2-10 now need that prestige (they were unlocked for everyone by mistake). One you\n  picked early goes back to the factory finish until you get there.\n- Rattler: the drum mag no longer pokes up through the gun in front of the sights, and the bulky rear\n  sight drum is gone, so aiming down the sights is a clear view over the front post.",
+  "game": {
+    "windows": {
+      "parts": [
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part3"
+      ],
+      "size": 292962252,
+      "sha256": "a8a1b571f716a1ccf6bb62f57077a12176e9d87ceff2b3522d1dbce8ab1d2001",
+      "file": "K7Lockdown_v0.93_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/manifest_windows.json",
+      "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
+    },
+    "linux": {
+      "parts": [
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part3"
+      ],
+      "size": 284436151,
+      "sha256": "4ae865b473d45a550e5a53fd7239e0f26d018f0228a60b0d4af121ed2586c2b5",
+      "file": "K7Lockdown_v0.93_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/manifest_linux.json",
+      "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
+    }
+  },
+  "file": "K7Launcher_windows.zip",
+  "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
+  "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
+  "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
+  "sha256_windows": "d04ddf3d6b5328355a5cdbef93a729de2280f14f0ad4a45fe48ee7c9b4fb41c4",
+  "sha256_linux": "2fdda31ceb84c9c4d67363b3ca15551e348ee2b672147c7b2f8a3036b6f44bb0"
+}
