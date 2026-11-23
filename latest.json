@@ -1,32 +1,32 @@
 {
-  "version": "0.93",
-  "date": "2026-11-22",
-  "notes": "- Quest log on the right of the screen: the map's objective and its side quest, each step ticked off as\n  you go (with counts like keycards 2/3 and the time left to hold the control room).\n- Story cards are side cards now: map intros, quest hints and intel slide in on the left like the event\n  pop-ups, instead of a block of text at the top of the screen.\n- Camo picker redone: small swatches five to a row, grouped (camos, weapon prestige, prestige, map quests)\n  with a count each; hover one to see its name and what unlocks it.\n- Prestige camos 2-10 now need that prestige (they were unlocked for everyone by mistake). One you\n  picked early goes back to the factory finish until you get there.\n- Rattler: the drum mag no longer pokes up through the gun in front of the sights, and the bulky rear\n  sight drum is gone, so aiming down the sights is a clear view over the front post.",
+  "version": "0.94",
+  "date": "2026-11-23",
+  "notes": "- The Prison is now one fixed map, the same every game (the layout you picked), hand-polished room by room.\n  The Mystery Box, wall weapons, events and pickups still move around each game.\n- Prison set pieces: a prison transport bus crashed through the yard wall; the infirmary where it all\n  started (a torn-open restraint bed, a blood trail, a recording to play); searchlights sweeping the yard and\n  courtyard; a riot gate trap that slams down on zombies again and again; a hidden armory behind a\n  bricked-up doorway in the guard office (smash it with melee: a free Breacher once a game and an ammo crate\n  once a round); a rooftop route, a fire-escape stair and catwalk from the courtyard into a broken-open\n  cell on the cell block's upper tier (zombies follow you up); and a Lockdown event that slams the cell\n  block gates shut (hold the use button at a gate to force it).\n- The world outside the Prison: bins, pallets, generators and parked trucks between the buildings, a road\n  round the inside of the wall with lamps and patrol cars, the main gate and guard booth, watchtowers on every\n  corner, and pine woods, power lines, a water tower and a distant town beyond the wall.\n- Gravity Well, a new wonder weapon in the box: it fires a slow orb that opens a small black hole, drags\n  zombies in and crushes them, then collapses with a blast. Tier III, Singularity: it lasts longer, pulls from\n  further and spits out what it ate as a ring of explosions.\n- Riot shield, a buildable on every map: find its three parts, build it at the workbench, and everyone can\n  take one. On your back it blocks hits from behind; hold B (R3 on a controller) to raise it, block the front\n  and shield-bash. It breaks after enough hits; take a new one next round.\n- Lab side quest, Containment Breach: charge three cooling cores by killing zombies next to them, load\n  them at the containment console, hold the room, then put down Subject 9, the failed test subject. Reward:\n  5000 XP and the new Contained camo.\n- Controller button icons: with a controller, prompts show the real buttons as coloured Xbox icons\n  (PlayStation shapes on a PlayStation controller), and the controls help shows the controller layout.\n- Difficulty: Easy, Normal, Hard and Hardcore on the map screen (the host picks for co-op). Hardcore hides\n  most of the HUD.\n- Inspect your weapon: hold I to turn it and look at its camo.\n- End-of-game summary: kills, headshots, downs, revives, points and more for every player.\n- First-game hints: the first time you meet the Mystery Box, a perk, the upgrade machine, a wall weapon, a\n  barrier, a door or a trap, a side card says what it does.\n- Gun fixes: guns sit a little lower at the hip; the Longshot and Warden zoom in more on their iron sights;\n  the Vortex and Hornet iron sights line up properly; the Arc Zapper and Cryo Freezer sights sit on a mount.",
   "game": {
     "windows": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part2",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_windows.zip.part3"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_windows.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_windows.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_windows.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_windows.zip.part3"
       ],
-      "size": 292962252,
-      "sha256": "a8a1b571f716a1ccf6bb62f57077a12176e9d87ceff2b3522d1dbce8ab1d2001",
-      "file": "K7Lockdown_v0.93_windows.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/manifest_windows.json",
+      "size": 293222096,
+      "sha256": "98bc65c28c1b00f24401dab9cfae4ebd292122c0ffa1fedcc6a01bde04996791",
+      "file": "K7Lockdown_v0.94_windows.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/manifest_windows.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     },
     "linux": {
       "parts": [
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part0",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part1",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part2",
-        "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/K7Lockdown_v0.93_linux.zip.part3"
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_linux.zip.part0",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_linux.zip.part1",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_linux.zip.part2",
+        "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/K7Lockdown_v0.94_linux.zip.part3"
       ],
-      "size": 284436151,
-      "sha256": "4ae865b473d45a550e5a53fd7239e0f26d018f0228a60b0d4af121ed2586c2b5",
-      "file": "K7Lockdown_v0.93_linux.zip",
-      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.93/manifest_linux.json",
+      "size": 284695967,
+      "sha256": "cfe8aba71207a40b2e3fb215d508ad7035e56c102fe1f65d9c21870f4f40f6f9",
+      "file": "K7Lockdown_v0.94_linux.zip",
+      "manifest": "https://github.com/izuwyn/zombies/raw/main/releases/v0.94/manifest_linux.json",
       "chunks": "https://github.com/izuwyn/zombies/raw/main/releases/chunks/"
     }
   },
@@ -34,6 +34,6 @@
   "url": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_windows": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_windows.zip",
   "url_linux": "https://github.com/izuwyn/zombies/raw/main/releases/K7Launcher_linux.zip",
-  "sha256_windows": "d04ddf3d6b5328355a5cdbef93a729de2280f14f0ad4a45fe48ee7c9b4fb41c4",
-  "sha256_linux": "2fdda31ceb84c9c4d67363b3ca15551e348ee2b672147c7b2f8a3036b6f44bb0"
+  "sha256_windows": "71880b0a59d2975b4aa021f45df59c60fbc77ddb3c4be78ecdc3b878405b43e3",
+  "sha256_linux": "6b7360f9bb2d5db5ab36fabc6d7a1b3a9a09b3e1344e1d631f8e22c4fb29e821"
 }
